@@ -1,0 +1,31 @@
+[I 2025-05-08 09:03:34,803] Using an existing study with name 'SST-2-GATv2-facebook-bart-large-Grouped-No_Aggregation' instead of creating a new one.
+
+[TRIAL] 111 [VALIDATION PERFORMANCE] 0.9529816513761468 [TRAINING LOSS] 0.13492166734225042 [VALIDATION LOSS] 0.16089914739131927 
+
+number                                     111
+value                                 0.952982
+params_threshold                      0.603626
+params_attention_heads                       7
+params_balanced_loss                     False
+params_embedding_pooling_operation        mean
+params_attention_pooling_operation         min
+params_batch_size                          188
+params_dropout_rate                   0.569644
+params_early_stopping_patience              13
+params_epochs                               73
+params_global_pooling                      max
+params_hidden_dimension                     49
+params_learning_rate                  0.001239
+params_number_of_hidden_layers               3
+params_plateau_divider                       4
+params_plateau_patience                     20
+params_weight_decay                   0.000005
+params_beta_0                         0.833149
+params_beta_1                         0.994217
+params_epsilon                             0.0
+user_attrs_epoch                          12.0
+user_attrs_training_loss              0.134922
+user_attrs_validation_loss            0.160899
+Name: 111, dtype: object
+
+[SST-2] Elapsed time: 5.338595763842265 minutes.

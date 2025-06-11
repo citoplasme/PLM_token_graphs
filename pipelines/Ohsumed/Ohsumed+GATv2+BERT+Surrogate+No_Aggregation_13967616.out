@@ -1,0 +1,215 @@
+[I 2024-11-19 15:09:48,479] Using an existing study with name 'Ohsumed-GATv2-google-bert-bert-base-uncased-Surrogate-No_Aggregation' instead of creating a new one.
+Optimization already completed.
+
+[TRIAL] 417 [VALIDATION PERFORMANCE] 0.6551138971056581 [TRAINING LOSS] 0.039729837688306964 [VALIDATION LOSS] 1.5638818270281742 
+
+number                                     417
+value                                 0.655114
+params_threshold                      0.955926
+params_attention_heads                       9
+params_balanced_loss                     False
+params_embedding_pooling_operation         min
+params_attention_pooling_operation         max
+params_batch_size                           36
+params_dropout_rate                    0.35046
+params_early_stopping_patience              16
+params_epochs                               59
+params_global_pooling                      max
+params_hidden_dimension                    105
+params_learning_rate                  0.000311
+params_number_of_hidden_layers               2
+params_plateau_divider                      10
+params_plateau_patience                     12
+params_weight_decay                   0.000271
+params_beta_0                         0.815749
+params_beta_1                         0.981366
+params_epsilon                         0.00008
+user_attrs_epoch                          27.0
+user_attrs_training_loss               0.03973
+user_attrs_validation_loss            1.563882
+params_left_stride                         256
+params_right_stride                         64
+Name: 417, dtype: object
+37 Val: 0.6302007096475691 Test: 0.6080950072363167
+38 Val: 0.636012335223503 Test: 0.6193734933688172
+39 Val: 0.61130298108303 Test: 0.6160024979660544
+40 Val: 0.622931043862176 Test: 0.6106535117603983
+41 Val: 0.6496972943629933 Test: 0.617261379605772
+42 Val: 0.6387337691741951 Test: 0.6121916713190333
+43 Val: 0.6489500928155193 Test: 0.6125503860738666
+44 Val: 0.6144650298463146 Test: 0.617242982064177
+45 Val: 0.6351044059305722 Test: 0.6192627830267272
+46 Val: 0.6138623355611709 Test: 0.6159665587683177
+Validation performance: 61.13 & 63.01 ± 1.41 & 64.97
+Testing performance: 60.81 & 61.49 ± 0.38 & 61.94
+
+[TRIAL] 282 [VALIDATION PERFORMANCE] 0.6524894676084485 [TRAINING LOSS] 0.024867810796920773 [VALIDATION LOSS] 1.598669315639295 
+
+number                                     282
+value                                 0.652489
+params_threshold                      0.949935
+params_attention_heads                      10
+params_balanced_loss                     False
+params_embedding_pooling_operation         min
+params_attention_pooling_operation         max
+params_batch_size                           37
+params_dropout_rate                   0.339687
+params_early_stopping_patience              23
+params_epochs                               75
+params_global_pooling                      max
+params_hidden_dimension                    108
+params_learning_rate                  0.000301
+params_number_of_hidden_layers               2
+params_plateau_divider                      10
+params_plateau_patience                     11
+params_weight_decay                   0.000363
+params_beta_0                         0.815559
+params_beta_1                         0.982907
+params_epsilon                        0.000048
+user_attrs_epoch                          28.0
+user_attrs_training_loss              0.024868
+user_attrs_validation_loss            1.598669
+params_left_stride                         256
+params_right_stride                         64
+Name: 282, dtype: object
+37 Val: 0.6487670474741127 Test: 0.6144605581618291
+38 Val: 0.6047116133454306 Test: 0.614078296541684
+39 Val: 0.6383271471299191 Test: 0.6066286513034714
+40 Val: 0.6276438401072967 Test: 0.6065912796545486
+41 Val: 0.6402924581136196 Test: 0.6208657492286336
+42 Val: 0.6489579655986806 Test: 0.6248114121122764
+43 Val: 0.6361401115295474 Test: 0.6120743638032341
+44 Val: 0.6271837151183662 Test: 0.6089148549445548
+45 Val: 0.6240232195700507 Test: 0.614897943827098
+46 Val: 0.6169779028139908 Test: 0.6081298445180828
+Validation performance: 60.47 & 63.13 ± 1.4 & 64.9
+Testing performance: 60.66 & 61.31 ± 0.61 & 62.48
+
+[TRIAL] 193 [VALIDATION PERFORMANCE] 0.649168643456903 [TRAINING LOSS] 0.025657571317251063 [VALIDATION LOSS] 1.6722653536569505 
+
+number                                     193
+value                                 0.649169
+params_threshold                      0.947088
+params_attention_heads                       9
+params_balanced_loss                     False
+params_embedding_pooling_operation         min
+params_attention_pooling_operation         max
+params_batch_size                           32
+params_dropout_rate                   0.333998
+params_early_stopping_patience              16
+params_epochs                               78
+params_global_pooling                      max
+params_hidden_dimension                    119
+params_learning_rate                  0.000371
+params_number_of_hidden_layers               2
+params_plateau_divider                      10
+params_plateau_patience                     11
+params_weight_decay                   0.000195
+params_beta_0                         0.814728
+params_beta_1                         0.982393
+params_epsilon                         0.00005
+user_attrs_epoch                          23.0
+user_attrs_training_loss              0.025658
+user_attrs_validation_loss            1.672265
+params_left_stride                         256
+params_right_stride                         64
+Name: 193, dtype: object
+37 Val: 0.6323384674812261 Test: 0.6117100754173124
+38 Val: 0.6442755578689494 Test: 0.6161653258929094
+39 Val: 0.6372030327496825 Test: 0.60756131868875
+40 Val: 0.6241790531299889 Test: 0.6094930200050757
+41 Val: 0.6273202467437425 Test: 0.6149113351333011
+42 Val: 0.634191930454346 Test: 0.6034715785552044
+43 Val: 0.6304259899395271 Test: 0.6168534190397584
+Token indices sequence length is longer than the specified maximum sequence length for this model (611 > 512). Running this sequence through the model will result in indexing errors
+44 Val: 0.6285893171879895 Test: 0.6008480821500857
+45 Val: 0.6493975928236472 Test: 0.6189922552201815
+46 Val: 0.6150900067640418 Test: 0.6227022238062869
+Validation performance: 61.51 & 63.23 ± 0.98 & 64.94
+Testing performance: 60.08 & 61.23 ± 0.7 & 62.27
+
+[TRIAL] 217 [VALIDATION PERFORMANCE] 0.649008577627709 [TRAINING LOSS] 0.03316454188277324 [VALIDATION LOSS] 1.5136847182324058 
+
+number                                     217
+value                                 0.649009
+params_threshold                      0.950741
+params_attention_heads                       8
+params_balanced_loss                     False
+params_embedding_pooling_operation         min
+params_attention_pooling_operation        mean
+params_batch_size                           36
+params_dropout_rate                   0.320543
+params_early_stopping_patience              15
+params_epochs                               55
+params_global_pooling                      max
+params_hidden_dimension                    127
+params_learning_rate                  0.000341
+params_number_of_hidden_layers               2
+params_plateau_divider                      10
+params_plateau_patience                     10
+params_weight_decay                   0.000191
+params_beta_0                         0.818979
+params_beta_1                         0.995739
+params_epsilon                        0.000057
+user_attrs_epoch                          25.0
+user_attrs_training_loss              0.033165
+user_attrs_validation_loss            1.513685
+params_left_stride                         256
+params_right_stride                         64
+Name: 217, dtype: object
+37 Val: 0.6188104676840673 Test: 0.6020697213055515
+38 Val: 0.6321135234954584 Test: 0.6134328693649597
+39 Val: 0.6284731554211994 Test: 0.5997969064033984
+40 Val: 0.6290565664971645 Test: 0.615428146553878
+41 Val: 0.6094095579208367 Test: 0.6129724175747208
+42 Val: 0.6285305155199252 Test: 0.612917477880858
+43 Val: 0.6175156047628387 Test: 0.6064661805570556
+44 Val: 0.6291620692218748 Test: 0.6132338964987187
+45 Val: 0.6053368127419693 Test: 0.6079150994985089
+46 Val: 0.6105811016099527 Test: 0.6135059987984078
+Validation performance: 60.53 & 62.09 ± 0.98 & 63.21
+Testing performance: 59.98 & 60.98 ± 0.54 & 61.54
+
+[TRIAL] 323 [VALIDATION PERFORMANCE] 0.646620417599793 [TRAINING LOSS] 0.0433898832360726 [VALIDATION LOSS] 1.5325028612500144 
+
+number                                     323
+value                                  0.64662
+params_threshold                      0.957614
+params_attention_heads                       9
+params_balanced_loss                     False
+params_embedding_pooling_operation         min
+params_attention_pooling_operation         max
+params_batch_size                           32
+params_dropout_rate                     0.3387
+params_early_stopping_patience              14
+params_epochs                               70
+params_global_pooling                      max
+params_hidden_dimension                    130
+params_learning_rate                  0.000199
+params_number_of_hidden_layers               2
+params_plateau_divider                      10
+params_plateau_patience                     12
+params_weight_decay                   0.000245
+params_beta_0                         0.813011
+params_beta_1                         0.983859
+params_epsilon                        0.000056
+user_attrs_epoch                          29.0
+user_attrs_training_loss               0.04339
+user_attrs_validation_loss            1.532503
+params_left_stride                         256
+params_right_stride                         64
+Name: 323, dtype: object
+37 Val: 0.6463719741399429 Test: 0.6020270003274101
+38 Val: 0.642367281016857 Test: 0.6128507371421259
+39 Val: 0.6374833002414637 Test: 0.5994087086117738
+40 Val: 0.6333247350178399 Test: 0.6085018673654061
+41 Val: 0.6320901092166342 Test: 0.6136007687614569
+42 Val: 0.6191193381340296 Test: 0.609771445902016
+43 Val: 0.6084809536816348 Test: 0.6055185689827489
+44 Val: 0.6196247553303725 Test: 0.6160590710815886
+45 Val: 0.6123975973129668 Test: 0.5975119840619518
+46 Val: 0.6207902308266758 Test: 0.6058547673762564
+Validation performance: 60.85 & 62.72 ± 1.29 & 64.64
+Testing performance: 59.75 & 60.71 ± 0.62 & 61.61
+
+[Ohsumed] Elapsed time: 507.42309012810387 minutes.

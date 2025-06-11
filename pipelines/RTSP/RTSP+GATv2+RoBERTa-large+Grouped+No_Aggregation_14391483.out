@@ -1,0 +1,219 @@
+Some weights of RobertaModel were not initialized from the model checkpoint at FacebookAI/roberta-large and are newly initialized: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-10 00:17:41,125] Using an existing study with name 'RTSP-GATv2-FacebookAI-roberta-large-Grouped-No_Aggregation' instead of creating a new one.
+[I 2025-01-10 00:24:07,685] Trial 240 finished with value: 0.8783403656821378 and parameters: {'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'max', 'threshold': 0.7317286939856297, 'batch_size': 48, 'attention_heads': 5, 'hidden_dimension': 78, 'number_of_hidden_layers': 1, 'dropout_rate': 0.36500803242940855, 'global_pooling': 'max', 'learning_rate': 0.0009104492757930135, 'weight_decay': 5.414824889982941e-06, 'beta_0': 0.8567511010529091, 'beta_1': 0.9829783607743802, 'epsilon': 5.704342476871162e-07, 'balanced_loss': False, 'epochs': 71, 'early_stopping_patience': 23, 'plateau_patience': 19, 'plateau_divider': 2}. Best is trial 113 with value: 0.890295358649789.
+[I 2025-01-10 00:30:24,072] Trial 241 finished with value: 0.8853727144866386 and parameters: {'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'max', 'threshold': 0.7107664356233888, 'batch_size': 52, 'attention_heads': 5, 'hidden_dimension': 95, 'number_of_hidden_layers': 1, 'dropout_rate': 0.3711965667582707, 'global_pooling': 'max', 'learning_rate': 0.001045703664317181, 'weight_decay': 0.0002540836677574535, 'beta_0': 0.8507559951885124, 'beta_1': 0.9850276507661038, 'epsilon': 4.715937436185421e-06, 'balanced_loss': False, 'epochs': 84, 'early_stopping_patience': 22, 'plateau_patience': 25, 'plateau_divider': 2}. Best is trial 113 with value: 0.890295358649789.
+[I 2025-01-10 00:36:53,770] Trial 242 finished with value: 0.8790436005625879 and parameters: {'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'max', 'threshold': 0.7100058133261052, 'batch_size': 37, 'attention_heads': 4, 'hidden_dimension': 81, 'number_of_hidden_layers': 1, 'dropout_rate': 0.3711072041010545, 'global_pooling': 'max', 'learning_rate': 0.0006746619149906972, 'weight_decay': 0.0002613412848623899, 'beta_0': 0.8489393488486624, 'beta_1': 0.984971585988693, 'epsilon': 2.5135234605083807e-08, 'balanced_loss': False, 'epochs': 152, 'early_stopping_patience': 22, 'plateau_patience': 24, 'plateau_divider': 2}. Best is trial 113 with value: 0.890295358649789.
+[I 2025-01-10 00:43:11,602] Trial 243 finished with value: 0.8811533052039381 and parameters: {'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'max', 'threshold': 0.702290401447199, 'batch_size': 44, 'attention_heads': 4, 'hidden_dimension': 94, 'number_of_hidden_layers': 1, 'dropout_rate': 0.3846092472230763, 'global_pooling': 'max', 'learning_rate': 0.001145006816407426, 'weight_decay': 0.0002140086668215807, 'beta_0': 0.8501848039221992, 'beta_1': 0.9853540016443668, 'epsilon': 3.4080274190582207e-06, 'balanced_loss': True, 'epochs': 84, 'early_stopping_patience': 22, 'plateau_patience': 11, 'plateau_divider': 2}. Best is trial 113 with value: 0.890295358649789.
+[I 2025-01-10 00:49:21,345] Trial 244 finished with value: 0.8804500703234881 and parameters: {'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'max', 'threshold': 0.6879361284445187, 'batch_size': 51, 'attention_heads': 5, 'hidden_dimension': 85, 'number_of_hidden_layers': 1, 'dropout_rate': 0.3346871496073253, 'global_pooling': 'max', 'learning_rate': 0.0016587285336257755, 'weight_decay': 0.00011049746024595967, 'beta_0': 0.851058579139151, 'beta_1': 0.9839549484247854, 'epsilon': 1.3852767254061156e-05, 'balanced_loss': False, 'epochs': 87, 'early_stopping_patience': 22, 'plateau_patience': 25, 'plateau_divider': 2}. Best is trial 113 with value: 0.890295358649789.
+[I 2025-01-10 00:55:33,860] Trial 245 finished with value: 0.8790436005625879 and parameters: {'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'max', 'threshold': 0.7163128546482621, 'batch_size': 58, 'attention_heads': 5, 'hidden_dimension': 98, 'number_of_hidden_layers': 1, 'dropout_rate': 0.37351261604650016, 'global_pooling': 'max', 'learning_rate': 0.0009372612735854277, 'weight_decay': 0.0006517117113707031, 'beta_0': 0.852910250671083, 'beta_1': 0.9849302112017092, 'epsilon': 2.4811068608839472e-06, 'balanced_loss': False, 'epochs': 74, 'early_stopping_patience': 22, 'plateau_patience': 25, 'plateau_divider': 2}. Best is trial 113 with value: 0.890295358649789.
+[I 2025-01-10 01:01:43,477] Trial 246 finished with value: 0.8874824191279888 and parameters: {'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'max', 'threshold': 0.7389872758968127, 'batch_size': 51, 'attention_heads': 5, 'hidden_dimension': 102, 'number_of_hidden_layers': 1, 'dropout_rate': 0.3565393393425589, 'global_pooling': 'max', 'learning_rate': 0.001406188370547945, 'weight_decay': 1.5340470648516977e-05, 'beta_0': 0.851991470053577, 'beta_1': 0.9836552768158267, 'epsilon': 4.620471533579366e-07, 'balanced_loss': False, 'epochs': 82, 'early_stopping_patience': 22, 'plateau_patience': 25, 'plateau_divider': 2}. Best is trial 113 with value: 0.890295358649789.
+[I 2025-01-10 01:08:22,765] Trial 247 finished with value: 0.8769338959212377 and parameters: {'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'max', 'threshold': 0.7444663692830132, 'batch_size': 48, 'attention_heads': 5, 'hidden_dimension': 103, 'number_of_hidden_layers': 1, 'dropout_rate': 0.3688528007770096, 'global_pooling': 'max', 'learning_rate': 0.00014586792427813546, 'weight_decay': 1.4803942407793764e-05, 'beta_0': 0.8485784178585057, 'beta_1': 0.9837141878542316, 'epsilon': 1.2724930220974975e-06, 'balanced_loss': False, 'epochs': 85, 'early_stopping_patience': 23, 'plateau_patience': 25, 'plateau_divider': 2}. Best is trial 113 with value: 0.890295358649789.
+[I 2025-01-10 01:14:30,617] Trial 248 finished with value: 0.8818565400843882 and parameters: {'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'max', 'threshold': 0.7208714420439156, 'batch_size': 62, 'attention_heads': 4, 'hidden_dimension': 92, 'number_of_hidden_layers': 1, 'dropout_rate': 0.37958336541197474, 'global_pooling': 'max', 'learning_rate': 0.0014005579900726193, 'weight_decay': 8.777650571277626e-06, 'beta_0': 0.8515371027805202, 'beta_1': 0.9845125958513359, 'epsilon': 7.70489949554501e-06, 'balanced_loss': False, 'epochs': 82, 'early_stopping_patience': 22, 'plateau_patience': 24, 'plateau_divider': 2}. Best is trial 113 with value: 0.890295358649789.
+[I 2025-01-10 01:20:51,143] Trial 249 finished with value: 0.879746835443038 and parameters: {'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'max', 'threshold': 0.707528422652114, 'batch_size': 34, 'attention_heads': 4, 'hidden_dimension': 37, 'number_of_hidden_layers': 1, 'dropout_rate': 0.3591216744457879, 'global_pooling': 'max', 'learning_rate': 0.0012606728073007157, 'weight_decay': 4.304995748827663e-06, 'beta_0': 0.8996912614253666, 'beta_1': 0.9855193326903898, 'epsilon': 4.4169585474645725e-07, 'balanced_loss': False, 'epochs': 76, 'early_stopping_patience': 22, 'plateau_patience': 25, 'plateau_divider': 3}. Best is trial 113 with value: 0.890295358649789.
+[I 2025-01-10 01:27:08,118] Trial 250 finished with value: 0.8769338959212377 and parameters: {'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'max', 'threshold': 0.7240652585015437, 'batch_size': 42, 'attention_heads': 4, 'hidden_dimension': 114, 'number_of_hidden_layers': 1, 'dropout_rate': 0.36027694182630576, 'global_pooling': 'max', 'learning_rate': 0.0014909501176390571, 'weight_decay': 0.0002463226847714499, 'beta_0': 0.8904783899480847, 'beta_1': 0.9859694009945688, 'epsilon': 3.8692941423321504e-07, 'balanced_loss': False, 'epochs': 89, 'early_stopping_patience': 23, 'plateau_patience': 24, 'plateau_divider': 2}. Best is trial 113 with value: 0.890295358649789.
+[I 2025-01-10 01:33:32,259] Trial 251 finished with value: 0.8804500703234881 and parameters: {'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'mean', 'threshold': 0.7437392824838999, 'batch_size': 51, 'attention_heads': 4, 'hidden_dimension': 106, 'number_of_hidden_layers': 1, 'dropout_rate': 0.36500450929793654, 'global_pooling': 'max', 'learning_rate': 0.00041004142575027476, 'weight_decay': 3.336490919568524e-06, 'beta_0': 0.8458187169782744, 'beta_1': 0.9837820022836569, 'epsilon': 5.180718374334471e-06, 'balanced_loss': False, 'epochs': 197, 'early_stopping_patience': 22, 'plateau_patience': 17, 'plateau_divider': 2}. Best is trial 113 with value: 0.890295358649789.
+[I 2025-01-10 01:39:37,321] Trial 252 finished with value: 0.8811533052039381 and parameters: {'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'mean', 'threshold': 0.7017064122836375, 'batch_size': 68, 'attention_heads': 5, 'hidden_dimension': 66, 'number_of_hidden_layers': 1, 'dropout_rate': 0.3432039684137679, 'global_pooling': 'max', 'learning_rate': 0.0011201224058120997, 'weight_decay': 0.0002916747324738331, 'beta_0': 0.860195496591806, 'beta_1': 0.9827371889195028, 'epsilon': 1.7543553857140985e-05, 'balanced_loss': True, 'epochs': 69, 'early_stopping_patience': 20, 'plateau_patience': 25, 'plateau_divider': 3}. Best is trial 113 with value: 0.890295358649789.
+[I 2025-01-10 01:46:15,469] Trial 253 finished with value: 0.8818565400843882 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'mean', 'threshold': 0.6854706770041792, 'batch_size': 56, 'attention_heads': 4, 'hidden_dimension': 111, 'number_of_hidden_layers': 1, 'dropout_rate': 0.5994803431649631, 'global_pooling': 'max', 'learning_rate': 0.0002938484331648533, 'weight_decay': 1.1912002809217537e-05, 'beta_0': 0.8574907255062371, 'beta_1': 0.9989763376297105, 'epsilon': 1.403853893700315e-08, 'balanced_loss': False, 'epochs': 78, 'early_stopping_patience': 10, 'plateau_patience': 25, 'plateau_divider': 3}. Best is trial 113 with value: 0.890295358649789.
+
+[TRIAL] 113 [VALIDATION PERFORMANCE] 0.890295358649789 [TRAINING LOSS] 0.18323458991353475 [VALIDATION LOSS] 0.2921446021646261 
+
+number                                     113
+value                                 0.890295
+params_threshold                      0.694255
+params_attention_heads                       4
+params_balanced_loss                     False
+params_embedding_pooling_operation         min
+params_attention_pooling_operation         max
+params_batch_size                           91
+params_dropout_rate                   0.592596
+params_early_stopping_patience              12
+params_epochs                              191
+params_global_pooling                      max
+params_hidden_dimension                    107
+params_learning_rate                  0.000506
+params_number_of_hidden_layers               1
+params_plateau_divider                       3
+params_plateau_patience                     22
+params_weight_decay                   0.000081
+params_beta_0                         0.858962
+params_beta_1                         0.996739
+params_epsilon                        0.000046
+user_attrs_epoch                          48.0
+user_attrs_training_loss              0.183235
+user_attrs_validation_loss            0.292145
+Name: 113, dtype: object
+37 Val: 0.8874824191279888 Test: 0.8821046707934721
+38 Val: 0.8811533052039381 Test: 0.8781654473832302
+39 Val: 0.879746835443038 Test: 0.8846370287000562
+40 Val: 0.8811533052039381 Test: 0.8818232976927406
+41 Val: 0.8818565400843882 Test: 0.877602701181767
+42 Val: 0.8874824191279888 Test: 0.8804164321890827
+43 Val: 0.8776371308016878 Test: 0.8818232976927406
+44 Val: 0.8804500703234881 Test: 0.8773213280810355
+45 Val: 0.8804500703234881 Test: 0.8837929093978616
+46 Val: 0.8874824191279888 Test: 0.8806978052898143
+Validation performance: 87.76 & 88.25 ± 0.36 & 88.75
+Testing performance: 87.73 & 88.08 ± 0.25 & 88.46
+
+[TRIAL] 127 [VALIDATION PERFORMANCE] 0.8881856540084389 [TRAINING LOSS] 0.2868400365114212 [VALIDATION LOSS] 0.2895546094292686 
+
+number                                     127
+value                                 0.888186
+params_threshold                      0.684049
+params_attention_heads                       4
+params_balanced_loss                     False
+params_embedding_pooling_operation        mean
+params_attention_pooling_operation         max
+params_batch_size                           70
+params_dropout_rate                    0.59573
+params_early_stopping_patience              10
+params_epochs                               81
+params_global_pooling                      max
+params_hidden_dimension                    125
+params_learning_rate                  0.003369
+params_number_of_hidden_layers               1
+params_plateau_divider                       2
+params_plateau_patience                     25
+params_weight_decay                   0.000289
+params_beta_0                         0.838399
+params_beta_1                         0.983551
+params_epsilon                        0.000001
+user_attrs_epoch                          30.0
+user_attrs_training_loss               0.28684
+user_attrs_validation_loss            0.289555
+Name: 127, dtype: object
+37 Val: 0.8818565400843882 Test: 0.8832301631963985
+38 Val: 0.8818565400843882 Test: 0.8663477771525042
+39 Val: 0.8783403656821378 Test: 0.8742262239729882
+40 Val: 0.8825597749648383 Test: 0.8688801350590883
+41 Val: 0.879746835443038 Test: 0.8818232976927406
+42 Val: 0.8825597749648383 Test: 0.86916150815982
+43 Val: 0.8832630098452883 Test: 0.8719752391671356
+44 Val: 0.8867791842475387 Test: 0.8823860438942037
+45 Val: 0.8811533052039381 Test: 0.8767585818795723
+46 Val: 0.8832630098452883 Test: 0.8798536859876196
+Validation performance: 87.83 & 88.21 ± 0.23 & 88.68
+Testing performance: 86.63 & 87.55 ± 0.62 & 88.32
+
+[TRIAL] 246 [VALIDATION PERFORMANCE] 0.8874824191279888 [TRAINING LOSS] 0.28400786872953176 [VALIDATION LOSS] 0.2959634092237268 
+
+number                                     246
+value                                 0.887482
+params_threshold                      0.738987
+params_attention_heads                       5
+params_balanced_loss                     False
+params_embedding_pooling_operation         max
+params_attention_pooling_operation        mean
+params_batch_size                           51
+params_dropout_rate                   0.356539
+params_early_stopping_patience              22
+params_epochs                               82
+params_global_pooling                      max
+params_hidden_dimension                    102
+params_learning_rate                  0.001406
+params_number_of_hidden_layers               1
+params_plateau_divider                       2
+params_plateau_patience                     25
+params_weight_decay                   0.000015
+params_beta_0                         0.851991
+params_beta_1                         0.983655
+params_epsilon                             0.0
+user_attrs_epoch                           4.0
+user_attrs_training_loss              0.284008
+user_attrs_validation_loss            0.295963
+Name: 246, dtype: object
+37 Val: 0.8846694796061885 Test: 0.8736634777715251
+38 Val: 0.8790436005625879 Test: 0.8764772087788407
+39 Val: 0.8790436005625879 Test: 0.8770399549803038
+40 Val: 0.8846694796061885 Test: 0.8739448508722566
+41 Val: 0.8825597749648383 Test: 0.8767585818795723
+42 Val: 0.8783403656821378 Test: 0.877602701181767
+43 Val: 0.8804500703234881 Test: 0.8756330894766461
+44 Val: 0.8825597749648383 Test: 0.8770399549803038
+45 Val: 0.8811533052039381 Test: 0.8747889701744513
+46 Val: 0.8818565400843882 Test: 0.8742262239729882
+Validation performance: 87.83 & 88.14 ± 0.23 & 88.47
+Testing performance: 87.37 & 87.57 ± 0.15 & 87.76
+
+[TRIAL] 167 [VALIDATION PERFORMANCE] 0.8867791842475387 [TRAINING LOSS] 0.18024118633142538 [VALIDATION LOSS] 0.3129538868864377 
+
+number                                     167
+value                                 0.886779
+params_threshold                      0.658867
+params_attention_heads                       4
+params_balanced_loss                     False
+params_embedding_pooling_operation         max
+params_attention_pooling_operation         max
+params_batch_size                           82
+params_dropout_rate                   0.557276
+params_early_stopping_patience              20
+params_epochs                               80
+params_global_pooling                      max
+params_hidden_dimension                     59
+params_learning_rate                   0.00125
+params_number_of_hidden_layers               1
+params_plateau_divider                       2
+params_plateau_patience                     24
+params_weight_decay                   0.000249
+params_beta_0                         0.887334
+params_beta_1                         0.990981
+params_epsilon                             0.0
+user_attrs_epoch                          28.0
+user_attrs_training_loss              0.180241
+user_attrs_validation_loss            0.312954
+Name: 167, dtype: object
+37 Val: 0.8811533052039381 Test: 0.8767585818795723
+38 Val: 0.8783403656821378 Test: 0.8826674169949353
+39 Val: 0.8832630098452883 Test: 0.8773213280810355
+40 Val: 0.8853727144866386 Test: 0.8747889701744513
+41 Val: 0.8839662447257384 Test: 0.8832301631963985
+42 Val: 0.8825597749648383 Test: 0.8764772087788407
+43 Val: 0.8832630098452883 Test: 0.8846370287000562
+44 Val: 0.8818565400843882 Test: 0.8809791783905458
+45 Val: 0.8832630098452883 Test: 0.8792909397861565
+46 Val: 0.8825597749648383 Test: 0.8792909397861565
+Validation performance: 87.83 & 88.26 ± 0.19 & 88.54
+Testing performance: 87.48 & 87.95 ± 0.33 & 88.46
+
+[TRIAL] 126 [VALIDATION PERFORMANCE] 0.8860759493670886 [TRAINING LOSS] 0.24698824803034464 [VALIDATION LOSS] 0.30275941287216385 
+
+number                                     126
+value                                 0.886076
+params_threshold                      0.683125
+params_attention_heads                       4
+params_balanced_loss                     False
+params_embedding_pooling_operation        mean
+params_attention_pooling_operation         max
+params_batch_size                           76
+params_dropout_rate                   0.591004
+params_early_stopping_patience              10
+params_epochs                              189
+params_global_pooling                      max
+params_hidden_dimension                    121
+params_learning_rate                  0.003632
+params_number_of_hidden_layers               1
+params_plateau_divider                       3
+params_plateau_patience                     25
+params_weight_decay                   0.000341
+params_beta_0                         0.838404
+params_beta_1                         0.980005
+params_epsilon                        0.000041
+user_attrs_epoch                          25.0
+user_attrs_training_loss              0.246988
+user_attrs_validation_loss            0.302759
+Name: 126, dtype: object
+37 Val: 0.8860759493670886 Test: 0.8736634777715251
+38 Val: 0.8811533052039381 Test: 0.8764772087788407
+39 Val: 0.8818565400843882 Test: 0.8798536859876196
+40 Val: 0.8839662447257384 Test: 0.8784468204839617
+41 Val: 0.8825597749648383 Test: 0.8792909397861565
+42 Val: 0.879746835443038 Test: 0.8764772087788407
+43 Val: 0.8867791842475387 Test: 0.88351153629713
+44 Val: 0.879746835443038 Test: 0.8812605514912775
+45 Val: 0.8825597749648383 Test: 0.879572312886888
+46 Val: 0.8832630098452883 Test: 0.8739448508722566
+Validation performance: 87.97 & 88.28 ± 0.24 & 88.68
+Testing performance: 87.37 & 87.82 ± 0.31 & 88.35
+
+[RTSP] Elapsed time: 402.31105993588767 minutes.

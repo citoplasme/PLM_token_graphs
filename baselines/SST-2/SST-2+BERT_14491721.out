@@ -1,0 +1,521 @@
+[I 2025-01-16 11:22:37,056] Using an existing study with name 'SST-2-google-bert-bert-base-uncased' instead of creating a new one.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 11:41:23,812] Trial 168 finished with value: 0.9174311926605505 and parameters: {'batch_size': 13, 'learning_rate': 1.1762621812860928e-05, 'weight_decay': 5.954828069303691e-05, 'beta_0': 0.839413409304899, 'beta_1': 0.9956122442002107, 'epsilon': 2.596761539960871e-07, 'balanced_loss': True, 'epochs': 6, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 11:59:32,007] Trial 169 finished with value: 0.9151376146788991 and parameters: {'batch_size': 12, 'learning_rate': 1.0610656028914814e-05, 'weight_decay': 4.65664404602969e-05, 'beta_0': 0.8319494908518961, 'beta_1': 0.9960270695295522, 'epsilon': 9.55241366323999e-07, 'balanced_loss': True, 'epochs': 6, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 12:17:35,534] Trial 170 finished with value: 0.9185779816513762 and parameters: {'batch_size': 13, 'learning_rate': 1.3034560688630908e-05, 'weight_decay': 0.0004865759113308992, 'beta_0': 0.8453598030772533, 'beta_1': 0.9948628758517616, 'epsilon': 1.1515506633361333e-07, 'balanced_loss': True, 'epochs': 7, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 12:36:16,820] Trial 171 finished with value: 0.9151376146788991 and parameters: {'batch_size': 11, 'learning_rate': 1.1212417428965536e-05, 'weight_decay': 3.9370342993030886e-05, 'beta_0': 0.83829788657235, 'beta_1': 0.9951712105171716, 'epsilon': 8.04961801056001e-08, 'balanced_loss': True, 'epochs': 7, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 12:54:26,935] Trial 172 finished with value: 0.9231651376146789 and parameters: {'batch_size': 13, 'learning_rate': 1.2343017135158754e-05, 'weight_decay': 1.2561472003373456e-05, 'beta_0': 0.8427006265370314, 'beta_1': 0.9954115122146143, 'epsilon': 2.4806730841154514e-06, 'balanced_loss': True, 'epochs': 6, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 10}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 13:12:06,122] Trial 173 finished with value: 0.9162844036697247 and parameters: {'batch_size': 19, 'learning_rate': 6.91097416524292e-05, 'weight_decay': 0.0006246337107578433, 'beta_0': 0.8378237376627756, 'beta_1': 0.9943937095593397, 'epsilon': 5.0903628998354084e-08, 'balanced_loss': True, 'epochs': 9, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 13:27:19,772] Trial 174 finished with value: 0.9174311926605505 and parameters: {'batch_size': 12, 'learning_rate': 1.160544144058328e-05, 'weight_decay': 4.689078750197478e-06, 'beta_0': 0.8414412020211753, 'beta_1': 0.9972405067550889, 'epsilon': 1.5954556321929436e-07, 'balanced_loss': True, 'epochs': 5, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 10}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 13:46:07,477] Trial 175 finished with value: 0.9277522935779816 and parameters: {'batch_size': 13, 'learning_rate': 1.0078118981880203e-05, 'weight_decay': 0.00035217092747588663, 'beta_0': 0.8449718541755182, 'beta_1': 0.9930784505201449, 'epsilon': 5.104486275073071e-07, 'balanced_loss': True, 'epochs': 6, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 14:04:33,959] Trial 176 finished with value: 0.9197247706422018 and parameters: {'batch_size': 14, 'learning_rate': 1.0061508720046515e-05, 'weight_decay': 0.00038561579532727015, 'beta_0': 0.8456713444251592, 'beta_1': 0.9940299833828599, 'epsilon': 5.251872549018686e-07, 'balanced_loss': True, 'epochs': 6, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 14:23:34,564] Trial 177 finished with value: 0.9197247706422018 and parameters: {'batch_size': 12, 'learning_rate': 1.057687797220995e-05, 'weight_decay': 0.0003426722397535722, 'beta_0': 0.8482396965946071, 'beta_1': 0.992989715907883, 'epsilon': 7.036792287363079e-07, 'balanced_loss': True, 'epochs': 6, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 14:44:33,569] Trial 178 finished with value: 0.8990825688073395 and parameters: {'batch_size': 22, 'learning_rate': 9.760257049171065e-05, 'weight_decay': 0.00028351377099648025, 'beta_0': 0.8437571858919254, 'beta_1': 0.9932839164903645, 'epsilon': 4.043422457767407e-07, 'balanced_loss': True, 'epochs': 6, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 15:02:52,262] Trial 179 finished with value: 0.9220183486238532 and parameters: {'batch_size': 13, 'learning_rate': 1.0967151807613226e-05, 'weight_decay': 0.00024288650829551998, 'beta_0': 0.8341102265946471, 'beta_1': 0.9936349293727988, 'epsilon': 2.198234131435139e-07, 'balanced_loss': True, 'epochs': 6, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 10}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 15:20:35,688] Trial 180 finished with value: 0.9197247706422018 and parameters: {'batch_size': 14, 'learning_rate': 1.0355433744794384e-05, 'weight_decay': 0.0005462001328559123, 'beta_0': 0.8503146936948852, 'beta_1': 0.991209179797098, 'epsilon': 3.4640971398844013e-07, 'balanced_loss': True, 'epochs': 9, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 15:41:44,295] Trial 181 finished with value: 0.9174311926605505 and parameters: {'batch_size': 13, 'learning_rate': 1.0013777061969397e-05, 'weight_decay': 5.036849837966156e-05, 'beta_0': 0.8394134506454392, 'beta_1': 0.9917389905518097, 'epsilon': 4.81452326231471e-07, 'balanced_loss': True, 'epochs': 7, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 15:56:59,380] Trial 182 finished with value: 0.9197247706422018 and parameters: {'batch_size': 12, 'learning_rate': 1.1277399121861538e-05, 'weight_decay': 0.0004397447704878988, 'beta_0': 0.8555241647552967, 'beta_1': 0.9895359581597294, 'epsilon': 8.226927911314071e-07, 'balanced_loss': True, 'epochs': 5, 'early_stopping_patience': 5, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 16:18:54,591] Trial 183 finished with value: 0.9185779816513762 and parameters: {'batch_size': 11, 'learning_rate': 1.1791051731722954e-05, 'weight_decay': 3.374610518543432e-05, 'beta_0': 0.8529868785781765, 'beta_1': 0.9922330915495595, 'epsilon': 1.8759284899656836e-07, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 5, 'plateau_patience': 2, 'plateau_divider': 8}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 16:39:38,233] Trial 184 finished with value: 0.9197247706422018 and parameters: {'batch_size': 14, 'learning_rate': 1.0838303798782643e-05, 'weight_decay': 4.2250601332353544e-05, 'beta_0': 0.8450256039913381, 'beta_1': 0.9958391213209173, 'epsilon': 1.0926922164879067e-06, 'balanced_loss': True, 'epochs': 7, 'early_stopping_patience': 5, 'plateau_patience': 3, 'plateau_divider': 10}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 16:54:53,917] Trial 185 finished with value: 0.9254587155963303 and parameters: {'batch_size': 12, 'learning_rate': 1.0588779728620555e-05, 'weight_decay': 0.0007982820959616046, 'beta_0': 0.8420439832615914, 'beta_1': 0.9926479915253719, 'epsilon': 2.8947480450555047e-07, 'balanced_loss': True, 'epochs': 6, 'early_stopping_patience': 3, 'plateau_patience': 2, 'plateau_divider': 6}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 17:13:05,331] Trial 186 finished with value: 0.9254587155963303 and parameters: {'batch_size': 13, 'learning_rate': 1.04973191992822e-05, 'weight_decay': 0.0007884779635105051, 'beta_0': 0.8420064159805438, 'beta_1': 0.992692369157824, 'epsilon': 2.8600222589628724e-07, 'balanced_loss': True, 'epochs': 6, 'early_stopping_patience': 3, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 17:31:26,103] Trial 187 finished with value: 0.9128440366972477 and parameters: {'batch_size': 12, 'learning_rate': 1.1268999330561972e-05, 'weight_decay': 0.0008445436524111137, 'beta_0': 0.8469381894719428, 'beta_1': 0.9927310579791335, 'epsilon': 2.729889499683829e-07, 'balanced_loss': True, 'epochs': 6, 'early_stopping_patience': 5, 'plateau_patience': 2, 'plateau_divider': 6}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 17:46:43,698] Trial 188 finished with value: 0.9174311926605505 and parameters: {'batch_size': 12, 'learning_rate': 1.0553459761412613e-05, 'weight_decay': 0.0007461429033693148, 'beta_0': 0.8409370061042614, 'beta_1': 0.9926016501112186, 'epsilon': 3.84401717349774e-07, 'balanced_loss': True, 'epochs': 6, 'early_stopping_patience': 3, 'plateau_patience': 2, 'plateau_divider': 10}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 18:02:06,989] Trial 189 finished with value: 0.9231651376146789 and parameters: {'batch_size': 13, 'learning_rate': 1.2032587690421226e-05, 'weight_decay': 0.0009370189769793715, 'beta_0': 0.8429424783816006, 'beta_1': 0.9931463761217261, 'epsilon': 5.592700245887752e-07, 'balanced_loss': True, 'epochs': 9, 'early_stopping_patience': 3, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 18:17:18,209] Trial 190 finished with value: 0.9231651376146789 and parameters: {'batch_size': 13, 'learning_rate': 1.2587331457701865e-05, 'weight_decay': 6.488395072747741e-05, 'beta_0': 0.8484343746076122, 'beta_1': 0.9920533883983497, 'epsilon': 2.977137528360956e-07, 'balanced_loss': True, 'epochs': 5, 'early_stopping_patience': 3, 'plateau_patience': 2, 'plateau_divider': 10}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 18:32:05,535] Trial 191 finished with value: 0.9139908256880734 and parameters: {'batch_size': 14, 'learning_rate': 1.3836701742099023e-05, 'weight_decay': 0.0006495704619664868, 'beta_0': 0.8444384078416478, 'beta_1': 0.992891283044989, 'epsilon': 4.441206330163813e-07, 'balanced_loss': True, 'epochs': 6, 'early_stopping_patience': 3, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 18:47:44,654] Trial 192 finished with value: 0.9185779816513762 and parameters: {'batch_size': 11, 'learning_rate': 1.0041211993715101e-05, 'weight_decay': 0.0008837587216416289, 'beta_0': 0.8361513348850914, 'beta_1': 0.9915203599640778, 'epsilon': 2.4093852447107396e-07, 'balanced_loss': True, 'epochs': 5, 'early_stopping_patience': 3, 'plateau_patience': 2, 'plateau_divider': 6}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 19:02:56,824] Trial 193 finished with value: 0.9174311926605505 and parameters: {'batch_size': 12, 'learning_rate': 1.1047629285238989e-05, 'weight_decay': 0.0007193027882088156, 'beta_0': 0.8415073784385874, 'beta_1': 0.9936549607916771, 'epsilon': 3.4163582695661766e-07, 'balanced_loss': True, 'epochs': 6, 'early_stopping_patience': 3, 'plateau_patience': 2, 'plateau_divider': 8}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 19:24:04,666] Trial 194 finished with value: 0.9162844036697247 and parameters: {'batch_size': 15, 'learning_rate': 1.1596757418899881e-05, 'weight_decay': 8.88957890788607e-06, 'beta_0': 0.8449991019009889, 'beta_1': 0.9924273644730216, 'epsilon': 7.160598762158641e-07, 'balanced_loss': True, 'epochs': 7, 'early_stopping_patience': 5, 'plateau_patience': 2, 'plateau_divider': 10}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 19:42:15,870] Trial 195 finished with value: 0.9243119266055045 and parameters: {'batch_size': 13, 'learning_rate': 1.0541999569376978e-05, 'weight_decay': 0.0005925678618594683, 'beta_0': 0.837412419084614, 'beta_1': 0.994096226237556, 'epsilon': 1.7556408521727971e-07, 'balanced_loss': True, 'epochs': 6, 'early_stopping_patience': 4, 'plateau_patience': 4, 'plateau_divider': 5}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 20:00:38,166] Trial 196 finished with value: 0.9220183486238532 and parameters: {'batch_size': 13, 'learning_rate': 1.0520474108394985e-05, 'weight_decay': 0.0007686984904671157, 'beta_0': 0.8392223287732938, 'beta_1': 0.9945089246299738, 'epsilon': 1.3163682120417773e-07, 'balanced_loss': True, 'epochs': 6, 'early_stopping_patience': 5, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 20:15:23,267] Trial 197 finished with value: 0.9220183486238532 and parameters: {'batch_size': 23, 'learning_rate': 1.0868688446808332e-05, 'weight_decay': 0.0009913071918221065, 'beta_0': 0.8420280081943672, 'beta_1': 0.9933389470388088, 'epsilon': 5.843802782361003e-07, 'balanced_loss': True, 'epochs': 6, 'early_stopping_patience': 3, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 63 with value: 0.9277522935779816.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 20:33:47,433] Trial 198 finished with value: 0.9323394495412844 and parameters: {'batch_size': 13, 'learning_rate': 1.0027081941913545e-05, 'weight_decay': 0.000513039566106591, 'beta_0': 0.8249861412757802, 'beta_1': 0.9951707215925473, 'epsilon': 2.1243700204928243e-07, 'balanced_loss': True, 'epochs': 6, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 20:54:33,622] Trial 199 finished with value: 0.9208715596330275 and parameters: {'batch_size': 14, 'learning_rate': 1.0117848593325508e-05, 'weight_decay': 5.1410493163659145e-05, 'beta_0': 0.8237850598184647, 'beta_1': 0.9928998054700356, 'epsilon': 2.1094710293303704e-07, 'balanced_loss': True, 'epochs': 9, 'early_stopping_patience': 5, 'plateau_patience': 2, 'plateau_divider': 7}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 21:12:56,143] Trial 200 finished with value: 0.9231651376146789 and parameters: {'batch_size': 12, 'learning_rate': 1.0010509120048892e-05, 'weight_decay': 0.0005103558250754946, 'beta_0': 0.8265996044833047, 'beta_1': 0.9920346065960354, 'epsilon': 2.773026249778724e-07, 'balanced_loss': False, 'epochs': 6, 'early_stopping_patience': 5, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 21:27:43,550] Trial 201 finished with value: 0.9220183486238532 and parameters: {'batch_size': 20, 'learning_rate': 1.1264986151349751e-05, 'weight_decay': 3.737484347598566e-05, 'beta_0': 0.8511112923285991, 'beta_1': 0.9890557398304809, 'epsilon': 4.504497323012463e-07, 'balanced_loss': True, 'epochs': 9, 'early_stopping_patience': 3, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 21:43:01,686] Trial 202 finished with value: 0.9220183486238532 and parameters: {'batch_size': 13, 'learning_rate': 1.1958696002350003e-05, 'weight_decay': 2.894921671238223e-05, 'beta_0': 0.819789249691355, 'beta_1': 0.9938072872491482, 'epsilon': 3.2801338713589795e-07, 'balanced_loss': True, 'epochs': 5, 'early_stopping_patience': 5, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 22:01:25,374] Trial 203 finished with value: 0.9105504587155964 and parameters: {'batch_size': 12, 'learning_rate': 2.0184393127279725e-05, 'weight_decay': 4.4924813348911996e-05, 'beta_0': 0.8141793024093881, 'beta_1': 0.9949453206166922, 'epsilon': 2.374946592816683e-07, 'balanced_loss': True, 'epochs': 10, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 22:22:08,068] Trial 204 finished with value: 0.9197247706422018 and parameters: {'batch_size': 14, 'learning_rate': 1.0887612322969028e-05, 'weight_decay': 5.804156280676722e-05, 'beta_0': 0.8470528193672042, 'beta_1': 0.9924353344671354, 'epsilon': 3.946181336242107e-07, 'balanced_loss': True, 'epochs': 7, 'early_stopping_patience': 5, 'plateau_patience': 2, 'plateau_divider': 10}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 22:40:34,031] Trial 205 finished with value: 0.9243119266055045 and parameters: {'batch_size': 13, 'learning_rate': 1.0753557605642534e-05, 'weight_decay': 0.00034130940978649253, 'beta_0': 0.8436138400653155, 'beta_1': 0.995423157064667, 'epsilon': 1.7004116913870176e-07, 'balanced_loss': True, 'epochs': 6, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 22:58:53,977] Trial 206 finished with value: 0.9231651376146789 and parameters: {'batch_size': 13, 'learning_rate': 1.0451306707084504e-05, 'weight_decay': 0.0004631914065148129, 'beta_0': 0.8496904980646539, 'beta_1': 0.9946558642009534, 'epsilon': 1.0214415989725369e-07, 'balanced_loss': True, 'epochs': 6, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 23:17:08,119] Trial 207 finished with value: 0.9197247706422018 and parameters: {'batch_size': 13, 'learning_rate': 1.1505577281495572e-05, 'weight_decay': 0.00043390285632057424, 'beta_0': 0.8999365871086097, 'beta_1': 0.9951757133076303, 'epsilon': 6.019542310951391e-07, 'balanced_loss': True, 'epochs': 6, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 23:35:24,658] Trial 208 finished with value: 0.9185779816513762 and parameters: {'batch_size': 12, 'learning_rate': 1.0491130389746677e-05, 'weight_decay': 0.0003811531691015257, 'beta_0': 0.8396650995987126, 'beta_1': 0.9965309182307204, 'epsilon': 2.0476237356689392e-07, 'balanced_loss': True, 'epochs': 6, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-16 23:53:38,472] Trial 209 finished with value: 0.9220183486238532 and parameters: {'batch_size': 13, 'learning_rate': 1.1154958827908343e-05, 'weight_decay': 0.000534908663153865, 'beta_0': 0.8684553184477706, 'beta_1': 0.9942029912282205, 'epsilon': 1.3902033112250004e-07, 'balanced_loss': True, 'epochs': 6, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 00:11:23,652] Trial 210 finished with value: 0.9174311926605505 and parameters: {'batch_size': 14, 'learning_rate': 1.0019541273045777e-05, 'weight_decay': 4.235755181906099e-05, 'beta_0': 0.8469594276770386, 'beta_1': 0.993308298861775, 'epsilon': 8.717626805527629e-07, 'balanced_loss': True, 'epochs': 7, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 00:29:45,199] Trial 211 finished with value: 0.9220183486238532 and parameters: {'batch_size': 13, 'learning_rate': 1.2367714114440824e-05, 'weight_decay': 0.0006383596884619203, 'beta_0': 0.8773273548497463, 'beta_1': 0.9960013106462449, 'epsilon': 4.952755429727038e-07, 'balanced_loss': True, 'epochs': 6, 'early_stopping_patience': 5, 'plateau_patience': 2, 'plateau_divider': 10}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 00:48:07,751] Trial 212 finished with value: 0.9197247706422018 and parameters: {'batch_size': 12, 'learning_rate': 1.0498225610220017e-05, 'weight_decay': 3.504830067661624e-05, 'beta_0': 0.829687557122587, 'beta_1': 0.9929221027512067, 'epsilon': 2.919309320177263e-07, 'balanced_loss': True, 'epochs': 9, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 10}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 01:06:30,657] Trial 213 finished with value: 0.9208715596330275 and parameters: {'batch_size': 13, 'learning_rate': 1.2953816463530413e-05, 'weight_decay': 5.427478649066235e-05, 'beta_0': 0.8039947338816297, 'beta_1': 0.9906331458994414, 'epsilon': 6.518806279907657e-07, 'balanced_loss': True, 'epochs': 6, 'early_stopping_patience': 5, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 01:24:28,498] Trial 214 finished with value: 0.9254587155963303 and parameters: {'batch_size': 14, 'learning_rate': 1.152986026990757e-05, 'weight_decay': 0.00028766372778878964, 'beta_0': 0.8969458811417408, 'beta_1': 0.9935964187896087, 'epsilon': 3.6576460637312113e-07, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 01:42:17,745] Trial 215 finished with value: 0.9151376146788991 and parameters: {'batch_size': 14, 'learning_rate': 1.1654610579904776e-05, 'weight_decay': 0.0003226911205130225, 'beta_0': 0.894693627450668, 'beta_1': 0.9936095292914848, 'epsilon': 3.6520222936596027e-07, 'balanced_loss': True, 'epochs': 9, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 02:00:36,369] Trial 216 finished with value: 0.9254587155963303 and parameters: {'batch_size': 13, 'learning_rate': 1.100883682446411e-05, 'weight_decay': 0.0002803191687413775, 'beta_0': 0.8961658387748398, 'beta_1': 0.994525570874359, 'epsilon': 4.977751902177445e-07, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 02:18:40,485] Trial 217 finished with value: 0.9231651376146789 and parameters: {'batch_size': 16, 'learning_rate': 1.1159606442226439e-05, 'weight_decay': 0.0001775069708260901, 'beta_0': 0.8934152289530122, 'beta_1': 0.9939508171686211, 'epsilon': 5.100342188863251e-07, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 02:36:56,774] Trial 218 finished with value: 0.9254587155963303 and parameters: {'batch_size': 12, 'learning_rate': 2.435765102353137e-05, 'weight_decay': 0.0003077437305351289, 'beta_0': 0.8975088504470691, 'beta_1': 0.994441252842211, 'epsilon': 4.219883645063514e-07, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 02:54:42,355] Trial 219 finished with value: 0.9208715596330275 and parameters: {'batch_size': 14, 'learning_rate': 1.2098255264199547e-05, 'weight_decay': 0.00034974603103055037, 'beta_0': 0.8971819784335897, 'beta_1': 0.9944068506870924, 'epsilon': 3.8556353992560234e-07, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 03:15:45,132] Trial 220 finished with value: 0.9162844036697247 and parameters: {'batch_size': 15, 'learning_rate': 3.5079115595188e-05, 'weight_decay': 0.0002948378946080661, 'beta_0': 0.8948679950782179, 'beta_1': 0.9932846072893882, 'epsilon': 4.480057880700549e-07, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 5, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 03:33:59,157] Trial 221 finished with value: 0.9254587155963303 and parameters: {'batch_size': 12, 'learning_rate': 1.755815237787414e-05, 'weight_decay': 0.00024078475858350663, 'beta_0': 0.8920055339220115, 'beta_1': 0.9937571544393574, 'epsilon': 3.1441871620833245e-07, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 03:52:22,469] Trial 222 finished with value: 0.9220183486238532 and parameters: {'batch_size': 12, 'learning_rate': 1.9407821147281782e-05, 'weight_decay': 0.00026201289885622377, 'beta_0': 0.891397309271785, 'beta_1': 0.9926757454542746, 'epsilon': 2.9815285771704996e-07, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 04:11:13,877] Trial 223 finished with value: 0.9151376146788991 and parameters: {'batch_size': 11, 'learning_rate': 2.484022605563296e-05, 'weight_decay': 0.00024427856947935306, 'beta_0': 0.8898356320790453, 'beta_1': 0.9941848081300345, 'epsilon': 5.486595548929347e-07, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 04:29:27,925] Trial 224 finished with value: 0.9288990825688074 and parameters: {'batch_size': 13, 'learning_rate': 1.1066282424057928e-05, 'weight_decay': 0.00022517103985851856, 'beta_0': 0.896682637473709, 'beta_1': 0.9934415741452428, 'epsilon': 3.4175307214669094e-07, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 8}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 04:47:45,930] Trial 225 finished with value: 0.9197247706422018 and parameters: {'batch_size': 13, 'learning_rate': 1.837162993887269e-05, 'weight_decay': 0.00019129209655217923, 'beta_0': 0.897344043748167, 'beta_1': 0.9934057466584987, 'epsilon': 3.3763267124618175e-07, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 8}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 05:06:09,326] Trial 226 finished with value: 0.911697247706422 and parameters: {'batch_size': 12, 'learning_rate': 2.7849280724634707e-05, 'weight_decay': 0.00027578223129658906, 'beta_0': 0.888062380706802, 'beta_1': 0.9937689505408644, 'epsilon': 3.85441557371031e-07, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 05:24:25,569] Trial 227 finished with value: 0.9208715596330275 and parameters: {'batch_size': 13, 'learning_rate': 2.2988321785458398e-05, 'weight_decay': 0.0002751579179782089, 'beta_0': 0.8926536542112108, 'beta_1': 0.9885413053442205, 'epsilon': 2.723458802661777e-07, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 05:42:39,231] Trial 228 finished with value: 0.911697247706422 and parameters: {'batch_size': 12, 'learning_rate': 2.9899516533734702e-05, 'weight_decay': 0.0002333820499582783, 'beta_0': 0.899029904573504, 'beta_1': 0.9929618545788351, 'epsilon': 4.6352118226452025e-07, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 06:00:55,240] Trial 229 finished with value: 0.926605504587156 and parameters: {'batch_size': 13, 'learning_rate': 1.1063498905659204e-05, 'weight_decay': 0.00020929959206952617, 'beta_0': 0.8956507460612964, 'beta_1': 0.9923347973116289, 'epsilon': 7.122638680956475e-07, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 8}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 06:19:14,385] Trial 230 finished with value: 0.9243119266055045 and parameters: {'batch_size': 13, 'learning_rate': 1.1539041161466819e-05, 'weight_decay': 0.00014629610321509302, 'beta_0': 0.89360759027585, 'beta_1': 0.9946480624798573, 'epsilon': 7.663701113688512e-07, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 7}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 06:37:03,708] Trial 231 finished with value: 0.926605504587156 and parameters: {'batch_size': 14, 'learning_rate': 1.098804841607903e-05, 'weight_decay': 0.00020650815671499745, 'beta_0': 0.8954482186771263, 'beta_1': 0.9922209547754369, 'epsilon': 5.862039029186267e-07, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 8}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 06:54:43,735] Trial 232 finished with value: 0.9174311926605505 and parameters: {'batch_size': 14, 'learning_rate': 2.11898855810384e-05, 'weight_decay': 0.00021507317093536824, 'beta_0': 0.8962447733035273, 'beta_1': 0.9923000168375931, 'epsilon': 6.848642438582871e-07, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 8}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 07:12:26,476] Trial 233 finished with value: 0.9220183486238532 and parameters: {'batch_size': 14, 'learning_rate': 1.1027817438387587e-05, 'weight_decay': 0.00016357801355813164, 'beta_0': 0.8963456792335314, 'beta_1': 0.992619506141828, 'epsilon': 5.832789431632743e-07, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 8}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 07:31:15,635] Trial 234 finished with value: 0.9220183486238532 and parameters: {'batch_size': 11, 'learning_rate': 1.1796469415735005e-05, 'weight_decay': 0.0002206845890696239, 'beta_0': 0.8946226358609844, 'beta_1': 0.9919323759189426, 'epsilon': 9.255303471616229e-07, 'balanced_loss': False, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 8}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 07:49:28,296] Trial 235 finished with value: 0.9231651376146789 and parameters: {'batch_size': 13, 'learning_rate': 1.0884413665025963e-05, 'weight_decay': 0.00018711324100918405, 'beta_0': 0.8911941324352403, 'beta_1': 0.9931005657996508, 'epsilon': 4.964357857482115e-07, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 7}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 08:07:40,610] Trial 236 finished with value: 0.9208715596330275 and parameters: {'batch_size': 13, 'learning_rate': 1.7708299539352713e-05, 'weight_decay': 0.00023520498982224956, 'beta_0': 0.8977031400448033, 'beta_1': 0.9934265729530034, 'epsilon': 6.975425950530948e-07, 'balanced_loss': True, 'epochs': 9, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 8}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 08:25:56,981] Trial 237 finished with value: 0.9197247706422018 and parameters: {'batch_size': 12, 'learning_rate': 1.1487459373231483e-05, 'weight_decay': 0.00032288848331343166, 'beta_0': 0.8953209223125242, 'beta_1': 0.9922606571139921, 'epsilon': 4.0994771511464634e-07, 'balanced_loss': True, 'epochs': 9, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 8}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 08:44:09,060] Trial 238 finished with value: 0.9220183486238532 and parameters: {'batch_size': 13, 'learning_rate': 1.082036766377003e-05, 'weight_decay': 0.00031258043988992783, 'beta_0': 0.8994312792006376, 'beta_1': 0.9939535362629249, 'epsilon': 5.028636525606105e-07, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 8}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 09:02:24,532] Trial 239 finished with value: 0.9208715596330275 and parameters: {'batch_size': 12, 'learning_rate': 1.0307181267113298e-05, 'weight_decay': 0.0002879644485849242, 'beta_0': 0.8929279819663837, 'beta_1': 0.9926805324408021, 'epsilon': 5.941547771080342e-07, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 4}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 09:20:07,172] Trial 240 finished with value: 0.9139908256880734 and parameters: {'batch_size': 14, 'learning_rate': 1.1111915720518092e-05, 'weight_decay': 0.00021971517315326212, 'beta_0': 0.8957629007563817, 'beta_1': 0.993648876982529, 'epsilon': 3.245225716194991e-07, 'balanced_loss': True, 'epochs': 7, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 09:41:16,048] Trial 241 finished with value: 0.9254587155963303 and parameters: {'batch_size': 13, 'learning_rate': 1.0011968741343887e-05, 'weight_decay': 0.0002573067935611962, 'beta_0': 0.864823133689296, 'beta_1': 0.9930509745364552, 'epsilon': 1.0785665027444235e-05, 'balanced_loss': True, 'epochs': 9, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 8}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 09:59:27,469] Trial 242 finished with value: 0.9208715596330275 and parameters: {'batch_size': 13, 'learning_rate': 1.2033662308182291e-05, 'weight_decay': 0.00025022410019514874, 'beta_0': 0.8664153384050524, 'beta_1': 0.9929741027233994, 'epsilon': 1.5966130274568987e-05, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 8}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 10:17:12,935] Trial 243 finished with value: 0.9243119266055045 and parameters: {'batch_size': 14, 'learning_rate': 1.0584557540560034e-05, 'weight_decay': 0.00020364572529854683, 'beta_0': 0.8873140901773283, 'beta_1': 0.9932463624282949, 'epsilon': 9.815968402062657e-06, 'balanced_loss': True, 'epochs': 9, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 8}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 10:35:28,302] Trial 244 finished with value: 0.9208715596330275 and parameters: {'batch_size': 12, 'learning_rate': 1.1372148004772863e-05, 'weight_decay': 0.0001686313005700559, 'beta_0': 0.8920632733591004, 'beta_1': 0.9924362719159994, 'epsilon': 1.7369262421477953e-05, 'balanced_loss': True, 'epochs': 9, 'early_stopping_patience': 4, 'plateau_patience': 3, 'plateau_divider': 7}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 10:53:39,911] Trial 245 finished with value: 0.9220183486238532 and parameters: {'batch_size': 13, 'learning_rate': 1.663317316493558e-05, 'weight_decay': 0.0002802523921634303, 'beta_0': 0.8968814203962594, 'beta_1': 0.994441360758831, 'epsilon': 4.2992668932508515e-07, 'balanced_loss': True, 'epochs': 9, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 8}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 11:11:54,852] Trial 246 finished with value: 0.9231651376146789 and parameters: {'batch_size': 13, 'learning_rate': 1.005686326306707e-05, 'weight_decay': 0.00024078867244481283, 'beta_0': 0.8938718195658127, 'beta_1': 0.991758901852706, 'epsilon': 7.698604866722671e-07, 'balanced_loss': True, 'epochs': 9, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 8}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 11:30:12,821] Trial 247 finished with value: 0.9288990825688074 and parameters: {'batch_size': 13, 'learning_rate': 1.0003331172153981e-05, 'weight_decay': 0.00036830041211097453, 'beta_0': 0.8984360956952226, 'beta_1': 0.9930203244647786, 'epsilon': 1.0891351714608173e-05, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 11:48:24,182] Trial 248 finished with value: 0.9231651376146789 and parameters: {'batch_size': 13, 'learning_rate': 1.047928166604031e-05, 'weight_decay': 0.0003960958341745877, 'beta_0': 0.8719431662100723, 'beta_1': 0.9930327819850384, 'epsilon': 8.49279654166332e-06, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 12:06:32,766] Trial 249 finished with value: 0.9162844036697247 and parameters: {'batch_size': 12, 'learning_rate': 1.0837733453615373e-05, 'weight_decay': 0.00030385879389541447, 'beta_0': 0.899654436912269, 'beta_1': 0.9935106061254061, 'epsilon': 1.1947068792046362e-05, 'balanced_loss': True, 'epochs': 7, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 12:24:52,168] Trial 250 finished with value: 0.9231651376146789 and parameters: {'batch_size': 13, 'learning_rate': 1.00108513205929e-05, 'weight_decay': 0.00037448555800224877, 'beta_0': 0.8964672055172686, 'beta_1': 0.9927101943698179, 'epsilon': 1.0203501101044164e-05, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 12:42:35,394] Trial 251 finished with value: 0.9151376146788991 and parameters: {'batch_size': 14, 'learning_rate': 1.097090170512911e-05, 'weight_decay': 0.0003138771229374397, 'beta_0': 0.8898510856773049, 'beta_1': 0.9941652279511926, 'epsilon': 7.492410775337715e-06, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 13:00:18,388] Trial 252 finished with value: 0.9162844036697247 and parameters: {'batch_size': 14, 'learning_rate': 1.0392925797604734e-05, 'weight_decay': 0.0002617120163460985, 'beta_0': 0.8971038768083515, 'beta_1': 0.9938172561181592, 'epsilon': 1.3541528429973212e-05, 'balanced_loss': True, 'epochs': 8, 'early_stopping_patience': 4, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[I 2025-01-17 13:15:28,313] Trial 253 finished with value: 0.9174311926605505 and parameters: {'batch_size': 12, 'learning_rate': 1.1228721416530109e-05, 'weight_decay': 0.0003624255601780187, 'beta_0': 0.8999590766562306, 'beta_1': 0.9921476516837551, 'epsilon': 2.542994104446355e-07, 'balanced_loss': True, 'epochs': 7, 'early_stopping_patience': 3, 'plateau_patience': 2, 'plateau_divider': 9}. Best is trial 198 with value: 0.9323394495412844.
+
+[TRIAL] 198 [VALIDATION PERFORMANCE] 0.9323394495412844 [TRAINING LOSS] 0.019480060691216623 [VALIDATION LOSS] 0.30607927707708715 
+
+number                                 198
+value                             0.932339
+params_balanced_loss                  True
+params_batch_size                       13
+params_early_stopping_patience           4
+params_epochs                            6
+params_learning_rate               0.00001
+params_plateau_divider                   9
+params_plateau_patience                  2
+params_weight_decay               0.000513
+params_beta_0                     0.824986
+params_beta_1                     0.995171
+params_epsilon                         0.0
+user_attrs_epoch                       6.0
+user_attrs_training_loss           0.01948
+user_attrs_validation_loss        0.306079
+Name: 198, dtype: object
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+37 Val: 0.9220183486238532 Test: 0.9082921471718836
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+38 Val: 0.9128440366972477 Test: 0.9181768259198243
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+39 Val: 0.9162844036697247 Test: 0.9192751235584844
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+40 Val: 0.9174311926605505 Test: 0.9176276771004942
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+41 Val: 0.9151376146788991 Test: 0.9077429983525536
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+42 Val: 0.9323394495412844 Test: 0.9187259747391543
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+43 Val: 0.9197247706422018 Test: 0.9181768259198243
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+44 Val: 0.9185779816513762 Test: 0.9176276771004942
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+45 Val: 0.9231651376146789 Test: 0.9170785282811642
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+46 Val: 0.9231651376146789 Test: 0.9176276771004942
+Validation performance: 91.28 & 92.01 ± 0.55 & 93.23
+Testing performance: 90.77 & 91.6 ± 0.43 & 91.93
+
+[TRIAL] 224 [VALIDATION PERFORMANCE] 0.9288990825688074 [TRAINING LOSS] 0.0327910077050468 [VALIDATION LOSS] 0.2980137015316252 
+
+number                                 224
+value                             0.928899
+params_balanced_loss                  True
+params_batch_size                       13
+params_early_stopping_patience           4
+params_epochs                            8
+params_learning_rate              0.000011
+params_plateau_divider                   8
+params_plateau_patience                  2
+params_weight_decay               0.000225
+params_beta_0                     0.896683
+params_beta_1                     0.993442
+params_epsilon                         0.0
+user_attrs_epoch                       4.0
+user_attrs_training_loss          0.032791
+user_attrs_validation_loss        0.298014
+Name: 224, dtype: object
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+37 Val: 0.9208715596330275 Test: 0.914332784184514
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+38 Val: 0.9174311926605505 Test: 0.9132344865458539
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+39 Val: 0.9208715596330275 Test: 0.9165293794618341
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+40 Val: 0.9208715596330275 Test: 0.9170785282811642
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+41 Val: 0.9185779816513762 Test: 0.9181768259198243
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+42 Val: 0.9288990825688074 Test: 0.9159802306425041
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+43 Val: 0.9151376146788991 Test: 0.9203734211971444
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+44 Val: 0.9231651376146789 Test: 0.9176276771004942
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+45 Val: 0.9254587155963303 Test: 0.9176276771004942
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+46 Val: 0.9197247706422018 Test: 0.9176276771004942
+Validation performance: 91.51 & 92.11 ± 0.4 & 92.89
+Testing performance: 91.32 & 91.69 ± 0.2 & 92.04
+
+[TRIAL] 247 [VALIDATION PERFORMANCE] 0.9288990825688074 [TRAINING LOSS] 0.03115904587299142 [VALIDATION LOSS] 0.3767554267285638 
+
+number                                 247
+value                             0.928899
+params_balanced_loss                  True
+params_batch_size                       13
+params_early_stopping_patience           4
+params_epochs                            8
+params_learning_rate               0.00001
+params_plateau_divider                   9
+params_plateau_patience                  2
+params_weight_decay               0.000368
+params_beta_0                     0.898436
+params_beta_1                      0.99302
+params_epsilon                    0.000011
+user_attrs_epoch                       5.0
+user_attrs_training_loss          0.031159
+user_attrs_validation_loss        0.376755
+Name: 247, dtype: object
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+37 Val: 0.9162844036697247 Test: 0.9110378912685337
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+38 Val: 0.9105504587155964 Test: 0.9132344865458539
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+39 Val: 0.9174311926605505 Test: 0.9181768259198243
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+40 Val: 0.9197247706422018 Test: 0.9159802306425041
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+41 Val: 0.9197247706422018 Test: 0.9137836353651839
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+42 Val: 0.9288990825688074 Test: 0.9170785282811642
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+43 Val: 0.9174311926605505 Test: 0.9192751235584844
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+44 Val: 0.9208715596330275 Test: 0.914332784184514
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+45 Val: 0.9254587155963303 Test: 0.914881933003844
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+46 Val: 0.9162844036697247 Test: 0.9137836353651839
+Validation performance: 91.06 & 91.93 ± 0.51 & 92.89
+Testing performance: 91.1 & 91.52 ± 0.25 & 91.93
+
+[TRIAL] 175 [VALIDATION PERFORMANCE] 0.9277522935779816 [TRAINING LOSS] 0.021653084540224195 [VALIDATION LOSS] 0.30756499755165456 
+
+number                                 175
+value                             0.927752
+params_balanced_loss                  True
+params_batch_size                       13
+params_early_stopping_patience           4
+params_epochs                            6
+params_learning_rate               0.00001
+params_plateau_divider                   9
+params_plateau_patience                  2
+params_weight_decay               0.000352
+params_beta_0                     0.844972
+params_beta_1                     0.993078
+params_epsilon                    0.000001
+user_attrs_epoch                       6.0
+user_attrs_training_loss          0.021653
+user_attrs_validation_loss        0.307565
+Name: 175, dtype: object
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+37 Val: 0.9231651376146789 Test: 0.9115870400878638
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+38 Val: 0.9128440366972477 Test: 0.9088412959912137
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+39 Val: 0.9128440366972477 Test: 0.9181768259198243
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+40 Val: 0.9231651376146789 Test: 0.9121361889071938
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+41 Val: 0.9208715596330275 Test: 0.9181768259198243
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+42 Val: 0.9277522935779816 Test: 0.9137836353651839
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+43 Val: 0.9231651376146789 Test: 0.9132344865458539
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+44 Val: 0.9208715596330275 Test: 0.9104887424492037
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+45 Val: 0.9220183486238532 Test: 0.9231191652937946
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+46 Val: 0.9162844036697247 Test: 0.9110378912685337
+Validation performance: 91.28 & 92.03 ± 0.48 & 92.78
+Testing performance: 90.88 & 91.41 ± 0.44 & 92.31
+
+[TRIAL] 63 [VALIDATION PERFORMANCE] 0.9277522935779816 [TRAINING LOSS] 0.015448170957176493 [VALIDATION LOSS] 0.31917094406226704 
+
+number                                  63
+value                             0.927752
+params_balanced_loss                  True
+params_batch_size                       13
+params_early_stopping_patience           5
+params_epochs                            9
+params_learning_rate              0.000011
+params_plateau_divider                   9
+params_plateau_patience                  2
+params_weight_decay               0.000038
+params_beta_0                     0.848526
+params_beta_1                     0.991322
+params_epsilon                         0.0
+user_attrs_epoch                       7.0
+user_attrs_training_loss          0.015448
+user_attrs_validation_loss        0.319171
+Name: 63, dtype: object
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+37 Val: 0.9231651376146789 Test: 0.9077429983525536
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+38 Val: 0.9185779816513762 Test: 0.9110378912685337
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+39 Val: 0.9243119266055045 Test: 0.9126853377265239
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+40 Val: 0.9220183486238532 Test: 0.914332784184514
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+41 Val: 0.9185779816513762 Test: 0.9126853377265239
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+42 Val: 0.9277522935779816 Test: 0.9159802306425041
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+43 Val: 0.9220183486238532 Test: 0.9231191652937946
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+44 Val: 0.9185779816513762 Test: 0.9187259747391543
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+45 Val: 0.9185779816513762 Test: 0.9165293794618341
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+46 Val: 0.9208715596330275 Test: 0.9181768259198243
+Validation performance: 91.86 & 92.14 ± 0.31 & 92.78
+Testing performance: 90.77 & 91.51 ± 0.44 & 92.31
+
+[SST-2] Elapsed time: 2538.943104585012 minutes.

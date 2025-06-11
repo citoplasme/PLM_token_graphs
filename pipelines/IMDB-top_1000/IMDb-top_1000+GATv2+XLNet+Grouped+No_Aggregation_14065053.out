@@ -1,0 +1,252 @@
+[I 2024-12-06 04:44:40,030] Using an existing study with name 'IMDb-top_1000-GATv2-xlnet-xlnet-base-cased-Grouped-No_Aggregation' instead of creating a new one.
+CUDA out of memory. Tried to allocate 5.43 GiB. GPU 0 has a total capacity of 44.56 GiB of which 4.38 GiB is free. Including non-PyTorch memory, this process has 40.18 GiB memory in use. Of the allocated memory 25.42 GiB is allocated by PyTorch, and 13.61 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[I 2024-12-06 04:52:23,259] Trial 377 finished with value: -1.0 and parameters: {'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'min', 'threshold': 0.9972351024896495, 'batch_size': 38, 'attention_heads': 12, 'hidden_dimension': 48, 'number_of_hidden_layers': 0, 'dropout_rate': 0.4463549964159891, 'global_pooling': 'max', 'learning_rate': 0.0036857440520796894, 'weight_decay': 2.0996993616215107e-05, 'beta_0': 0.8225134428566658, 'beta_1': 0.9876281574694671, 'epsilon': 4.052746451057427e-08, 'balanced_loss': True, 'epochs': 152, 'early_stopping_patience': 14, 'plateau_patience': 17, 'plateau_divider': 6}. Best is trial 371 with value: 0.9515151515151515.
+[I 2024-12-06 05:01:46,237] Trial 378 finished with value: 0.9090909090909091 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9372250573528116, 'batch_size': 36, 'attention_heads': 8, 'hidden_dimension': 35, 'number_of_hidden_layers': 0, 'dropout_rate': 0.5485918853412218, 'global_pooling': 'max', 'learning_rate': 0.00956014283938541, 'weight_decay': 0.0005961844070720947, 'beta_0': 0.854349657946988, 'beta_1': 0.988361954824308, 'epsilon': 3.1546018004778804e-08, 'balanced_loss': True, 'epochs': 106, 'early_stopping_patience': 13, 'plateau_patience': 16, 'plateau_divider': 6}. Best is trial 371 with value: 0.9515151515151515.
+CUDA out of memory. Tried to allocate 5.99 GiB. GPU 0 has a total capacity of 44.56 GiB of which 4.93 GiB is free. Including non-PyTorch memory, this process has 39.62 GiB memory in use. Of the allocated memory 28.02 GiB is allocated by PyTorch, and 10.44 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[I 2024-12-06 05:09:57,665] Trial 379 finished with value: -1.0 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9431472695566766, 'batch_size': 40, 'attention_heads': 13, 'hidden_dimension': 56, 'number_of_hidden_layers': 0, 'dropout_rate': 0.4255409714807794, 'global_pooling': 'sum', 'learning_rate': 0.013922447597779412, 'weight_decay': 1.7121307623875027e-05, 'beta_0': 0.8525203345912676, 'beta_1': 0.984969724907638, 'epsilon': 1.4337831134666551e-05, 'balanced_loss': True, 'epochs': 170, 'early_stopping_patience': 12, 'plateau_patience': 17, 'plateau_divider': 6}. Best is trial 371 with value: 0.9515151515151515.
+[I 2024-12-06 05:20:01,516] Trial 380 finished with value: 0.9272727272727272 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9399338242597007, 'batch_size': 37, 'attention_heads': 13, 'hidden_dimension': 47, 'number_of_hidden_layers': 0, 'dropout_rate': 0.44085276433365744, 'global_pooling': 'max', 'learning_rate': 0.0065058574304354, 'weight_decay': 1.1892676049523572e-05, 'beta_0': 0.8512620638440782, 'beta_1': 0.9806345514875147, 'epsilon': 2.1643655784987543e-08, 'balanced_loss': True, 'epochs': 145, 'early_stopping_patience': 22, 'plateau_patience': 18, 'plateau_divider': 6}. Best is trial 371 with value: 0.9515151515151515.
+CUDA out of memory. Tried to allocate 5.99 GiB. GPU 0 has a total capacity of 44.56 GiB of which 4.71 GiB is free. Including non-PyTorch memory, this process has 39.85 GiB memory in use. Of the allocated memory 27.73 GiB is allocated by PyTorch, and 10.97 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[I 2024-12-06 05:28:13,179] Trial 381 finished with value: -1.0 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9452893146441987, 'batch_size': 39, 'attention_heads': 13, 'hidden_dimension': 32, 'number_of_hidden_layers': 0, 'dropout_rate': 0.5865293456489912, 'global_pooling': 'max', 'learning_rate': 0.005318855917130254, 'weight_decay': 2.6958042061955215e-05, 'beta_0': 0.8574627707093369, 'beta_1': 0.9894123835263151, 'epsilon': 2.5661999773685325e-08, 'balanced_loss': True, 'epochs': 166, 'early_stopping_patience': 13, 'plateau_patience': 19, 'plateau_divider': 6}. Best is trial 371 with value: 0.9515151515151515.
+[I 2024-12-06 05:37:25,148] Trial 382 finished with value: 0.9393939393939394 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9944736497582709, 'batch_size': 40, 'attention_heads': 13, 'hidden_dimension': 38, 'number_of_hidden_layers': 0, 'dropout_rate': 0.4499814108146075, 'global_pooling': 'max', 'learning_rate': 0.0045700312914104865, 'weight_decay': 1.9356558978645698e-05, 'beta_0': 0.8546572569328699, 'beta_1': 0.9887272921931358, 'epsilon': 5.128521602502817e-08, 'balanced_loss': True, 'epochs': 121, 'early_stopping_patience': 15, 'plateau_patience': 17, 'plateau_divider': 6}. Best is trial 371 with value: 0.9515151515151515.
+[I 2024-12-06 05:48:04,896] Trial 383 finished with value: 0.8606060606060606 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9474288249884901, 'batch_size': 42, 'attention_heads': 13, 'hidden_dimension': 53, 'number_of_hidden_layers': 0, 'dropout_rate': 0.5535848660185709, 'global_pooling': 'max', 'learning_rate': 0.00024511027500039603, 'weight_decay': 1.508255326362362e-05, 'beta_0': 0.8495536916985161, 'beta_1': 0.988032552614589, 'epsilon': 2.0653035427427148e-06, 'balanced_loss': True, 'epochs': 126, 'early_stopping_patience': 17, 'plateau_patience': 18, 'plateau_divider': 6}. Best is trial 371 with value: 0.9515151515151515.
+[I 2024-12-06 05:58:20,015] Trial 384 finished with value: 0.9393939393939394 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9415726667013183, 'batch_size': 41, 'attention_heads': 13, 'hidden_dimension': 59, 'number_of_hidden_layers': 0, 'dropout_rate': 0.5389078075886944, 'global_pooling': 'max', 'learning_rate': 0.002769277127967558, 'weight_decay': 2.2492648279082774e-05, 'beta_0': 0.8744312796399678, 'beta_1': 0.9901221835679531, 'epsilon': 1.228897090908859e-06, 'balanced_loss': True, 'epochs': 154, 'early_stopping_patience': 13, 'plateau_patience': 17, 'plateau_divider': 6}. Best is trial 371 with value: 0.9515151515151515.
+CUDA out of memory. Tried to allocate 5.99 GiB. GPU 0 has a total capacity of 44.56 GiB of which 4.70 GiB is free. Including non-PyTorch memory, this process has 39.85 GiB memory in use. Of the allocated memory 27.98 GiB is allocated by PyTorch, and 10.72 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[I 2024-12-06 06:06:32,541] Trial 385 finished with value: -1.0 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9435350389954491, 'batch_size': 35, 'attention_heads': 12, 'hidden_dimension': 39, 'number_of_hidden_layers': 0, 'dropout_rate': 0.4989922993489153, 'global_pooling': 'max', 'learning_rate': 0.00044770433549928324, 'weight_decay': 1.003627808018587e-05, 'beta_0': 0.8524305731366136, 'beta_1': 0.9889397743989269, 'epsilon': 1.7805924800644913e-08, 'balanced_loss': True, 'epochs': 163, 'early_stopping_patience': 14, 'plateau_patience': 17, 'plateau_divider': 6}. Best is trial 371 with value: 0.9515151515151515.
+[I 2024-12-06 06:17:48,611] Trial 386 finished with value: 0.896969696969697 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9457725610963286, 'batch_size': 41, 'attention_heads': 12, 'hidden_dimension': 50, 'number_of_hidden_layers': 1, 'dropout_rate': 0.5774937100158167, 'global_pooling': 'max', 'learning_rate': 0.0070575429770254414, 'weight_decay': 1.7609255153049178e-05, 'beta_0': 0.8482284574573324, 'beta_1': 0.9893713179935927, 'epsilon': 3.316731028756231e-08, 'balanced_loss': True, 'epochs': 101, 'early_stopping_patience': 14, 'plateau_patience': 10, 'plateau_divider': 7}. Best is trial 371 with value: 0.9515151515151515.
+CUDA out of memory. Tried to allocate 5.99 GiB. GPU 0 has a total capacity of 44.56 GiB of which 5.14 GiB is free. Including non-PyTorch memory, this process has 39.42 GiB memory in use. Of the allocated memory 28.44 GiB is allocated by PyTorch, and 9.83 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[I 2024-12-06 06:26:00,026] Trial 387 finished with value: -1.0 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9399986165493274, 'batch_size': 39, 'attention_heads': 13, 'hidden_dimension': 44, 'number_of_hidden_layers': 0, 'dropout_rate': 0.5432110867116785, 'global_pooling': 'max', 'learning_rate': 0.010462028512842959, 'weight_decay': 1.3358973571781757e-05, 'beta_0': 0.8553513710967271, 'beta_1': 0.9898004982232269, 'epsilon': 2.3669602082135003e-08, 'balanced_loss': True, 'epochs': 173, 'early_stopping_patience': 13, 'plateau_patience': 18, 'plateau_divider': 6}. Best is trial 371 with value: 0.9515151515151515.
+[I 2024-12-06 06:35:29,678] Trial 388 finished with value: 0.9212121212121213 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9787552911333941, 'batch_size': 40, 'attention_heads': 9, 'hidden_dimension': 64, 'number_of_hidden_layers': 0, 'dropout_rate': 0.5493731757497249, 'global_pooling': 'sum', 'learning_rate': 0.008739931501438501, 'weight_decay': 0.0005022615070965229, 'beta_0': 0.8504463409889846, 'beta_1': 0.9883639736936577, 'epsilon': 4.127662681149324e-08, 'balanced_loss': True, 'epochs': 94, 'early_stopping_patience': 16, 'plateau_patience': 17, 'plateau_divider': 6}. Best is trial 371 with value: 0.9515151515151515.
+CUDA out of memory. Tried to allocate 3.37 GiB. GPU 0 has a total capacity of 44.56 GiB of which 1.00 GiB is free. Including non-PyTorch memory, this process has 43.55 GiB memory in use. Of the allocated memory 24.08 GiB is allocated by PyTorch, and 18.32 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[I 2024-12-06 06:44:32,517] Trial 389 finished with value: -1.0 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9487202675052417, 'batch_size': 42, 'attention_heads': 13, 'hidden_dimension': 119, 'number_of_hidden_layers': 0, 'dropout_rate': 0.5172112534969343, 'global_pooling': 'max', 'learning_rate': 0.006198689128476985, 'weight_decay': 1.601978054251105e-05, 'beta_0': 0.8412432870409488, 'beta_1': 0.9983305225838159, 'epsilon': 2.9063811984909868e-08, 'balanced_loss': True, 'epochs': 87, 'early_stopping_patience': 12, 'plateau_patience': 18, 'plateau_divider': 5}. Best is trial 371 with value: 0.9515151515151515.
+CUDA out of memory. Tried to allocate 5.99 GiB. GPU 0 has a total capacity of 44.56 GiB of which 4.93 GiB is free. Including non-PyTorch memory, this process has 39.62 GiB memory in use. Of the allocated memory 28.08 GiB is allocated by PyTorch, and 10.39 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[I 2024-12-06 06:52:44,039] Trial 390 finished with value: -1.0 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9426210616219799, 'batch_size': 64, 'attention_heads': 13, 'hidden_dimension': 59, 'number_of_hidden_layers': 0, 'dropout_rate': 0.4343523782229914, 'global_pooling': 'max', 'learning_rate': 0.012591585296997587, 'weight_decay': 1.9635165546366123e-05, 'beta_0': 0.8534731910757096, 'beta_1': 0.9869022090294902, 'epsilon': 6.559109724536157e-08, 'balanced_loss': True, 'epochs': 159, 'early_stopping_patience': 14, 'plateau_patience': 17, 'plateau_divider': 6}. Best is trial 371 with value: 0.9515151515151515.
+CUDA out of memory. Tried to allocate 6.98 GiB. GPU 0 has a total capacity of 44.56 GiB of which 1.41 GiB is free. Including non-PyTorch memory, this process has 43.14 GiB memory in use. Of the allocated memory 32.46 GiB is allocated by PyTorch, and 9.53 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[I 2024-12-06 07:01:46,872] Trial 391 finished with value: -1.0 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9444273998500995, 'batch_size': 44, 'attention_heads': 13, 'hidden_dimension': 219, 'number_of_hidden_layers': 0, 'dropout_rate': 0.568950944952013, 'global_pooling': 'max', 'learning_rate': 0.007637197844629809, 'weight_decay': 1.2321577915833297e-06, 'beta_0': 0.8580623413646952, 'beta_1': 0.9878565678036665, 'epsilon': 2.0839709800864986e-08, 'balanced_loss': True, 'epochs': 167, 'early_stopping_patience': 13, 'plateau_patience': 16, 'plateau_divider': 6}. Best is trial 371 with value: 0.9515151515151515.
+[I 2024-12-06 07:11:54,255] Trial 392 finished with value: 0.8848484848484849 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9382138592394393, 'batch_size': 38, 'attention_heads': 13, 'hidden_dimension': 53, 'number_of_hidden_layers': 0, 'dropout_rate': 0.5539149426187367, 'global_pooling': 'max', 'learning_rate': 0.005052201736220691, 'weight_decay': 2.370138285762661e-05, 'beta_0': 0.8614088049210725, 'beta_1': 0.990572417853468, 'epsilon': 1.632935364594339e-08, 'balanced_loss': True, 'epochs': 98, 'early_stopping_patience': 14, 'plateau_patience': 16, 'plateau_divider': 6}. Best is trial 371 with value: 0.9515151515151515.
+[I 2024-12-06 07:21:07,584] Trial 393 finished with value: 0.9333333333333333 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9959217440135967, 'batch_size': 41, 'attention_heads': 12, 'hidden_dimension': 69, 'number_of_hidden_layers': 0, 'dropout_rate': 0.563547528437017, 'global_pooling': 'max', 'learning_rate': 0.017558970713263032, 'weight_decay': 3.679153411583495e-05, 'beta_0': 0.8481151863622446, 'beta_1': 0.98895667359385, 'epsilon': 8.552046267177813e-06, 'balanced_loss': True, 'epochs': 116, 'early_stopping_patience': 13, 'plateau_patience': 18, 'plateau_divider': 6}. Best is trial 371 with value: 0.9515151515151515.
+CUDA out of memory. Tried to allocate 5.99 GiB. GPU 0 has a total capacity of 44.56 GiB of which 2.65 GiB is free. Including non-PyTorch memory, this process has 41.91 GiB memory in use. Of the allocated memory 26.90 GiB is allocated by PyTorch, and 13.86 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[I 2024-12-06 07:29:20,179] Trial 394 finished with value: -1.0 and parameters: {'attention_pooling_operation': 'min', 'embedding_pooling_operation': 'min', 'threshold': 0.9507993715949177, 'batch_size': 42, 'attention_heads': 11, 'hidden_dimension': 63, 'number_of_hidden_layers': 0, 'dropout_rate': 0.5736886006820909, 'global_pooling': 'sum', 'learning_rate': 0.009146075554881707, 'weight_decay': 2.868938457277392e-05, 'beta_0': 0.8510033452929876, 'beta_1': 0.9885179372964882, 'epsilon': 9.735348182003792e-05, 'balanced_loss': True, 'epochs': 171, 'early_stopping_patience': 13, 'plateau_patience': 17, 'plateau_divider': 7}. Best is trial 371 with value: 0.9515151515151515.
+CUDA out of memory. Tried to allocate 5.99 GiB. GPU 0 has a total capacity of 44.56 GiB of which 4.93 GiB is free. Including non-PyTorch memory, this process has 39.62 GiB memory in use. Of the allocated memory 28.31 GiB is allocated by PyTorch, and 10.17 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[I 2024-12-06 07:37:32,069] Trial 395 finished with value: -1.0 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'max', 'threshold': 0.9409699511255075, 'batch_size': 37, 'attention_heads': 13, 'hidden_dimension': 55, 'number_of_hidden_layers': 0, 'dropout_rate': 0.5354026477782386, 'global_pooling': 'max', 'learning_rate': 0.003423642301071106, 'weight_decay': 1.1405897042663381e-05, 'beta_0': 0.8429594910791056, 'beta_1': 0.9900338042494718, 'epsilon': 8.946776019769453e-08, 'balanced_loss': True, 'epochs': 164, 'early_stopping_patience': 17, 'plateau_patience': 19, 'plateau_divider': 6}. Best is trial 371 with value: 0.9515151515151515.
+[I 2024-12-06 07:47:24,003] Trial 396 finished with value: 0.9272727272727272 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9437803841429198, 'batch_size': 40, 'attention_heads': 13, 'hidden_dimension': 40, 'number_of_hidden_layers': 0, 'dropout_rate': 0.5567584783115591, 'global_pooling': 'max', 'learning_rate': 0.01139534204332192, 'weight_decay': 0.0008459051836856393, 'beta_0': 0.855246130570307, 'beta_1': 0.9895892979782076, 'epsilon': 1.5977851443954279e-06, 'balanced_loss': True, 'epochs': 156, 'early_stopping_patience': 15, 'plateau_patience': 17, 'plateau_divider': 6}. Best is trial 371 with value: 0.9515151515151515.
+CUDA out of memory. Tried to allocate 5.99 GiB. GPU 0 has a total capacity of 44.56 GiB of which 5.89 GiB is free. Including non-PyTorch memory, this process has 38.66 GiB memory in use. Of the allocated memory 28.96 GiB is allocated by PyTorch, and 8.55 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[I 2024-12-06 07:55:35,879] Trial 397 finished with value: -1.0 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9361670989220338, 'batch_size': 39, 'attention_heads': 13, 'hidden_dimension': 48, 'number_of_hidden_layers': 4, 'dropout_rate': 0.5921873010794821, 'global_pooling': 'max', 'learning_rate': 0.0060761890577205255, 'weight_decay': 0.00039732667577122217, 'beta_0': 0.8702665595778076, 'beta_1': 0.9892238002806065, 'epsilon': 2.119994209782519e-08, 'balanced_loss': False, 'epochs': 162, 'early_stopping_patience': 14, 'plateau_patience': 18, 'plateau_divider': 5}. Best is trial 371 with value: 0.9515151515151515.
+[I 2024-12-06 08:05:27,709] Trial 398 finished with value: 0.9272727272727272 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9466061556694451, 'batch_size': 43, 'attention_heads': 14, 'hidden_dimension': 60, 'number_of_hidden_layers': 0, 'dropout_rate': 0.5461383134552595, 'global_pooling': 'max', 'learning_rate': 0.007378553742648471, 'weight_decay': 1.4637549071176549e-05, 'beta_0': 0.8530015742125271, 'beta_1': 0.9933183970078799, 'epsilon': 3.490324899343136e-08, 'balanced_loss': True, 'epochs': 148, 'early_stopping_patience': 13, 'plateau_patience': 16, 'plateau_divider': 6}. Best is trial 371 with value: 0.9515151515151515.
+CUDA out of memory. Tried to allocate 5.99 GiB. GPU 0 has a total capacity of 44.56 GiB of which 2.35 GiB is free. Including non-PyTorch memory, this process has 42.20 GiB memory in use. Of the allocated memory 28.75 GiB is allocated by PyTorch, and 12.30 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[I 2024-12-06 08:15:27,498] Trial 399 finished with value: -1.0 and parameters: {'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'min', 'threshold': 0.9903905214323224, 'batch_size': 41, 'attention_heads': 13, 'hidden_dimension': 65, 'number_of_hidden_layers': 0, 'dropout_rate': 0.5257851025814879, 'global_pooling': 'max', 'learning_rate': 0.00440347124862633, 'weight_decay': 2.1096576591385764e-05, 'beta_0': 0.8473703924439705, 'beta_1': 0.987311753842012, 'epsilon': 2.025282400303317e-08, 'balanced_loss': True, 'epochs': 179, 'early_stopping_patience': 24, 'plateau_patience': 17, 'plateau_divider': 6}. Best is trial 371 with value: 0.9515151515151515.
+[I 2024-12-06 08:25:08,698] Trial 400 finished with value: 0.9454545454545454 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9417853606320261, 'batch_size': 42, 'attention_heads': 13, 'hidden_dimension': 36, 'number_of_hidden_layers': 0, 'dropout_rate': 0.541793210840176, 'global_pooling': 'max', 'learning_rate': 0.00932700397916777, 'weight_decay': 0.0006908226862255151, 'beta_0': 0.8396985388004174, 'beta_1': 0.9880418968489434, 'epsilon': 2.7520442373954187e-08, 'balanced_loss': False, 'epochs': 159, 'early_stopping_patience': 12, 'plateau_patience': 18, 'plateau_divider': 5}. Best is trial 371 with value: 0.9515151515151515.
+[I 2024-12-06 08:34:59,343] Trial 401 finished with value: 0.9272727272727272 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9419405913875136, 'batch_size': 40, 'attention_heads': 14, 'hidden_dimension': 35, 'number_of_hidden_layers': 0, 'dropout_rate': 0.5816944463967226, 'global_pooling': 'max', 'learning_rate': 0.013573991315685027, 'weight_decay': 0.0008763670471541505, 'beta_0': 0.8370598940687033, 'beta_1': 0.9876236083531686, 'epsilon': 2.769073034029782e-08, 'balanced_loss': True, 'epochs': 167, 'early_stopping_patience': 12, 'plateau_patience': 19, 'plateau_divider': 5}. Best is trial 371 with value: 0.9515151515151515.
+[I 2024-12-06 08:46:20,056] Trial 402 finished with value: 0.8424242424242424 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9392691476975918, 'batch_size': 41, 'attention_heads': 13, 'hidden_dimension': 40, 'number_of_hidden_layers': 0, 'dropout_rate': 0.5391108289047447, 'global_pooling': 'sum', 'learning_rate': 6.567116427015704e-05, 'weight_decay': 0.0005218666356030066, 'beta_0': 0.8348348636214515, 'beta_1': 0.988239441815043, 'epsilon': 3.060244187119546e-08, 'balanced_loss': True, 'epochs': 160, 'early_stopping_patience': 11, 'plateau_patience': 18, 'plateau_divider': 5}. Best is trial 371 with value: 0.9515151515151515.
+CUDA out of memory. Tried to allocate 5.99 GiB. GPU 0 has a total capacity of 44.56 GiB of which 2.63 GiB is free. Including non-PyTorch memory, this process has 41.93 GiB memory in use. Of the allocated memory 28.03 GiB is allocated by PyTorch, and 12.74 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[I 2024-12-06 08:54:32,095] Trial 403 finished with value: -1.0 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9430724916563981, 'batch_size': 38, 'attention_heads': 4, 'hidden_dimension': 35, 'number_of_hidden_layers': 0, 'dropout_rate': 0.5309231713159919, 'global_pooling': 'max', 'learning_rate': 0.01031886167171142, 'weight_decay': 0.0005975059604564526, 'beta_0': 0.8494681987896, 'beta_1': 0.9813798495548814, 'epsilon': 2.4733040010182236e-08, 'balanced_loss': False, 'epochs': 164, 'early_stopping_patience': 12, 'plateau_patience': 18, 'plateau_divider': 5}. Best is trial 371 with value: 0.9515151515151515.
+[I 2024-12-06 09:04:10,797] Trial 404 finished with value: 0.9212121212121213 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.940668843782762, 'batch_size': 42, 'attention_heads': 14, 'hidden_dimension': 45, 'number_of_hidden_layers': 0, 'dropout_rate': 0.5660186456989746, 'global_pooling': 'max', 'learning_rate': 0.00581819757840854, 'weight_decay': 0.0007338735095280302, 'beta_0': 0.8765783027287983, 'beta_1': 0.9879038779533508, 'epsilon': 1.661356193940635e-08, 'balanced_loss': True, 'epochs': 103, 'early_stopping_patience': 11, 'plateau_patience': 22, 'plateau_divider': 4}. Best is trial 371 with value: 0.9515151515151515.
+[I 2024-12-06 09:15:33,967] Trial 405 finished with value: 0.8363636363636363 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9461599366770587, 'batch_size': 40, 'attention_heads': 12, 'hidden_dimension': 32, 'number_of_hidden_layers': 0, 'dropout_rate': 0.5997612604835552, 'global_pooling': 'max', 'learning_rate': 4.069027191441447e-05, 'weight_decay': 1.765592034496019e-05, 'beta_0': 0.8388468180722362, 'beta_1': 0.9885841465427697, 'epsilon': 3.445766943486655e-05, 'balanced_loss': True, 'epochs': 159, 'early_stopping_patience': 16, 'plateau_patience': 19, 'plateau_divider': 5}. Best is trial 371 with value: 0.9515151515151515.
+[I 2024-12-06 09:25:16,339] Trial 406 finished with value: 0.9333333333333333 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.944022784396277, 'batch_size': 39, 'attention_heads': 13, 'hidden_dimension': 38, 'number_of_hidden_layers': 0, 'dropout_rate': 0.5563125128276811, 'global_pooling': 'max', 'learning_rate': 0.008062901362955645, 'weight_decay': 0.0006514589714825444, 'beta_0': 0.8839944944673807, 'beta_1': 0.9881015830277622, 'epsilon': 4.6012890487271665e-08, 'balanced_loss': False, 'epochs': 169, 'early_stopping_patience': 11, 'plateau_patience': 18, 'plateau_divider': 5}. Best is trial 371 with value: 0.9515151515151515.
+CUDA out of memory. Tried to allocate 4.66 GiB. GPU 0 has a total capacity of 44.56 GiB of which 120.69 MiB is free. Including non-PyTorch memory, this process has 44.44 GiB memory in use. Of the allocated memory 30.89 GiB is allocated by PyTorch, and 12.39 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[I 2024-12-06 09:34:18,003] Trial 407 finished with value: -1.0 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9378028683283415, 'batch_size': 36, 'attention_heads': 15, 'hidden_dimension': 134, 'number_of_hidden_layers': 0, 'dropout_rate': 0.5425443440864061, 'global_pooling': 'max', 'learning_rate': 0.007073945237474163, 'weight_decay': 0.0006809199974569279, 'beta_0': 0.8519785262349872, 'beta_1': 0.9801345856059637, 'epsilon': 3.558317179072115e-08, 'balanced_loss': True, 'epochs': 113, 'early_stopping_patience': 15, 'plateau_patience': 18, 'plateau_divider': 5}. Best is trial 371 with value: 0.9515151515151515.
+[I 2024-12-06 09:43:59,068] Trial 408 finished with value: 0.9333333333333333 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9490671657686295, 'batch_size': 42, 'attention_heads': 13, 'hidden_dimension': 42, 'number_of_hidden_layers': 0, 'dropout_rate': 0.4393728561799656, 'global_pooling': 'max', 'learning_rate': 0.00512666706835572, 'weight_decay': 1.327413020010128e-05, 'beta_0': 0.8302088220389681, 'beta_1': 0.9874663638500188, 'epsilon': 1.784268426877205e-08, 'balanced_loss': True, 'epochs': 91, 'early_stopping_patience': 12, 'plateau_patience': 18, 'plateau_divider': 5}. Best is trial 371 with value: 0.9515151515151515.
+[I 2024-12-06 09:53:54,448] Trial 409 finished with value: 0.9151515151515152 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9417916352878613, 'batch_size': 44, 'attention_heads': 13, 'hidden_dimension': 49, 'number_of_hidden_layers': 0, 'dropout_rate': 0.5605330322571801, 'global_pooling': 'max', 'learning_rate': 0.008888984885056442, 'weight_decay': 2.337383914068143e-05, 'beta_0': 0.8560238449849237, 'beta_1': 0.9841547076691762, 'epsilon': 2.26372271487796e-08, 'balanced_loss': False, 'epochs': 166, 'early_stopping_patience': 10, 'plateau_patience': 18, 'plateau_divider': 5}. Best is trial 371 with value: 0.9515151515151515.
+[I 2024-12-06 10:05:30,248] Trial 410 finished with value: 0.806060606060606 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9453323981483918, 'batch_size': 41, 'attention_heads': 14, 'hidden_dimension': 44, 'number_of_hidden_layers': 1, 'dropout_rate': 0.45045928860186013, 'global_pooling': 'sum', 'learning_rate': 0.014473571332632364, 'weight_decay': 8.230026824219052e-06, 'beta_0': 0.8501412052348736, 'beta_1': 0.988782598319129, 'epsilon': 2.6634076940852404e-08, 'balanced_loss': True, 'epochs': 108, 'early_stopping_patience': 14, 'plateau_patience': 13, 'plateau_divider': 6}. Best is trial 371 with value: 0.9515151515151515.
+[I 2024-12-06 10:15:17,830] Trial 411 finished with value: 0.9272727272727272 and parameters: {'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.9398038038619728, 'batch_size': 37, 'attention_heads': 13, 'hidden_dimension': 37, 'number_of_hidden_layers': 0, 'dropout_rate': 0.5498266852881069, 'global_pooling': 'max', 'learning_rate': 0.010744195032247293, 'weight_decay': 1.5847297793260163e-05, 'beta_0': 0.8534338167438824, 'beta_1': 0.9883042194902559, 'epsilon': 1.3780584074277116e-08, 'balanced_loss': True, 'epochs': 161, 'early_stopping_patience': 18, 'plateau_patience': 16, 'plateau_divider': 4}. Best is trial 371 with value: 0.9515151515151515.
+
+[TRIAL] 371 [VALIDATION PERFORMANCE] 0.9515151515151515 [TRAINING LOSS] 0.0020016410764163504 [VALIDATION LOSS] 0.17175753564806656 
+
+number                                     371
+value                                 0.951515
+params_threshold                      0.993168
+params_attention_heads                      13
+params_balanced_loss                      True
+params_embedding_pooling_operation         min
+params_attention_pooling_operation         max
+params_batch_size                           40
+params_dropout_rate                   0.442699
+params_early_stopping_patience              13
+params_epochs                              156
+params_global_pooling                      max
+params_hidden_dimension                     41
+params_learning_rate                  0.004868
+params_number_of_hidden_layers               0
+params_plateau_divider                       7
+params_plateau_patience                     17
+params_weight_decay                   0.000021
+params_beta_0                         0.855274
+params_beta_1                         0.990326
+params_epsilon                             0.0
+user_attrs_epoch                          22.0
+user_attrs_training_loss              0.002002
+user_attrs_validation_loss            0.171758
+Name: 371, dtype: object
+37 Val: 0.9333333333333333 Test: 0.9104477611940298
+38 Val: 0.9272727272727272 Test: 0.9223880597014925
+39 Val: 0.9090909090909091 Test: 0.9074626865671642
+40 Val: 0.9333333333333333 Test: 0.9134328358208955
+41 Val: 0.9030303030303031 Test: 0.9223880597014925
+42 Val: 0.9515151515151515 Test: 0.9343283582089552
+43 Val: 0.9090909090909091 Test: 0.9223880597014925
+44 Val: 0.9272727272727272 Test: 0.9313432835820895
+45 Val: 0.9272727272727272 Test: 0.9253731343283582
+46 Val: 0.896969696969697 Test: 0.9014925373134328
+Validation performance: 89.7 & 92.18 ± 1.68 & 95.15
+Testing performance: 90.15 & 91.91 ± 1.06 & 93.43
+
+[TRIAL] 80 [VALIDATION PERFORMANCE] 0.9454545454545454 [TRAINING LOSS] 0.06956210860516876 [VALIDATION LOSS] 0.21663742363452912 
+
+number                                      80
+value                                 0.945455
+params_threshold                      0.960593
+params_attention_heads                      14
+params_balanced_loss                      True
+params_embedding_pooling_operation         min
+params_attention_pooling_operation         max
+params_batch_size                           38
+params_dropout_rate                   0.560496
+params_early_stopping_patience              18
+params_epochs                              150
+params_global_pooling                     mean
+params_hidden_dimension                     70
+params_learning_rate                  0.016975
+params_number_of_hidden_layers               0
+params_plateau_divider                       6
+params_plateau_patience                     18
+params_weight_decay                    0.00001
+params_beta_0                         0.851595
+params_beta_1                         0.995237
+params_epsilon                        0.000001
+user_attrs_epoch                          30.0
+user_attrs_training_loss              0.069562
+user_attrs_validation_loss            0.216637
+Name: 80, dtype: object
+37 Val: 0.9030303030303031 Test: 0.9074626865671642
+38 Val: 0.9212121212121213 Test: 0.9283582089552239
+39 Val: 0.9393939393939394 Test: 0.9343283582089552
+40 Val: 0.9151515151515152 Test: 0.9283582089552239
+41 Val: 0.9212121212121213 Test: 0.9164179104477612
+42 Val: 0.9393939393939394 Test: 0.9253731343283582
+43 Val: 0.9272727272727272 Test: 0.9194029850746268
+44 Val: 0.9333333333333333 Test: 0.9253731343283582
+45 Val: 0.8909090909090909 Test: 0.9044776119402985
+46 Val: 0.9090909090909091 Test: 0.9104477611940298
+Validation performance: 89.09 & 92.0 ± 1.59 & 93.94
+Testing performance: 90.45 & 92.0 ± 1.0 & 93.43
+
+[TRIAL] 261 [VALIDATION PERFORMANCE] 0.9454545454545454 [TRAINING LOSS] 0.6751852630494306 [VALIDATION LOSS] 0.2288305599526211 
+
+number                                     261
+value                                 0.945455
+params_threshold                      0.943363
+params_attention_heads                      14
+params_balanced_loss                      True
+params_embedding_pooling_operation         min
+params_attention_pooling_operation         max
+params_batch_size                           41
+params_dropout_rate                   0.563795
+params_early_stopping_patience              17
+params_epochs                              108
+params_global_pooling                      max
+params_hidden_dimension                     38
+params_learning_rate                  0.007964
+params_number_of_hidden_layers               0
+params_plateau_divider                       6
+params_plateau_patience                     17
+params_weight_decay                   0.000303
+params_beta_0                         0.875978
+params_beta_1                         0.981615
+params_epsilon                             0.0
+user_attrs_epoch                          20.0
+user_attrs_training_loss              0.675185
+user_attrs_validation_loss            0.228831
+Name: 261, dtype: object
+37 Val: 0.9333333333333333 Test: 0.9253731343283582
+38 Val: 0.9454545454545454 Test: 0.9283582089552239
+39 Val: 0.9333333333333333 Test: 0.9104477611940298
+40 Val: 0.9454545454545454 Test: 0.9373134328358209
+41 Val: 0.9393939393939394 Test: 0.9194029850746268
+42 Val: 0.9393939393939394 Test: 0.9134328358208955
+43 Val: 0.9333333333333333 Test: 0.9253731343283582
+44 Val: 0.9272727272727272 Test: 0.9223880597014925
+45 Val: 0.9393939393939394 Test: 0.9074626865671642
+46 Val: 0.9393939393939394 Test: 0.9253731343283582
+Validation performance: 92.73 & 93.76 ± 0.57 & 94.55
+Testing performance: 90.75 & 92.15 ± 0.9 & 93.73
+
+[TRIAL] 400 [VALIDATION PERFORMANCE] 0.9454545454545454 [TRAINING LOSS] 0.1145316037000157 [VALIDATION LOSS] 0.22967049852013588 
+
+number                                     400
+value                                 0.945455
+params_threshold                      0.941785
+params_attention_heads                      13
+params_balanced_loss                     False
+params_embedding_pooling_operation         min
+params_attention_pooling_operation         max
+params_batch_size                           42
+params_dropout_rate                   0.541793
+params_early_stopping_patience              12
+params_epochs                              159
+params_global_pooling                      max
+params_hidden_dimension                     36
+params_learning_rate                  0.009327
+params_number_of_hidden_layers               0
+params_plateau_divider                       5
+params_plateau_patience                     18
+params_weight_decay                   0.000691
+params_beta_0                         0.839699
+params_beta_1                         0.988042
+params_epsilon                             0.0
+user_attrs_epoch                          17.0
+user_attrs_training_loss              0.114532
+user_attrs_validation_loss             0.22967
+Name: 400, dtype: object
+37 Val: 0.9575757575757575 Test: 0.9164179104477612
+38 Val: 0.9212121212121213 Test: 0.9134328358208955
+39 Val: 0.8121212121212121 Test: 0.8298507462686567
+40 Val: 0.9212121212121213 Test: 0.9313432835820895
+41 Val: 0.9393939393939394 Test: 0.9134328358208955
+42 Val: 0.9212121212121213 Test: 0.8835820895522388
+43 Val: 0.7818181818181819 Test: 0.826865671641791
+44 Val: 0.8787878787878788 Test: 0.9134328358208955
+45 Val: 0.9212121212121213 Test: 0.8985074626865671
+46 Val: 0.9454545454545454 Test: 0.9253731343283582
+Validation performance: 78.18 & 90.0 ± 5.86 & 95.76
+Testing performance: 82.69 & 89.52 ± 3.76 & 93.13
+
+[TRIAL] 166 [VALIDATION PERFORMANCE] 0.9454545454545454 [TRAINING LOSS] 0.010621709299287501 [VALIDATION LOSS] 0.250851571187377 
+
+number                                     166
+value                                 0.945455
+params_threshold                      0.946377
+params_attention_heads                      13
+params_balanced_loss                      True
+params_embedding_pooling_operation         min
+params_attention_pooling_operation         max
+params_batch_size                           41
+params_dropout_rate                   0.549773
+params_early_stopping_patience              13
+params_epochs                              159
+params_global_pooling                      max
+params_hidden_dimension                     58
+params_learning_rate                   0.00604
+params_number_of_hidden_layers               0
+params_plateau_divider                       6
+params_plateau_patience                     16
+params_weight_decay                   0.000015
+params_beta_0                         0.853739
+params_beta_1                         0.989144
+params_epsilon                             0.0
+user_attrs_epoch                          22.0
+user_attrs_training_loss              0.010622
+user_attrs_validation_loss            0.250852
+Name: 166, dtype: object
+37 Val: 0.8545454545454545 Test: 0.8686567164179104
+38 Val: 0.9454545454545454 Test: 0.9253731343283582
+39 Val: 0.9333333333333333 Test: 0.9283582089552239
+40 Val: 0.9393939393939394 Test: 0.9223880597014925
+41 Val: 0.9333333333333333 Test: 0.9313432835820895
+42 Val: 0.9454545454545454 Test: 0.9134328358208955
+43 Val: 0.9333333333333333 Test: 0.9313432835820895
+44 Val: 0.9333333333333333 Test: 0.9194029850746268
+45 Val: 0.9393939393939394 Test: 0.9134328358208955
+46 Val: 0.9333333333333333 Test: 0.9283582089552239
+Validation performance: 85.45 & 92.91 ± 2.67 & 94.55
+Testing performance: 86.87 & 91.82 ± 1.86 & 93.13
+
+[IMDb-top_1000] Elapsed time: 823.1835887511571 minutes.

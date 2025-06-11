@@ -1,0 +1,220 @@
+import os
+import torch
+import numpy as np
+import pandas as pd
+import time
+import argparse
+import optuna
+import random
+import gc
+import re
+
+import utils
+import construct_graphs
+
+import warnings
+warnings.filterwarnings('ignore')
+
+st = time.time()
+
+# ===========================================================================
+# ============================ Global parameters ============================
+# ===========================================================================
+
+SEED = 42
+
+DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+STORAGE_PATH = '/scratch/ssd004/scratch/pimentel/DynamicCOO/outputs/'
+
+NUMBER_OF_TEST_RUNS = 10
+TOP_N = 5
+
+# ===========================================================================
+# ============================== Model training =============================
+# ===========================================================================
+
+def get_random_document(
+    testing_df,
+    #
+    random_state,
+    #
+    chunk_size,
+    left_stride,
+    right_stride,
+    attention_pooling_operation,
+    embedding_pooling_operation,
+    threshold,
+  ):
+  
+  gc.collect()
+  torch.cuda.empty_cache()
+  
+  torch.manual_seed(random_state)
+  torch.cuda.manual_seed_all(random_state)
+  np.random.seed(random_state)
+  random.seed(random_state)
+
+  torch.backends.cudnn.deterministic = True
+  torch.backends.cudnn.benchmark = False
+
+  # ===========================================================================
+  # =============================== Data loading ==============================
+  # ===========================================================================
+
+  os.makedirs(os.path.join('.', 'data', f'{LARGE_LANGUAGE_MODEL.replace("/", "-")}', DATASET), exist_ok = True)
+  l = [x for x in os.listdir(os.path.join('.', 'data', f'{LARGE_LANGUAGE_MODEL.replace("/", "-")}', DATASET)) if x.endswith('.csv')]
+  if len(l) > 0:
+    i = int(re.sub(r'-.*\.csv', '', l[0]))
+  else:
+    i = np.random.randint(low = 0, high = testing_df.shape[0])
+  row = testing_df.iloc[i]
+
+  graph = construct_graphs.construct_PyG_graph_from_LLM(
+    text = row['text'],
+    label = row['label'],
+    split = 'test',
+    index = i,
+    #
+    chunk_size = chunk_size,
+    left_stride = left_stride,
+    right_stride = right_stride,
+    #
+    surrogate = SURROGATE,
+    attention_pooling = attention_pooling_operation,
+    embedding_pooling = embedding_pooling_operation,
+    threshold = threshold,
+    aggregation_level = AGGREGATION_LEVEL,
+    #
+    llm = LLM,
+    tokenizer = TOKENIZER,
+    attention_output_key = ATTENTION_OUTPUT_KEY,
+    embedding_output_key = EMBEDDING_OUTPUT_KEY,
+    maximum_chunk_size = MAXIMUM_SEQUENCE_LENGTH,
+    layers = LAYERS,
+    heads = HEADS,
+    #
+    device = DEVICE
+  )
+
+  # Pooling edge_attr_aggregated to a single value for visual purposes
+  edge_attr_aggregated = construct_graphs.get_pooling_operation_from_string(attention_pooling_operation)(graph['edge_attr'], dim = 1, keepdim = True)  
+  if not torch.is_tensor(edge_attr_aggregated): # attention_pooling not in ['mean', 'sum']:
+    edge_attr_aggregated = edge_attr_aggregated.values
+  
+  pd.DataFrame(
+    {
+      'from_ids' : graph['from_ids'],
+      'from' : graph['from_tokens'],
+      'from_PyG_identifiers' : graph['from_PyG_identifiers'],
+      'to_id' : graph['to_ids'],
+      'to' : graph['to_tokens'],
+      'to_PyG_identifiers' : graph['to_PyG_identifiers'],
+      'weight' : edge_attr_aggregated.reshape(-1,).cpu().numpy()
+    }) \
+    .to_csv(os.path.join('.', 'data', f'{LARGE_LANGUAGE_MODEL.replace("/", "-")}', DATASET, f'{i}-{"Surrogate" if SURROGATE else "Grouped"}.csv'), index = False)
+
+# ===========================================================================
+# ========================== Information extraction =========================
+# ===========================================================================
+
+if __name__ == '__main__':
+
+  parser = argparse.ArgumentParser()
+  parser.add_argument('--data_set', required = True, type = str, help = 'The name of the data set.')
+  parser.add_argument('--path_to_data_set', required = True, type = str, help = 'The path to the data set\'s training, validation, and testing files.')
+  parser.add_argument('--chunking', required = True, type = int, help = 'Whether or not to chunk the input text depending on the maximum sequence length accepted by the model and the properties of the text.')
+  parser.add_argument('--large_language_model', required = True, type = str, help = 'Which large language model to use to construct word graphs.')
+  parser.add_argument('--graph_neural_network', required = True, type = str, help = 'Which graph neural network to use during the learning step.')
+  parser.add_argument('--surrogate', required = True, type = int, help = 'Whether or not to follow a surrogate approach to construct the graphs, i.e., grouping the nodes based on their indices instead of their identifiers.')
+  parser.add_argument('--aggregation_level', required = True, type = int, help = 'Which level of aggregation to apply to the attention coefficients: 0 (no aggregation), 1 (layer-wise aggregation), or 2 (global aggregation).')
+
+  args = parser.parse_args()
+  DATASET = args.data_set
+  PATH_TO_DATASET = args.path_to_data_set
+  CHUNKING = args.chunking
+  LARGE_LANGUAGE_MODEL = args.large_language_model
+  GNN = args.graph_neural_network
+  SURROGATE = args.surrogate
+  AGGREGATION_LEVEL = args.aggregation_level
+
+  if CHUNKING not in [0, 1]:
+    raise ValueError('The chunking parameter must be either 0 (False) or 1 (True).')
+
+  if SURROGATE not in [0, 1]:
+    raise ValueError('The surrogate parameter must be either 0 (False) or 1 (True).')
+
+  if GNN not in ['GAT', 'GATv2']:
+    raise ValueError('The selected GNN is not supported. Please choose either GAT or GATv2.')
+  
+  if AGGREGATION_LEVEL not in [0, 1, 2]:
+    raise ValueError('The aggregation level must be 0 (no aggregation), 1 (layer-wise aggregation), or 2 (global aggregation).')
+  
+  CHUNKING = bool(CHUNKING)
+  SURROGATE = bool(SURROGATE)
+
+  _, _, _, TOKENIZER, LLM, MAXIMUM_SEQUENCE_LENGTH, EMBEDDING_OUTPUT_KEY, ATTENTION_OUTPUT_KEY = utils.load_feature_extractor(LARGE_LANGUAGE_MODEL)
+  LLM.to(DEVICE)
+
+  training_df = pd.read_csv(os.path.join(PATH_TO_DATASET, 'train.csv'))
+  validation_df = pd.read_csv(os.path.join(PATH_TO_DATASET, 'validation.csv'))  
+  testing_df = pd.read_csv(os.path.join(PATH_TO_DATASET, 'test.csv'))
+
+  EMBEDDING_DIMENSION = LLM.config.hidden_size
+  LAYERS = LLM.config.num_hidden_layers
+  HEADS = LLM.config.num_attention_heads
+
+  AGGREGATION_LEVELS = ['No_Aggregation', 'Layer-wise_Aggregation', 'Global_Aggregation']
+  AGGREGATION_LEVELS_FEATURE_COUNT = [LAYERS * HEADS, LAYERS, 1]
+
+  study_name = f'{DATASET}-{GNN}-{LARGE_LANGUAGE_MODEL.replace("/", "-")}-{"Surrogate" if SURROGATE else "Grouped"}-{AGGREGATION_LEVELS[AGGREGATION_LEVEL]}'
+  storage = f'sqlite:///../pipelines/optuna_studies/{study_name}.db'
+    
+  sampler = optuna.samplers.TPESampler(seed = SEED)
+  study = optuna.create_study(
+    direction = 'maximize',
+    sampler = sampler,
+    study_name = study_name, 
+    storage = storage, 
+    load_if_exists = True
+  )
+
+  trial_features = [
+    'number', 'value', 'params_threshold', 'params_attention_heads', 'params_balanced_loss',
+    'params_embedding_pooling_operation', 'params_attention_pooling_operation',
+    'params_batch_size', 'params_dropout_rate', 'params_early_stopping_patience',
+    'params_epochs', 'params_global_pooling', 'params_hidden_dimension',
+    'params_learning_rate', 'params_number_of_hidden_layers', 'params_plateau_divider',
+    'params_plateau_patience', 'params_weight_decay', 'params_beta_0', 'params_beta_1',
+    'params_epsilon', 'user_attrs_epoch', 'user_attrs_training_loss', 'user_attrs_validation_loss'
+  ]
+
+  if CHUNKING:
+    trial_features += ['params_left_stride', 'params_right_stride'] #['params_chunk_size', 'params_left_stride', 'params_right_stride']
+
+  top_N_trials = study.trials_dataframe()[trial_features].sort_values(by = ['value', 'user_attrs_validation_loss', 'user_attrs_training_loss'], ascending = [False, True, True]).head(TOP_N)
+
+  for _, trial in top_N_trials.iterrows():
+    
+    random_states = [x for x in os.listdir(os.path.join(STORAGE_PATH, f'{DATASET}-{GNN}-{LARGE_LANGUAGE_MODEL.replace("/", "-")}', 'Surrogate' if SURROGATE else 'Grouped', AGGREGATION_LEVELS[AGGREGATION_LEVEL], f'{trial["number"]}')) if os.path.isdir(os.path.join(STORAGE_PATH, f'{DATASET}-{GNN}-{LARGE_LANGUAGE_MODEL.replace("/", "-")}', 'Surrogate' if SURROGATE else 'Grouped', AGGREGATION_LEVELS[AGGREGATION_LEVEL], f'{trial["number"]}', f'{x}'))]
+    if len(random_states) < NUMBER_OF_TEST_RUNS:
+      continue
+    
+    print('\n[TRIAL]', trial['number'], '[VALIDATION PERFORMANCE]', trial['value'], '[TRAINING LOSS]', trial['user_attrs_training_loss'], '[VALIDATION LOSS]', trial['user_attrs_validation_loss'], '\n', flush = True)
+    print(trial, flush = True)
+
+    get_random_document(
+      testing_df,
+      #
+      random_state = SEED,
+      #
+      chunk_size = MAXIMUM_SEQUENCE_LENGTH, # trial['params_chunk_size'] if CHUNKING else MAXIMUM_SEQUENCE_LENGTH,
+      left_stride = trial['params_left_stride'] if CHUNKING else 0,
+      right_stride = trial['params_right_stride'] if CHUNKING else 0,
+      attention_pooling_operation = trial['params_attention_pooling_operation'],
+      embedding_pooling_operation = trial['params_embedding_pooling_operation'],
+      threshold = trial['params_threshold'],
+    )
+    break
+
+print(f'\n[{DATASET}] Elapsed time:', (time.time() - st) / 60, 'minutes.', flush = True)

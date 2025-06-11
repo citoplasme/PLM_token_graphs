@@ -1,0 +1,32 @@
+[I 2025-05-06 11:58:11,856] Using an existing study with name 'IMDb-top_1000-GATv2-google-bert-bert-base-uncased-Grouped-No_Aggregation' instead of creating a new one.
+
+[TRIAL] 234 [VALIDATION PERFORMANCE] 0.9333333333333333 [TRAINING LOSS] 0.005836222177094896 [VALIDATION LOSS] 0.511165164411068 
+
+number                                     234
+value                                 0.933333
+params_threshold                       0.93078
+params_attention_heads                      12
+params_balanced_loss                     False
+params_embedding_pooling_operation         min
+params_attention_pooling_operation         min
+params_batch_size                           43
+params_dropout_rate                   0.415888
+params_early_stopping_patience              25
+params_epochs                              130
+params_global_pooling                     mean
+params_hidden_dimension                     91
+params_learning_rate                  0.001038
+params_number_of_hidden_layers               2
+params_plateau_divider                       7
+params_plateau_patience                     11
+params_weight_decay                   0.000003
+params_beta_0                         0.880051
+params_beta_1                         0.993488
+params_epsilon                        0.000066
+user_attrs_epoch                          23.0
+user_attrs_training_loss              0.005836
+user_attrs_validation_loss            0.511165
+Name: 234, dtype: object
+Count of trainable parameters: 6934202
+
+[IMDb-top_1000] Elapsed time: 0.0921844998995463 minutes.

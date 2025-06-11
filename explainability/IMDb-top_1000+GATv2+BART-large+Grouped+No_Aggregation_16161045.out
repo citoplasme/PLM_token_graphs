@@ -1,0 +1,36 @@
+[I 2025-05-12 13:30:50,696] Using an existing study with name 'IMDb-top_1000-GATv2-facebook-bart-large-Grouped-No_Aggregation' instead of creating a new one.
+
+[TRIAL] 273 [VALIDATION PERFORMANCE] 0.9636363636363636 [TRAINING LOSS] 0.01557926900891794 [VALIDATION LOSS] 0.23418847223122916 
+
+number                                     273
+value                                 0.963636
+params_threshold                      0.961216
+params_attention_heads                      16
+params_balanced_loss                     False
+params_embedding_pooling_operation        mean
+params_attention_pooling_operation         max
+params_batch_size                           60
+params_dropout_rate                   0.534776
+params_early_stopping_patience              16
+params_epochs                              184
+params_global_pooling                     mean
+params_hidden_dimension                     66
+params_learning_rate                   0.00186
+params_number_of_hidden_layers               1
+params_plateau_divider                       3
+params_plateau_patience                     21
+params_weight_decay                   0.000607
+params_beta_0                         0.874982
+params_beta_1                         0.988088
+params_epsilon                             0.0
+user_attrs_epoch                          16.0
+user_attrs_training_loss              0.015579
+user_attrs_validation_loss            0.234188
+params_left_stride                          64
+params_right_stride                         64
+Name: 273, dtype: object
+Token indices sequence length is longer than the specified maximum sequence length for this model (1113 > 1024). Running this sequence through the model will result in indexing errors
+Completed training the base model.
+CUDA out of memory. Tried to allocate 2.37 GiB. GPU 0 has a total capacity of 44.56 GiB of which 182.69 MiB is free. Including non-PyTorch memory, this process has 44.38 GiB memory in use. Of the allocated memory 38.52 GiB is allocated by PyTorch, and 4.70 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+[IMDb-top_1000] Elapsed time: 21.362891364097596 minutes.

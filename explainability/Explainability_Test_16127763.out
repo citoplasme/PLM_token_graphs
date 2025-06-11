@@ -1,0 +1,46 @@
+/scratch/ssd004/scratch/pimentel/DynamicCOO/condaenvs/DynamicWindowsPytorch/lib/python3.10/site-packages/torch_geometric/deprecation.py:26: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+Epoch 1, Loss: 0.7140
+Epoch 2, Loss: 0.6416
+Epoch 3, Loss: 0.6954
+Epoch 4, Loss: 0.6751
+Epoch 5, Loss: 0.7135
+Epoch 6, Loss: 0.5693
+Epoch 7, Loss: 0.6319
+Epoch 8, Loss: 0.6431
+Epoch 9, Loss: 0.4745
+Epoch 10, Loss: 0.6207
+Node Importance:
+   id     token  aggregated_weight
+5   5  word_130           0.045828
+3   3  word_478           0.044590
+4   4  word_941           0.044207
+2   2  word_860           0.030656
+6   6  word_637           0.023794
+1   1  word_169           0.020580
+8   8   word_27           0.020296
+7   7  word_546           0.008748
+0   0  word_741           0.006214
+9   9  word_928           0.000000
+Edge Importance:
+    from_id      from  to_id        to        weight
+12        4  word_941      5  word_130  3.171026e-10
+13        2  word_860      1  word_169  1.446431e-10
+14        2  word_860      3  word_478  1.072558e-10
+3         5  word_130      8   word_27  9.317120e-11
+4         3  word_478      7  word_546  9.167862e-11
+16        1  word_169      6  word_637  7.104482e-11
+2         5  word_130      6  word_637  7.001678e-11
+19        3  word_478      2  word_860  6.938768e-11
+7         6  word_637      4  word_941  5.588436e-11
+8         3  word_478      4  word_941  5.506782e-11
+15        0  word_741      4  word_941  3.524401e-11
+6         8   word_27      3  word_478  2.897970e-11
+9         6  word_637      3  word_478  2.361455e-11
+17        3  word_478      3  word_478  2.326947e-11
+11        8   word_27      8   word_27  2.125947e-11
+10        3  word_478      8   word_27  1.707048e-11
+0         8   word_27      6  word_637  1.597615e-11
+1         8   word_27      0  word_741  1.499172e-11
+18        0  word_741      3  word_478  1.489271e-11
+5         3  word_478      6  word_637  1.282819e-11

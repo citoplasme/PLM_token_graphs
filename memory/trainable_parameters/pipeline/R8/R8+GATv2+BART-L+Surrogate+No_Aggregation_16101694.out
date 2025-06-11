@@ -1,0 +1,32 @@
+[I 2025-05-06 12:07:36,064] Using an existing study with name 'R8-GATv2-facebook-bart-large-Surrogate-No_Aggregation' instead of creating a new one.
+
+[TRIAL] 240 [VALIDATION PERFORMANCE] 0.9721836830431988 [TRAINING LOSS] 0.026221221337389005 [VALIDATION LOSS] 0.07229960430413485 
+
+number                                     240
+value                                 0.972184
+params_threshold                       0.96159
+params_attention_heads                      15
+params_balanced_loss                     False
+params_embedding_pooling_operation        mean
+params_attention_pooling_operation         min
+params_batch_size                          117
+params_dropout_rate                   0.337905
+params_early_stopping_patience              24
+params_epochs                              116
+params_global_pooling                      max
+params_hidden_dimension                    175
+params_learning_rate                  0.000194
+params_number_of_hidden_layers               0
+params_plateau_divider                       3
+params_plateau_patience                     24
+params_weight_decay                   0.000546
+params_beta_0                         0.875911
+params_beta_1                         0.981982
+params_epsilon                        0.000058
+user_attrs_epoch                          20.0
+user_attrs_training_loss              0.026221
+user_attrs_validation_loss              0.0723
+Name: 240, dtype: object
+Count of trainable parameters: 5911508
+
+[R8] Elapsed time: 0.14437106450398762 minutes.

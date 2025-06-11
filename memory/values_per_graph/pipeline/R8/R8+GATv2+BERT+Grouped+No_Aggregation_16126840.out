@@ -1,0 +1,34 @@
+[I 2025-05-08 09:12:00,592] Using an existing study with name 'R8-GATv2-google-bert-bert-base-uncased-Grouped-No_Aggregation' instead of creating a new one.
+
+[TRIAL] 220 [VALIDATION PERFORMANCE] 0.9662937503535731 [TRAINING LOSS] 0.03751688315727127 [VALIDATION LOSS] 0.09032466165566196 
+
+number                                     220
+value                                 0.966294
+params_threshold                      0.659811
+params_attention_heads                       6
+params_balanced_loss                     False
+params_embedding_pooling_operation         min
+params_attention_pooling_operation        mean
+params_batch_size                           92
+params_dropout_rate                   0.552551
+params_early_stopping_patience              20
+params_epochs                               64
+params_global_pooling                      max
+params_hidden_dimension                    125
+params_learning_rate                  0.000316
+params_number_of_hidden_layers               2
+params_plateau_divider                       9
+params_plateau_patience                     23
+params_weight_decay                   0.000017
+params_beta_0                         0.895508
+params_beta_1                         0.987714
+params_epsilon                             0.0
+user_attrs_epoch                          18.0
+user_attrs_training_loss              0.037517
+user_attrs_validation_loss            0.090325
+params_left_stride                          32
+params_right_stride                        128
+Name: 220, dtype: object
+Token indices sequence length is longer than the specified maximum sequence length for this model (639 > 512). Running this sequence through the model will result in indexing errors
+
+[R8] Elapsed time: 5.123624610900879 minutes.

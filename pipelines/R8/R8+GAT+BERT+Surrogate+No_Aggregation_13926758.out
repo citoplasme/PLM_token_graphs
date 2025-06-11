@@ -1,0 +1,220 @@
+[I 2024-11-14 05:38:59,446] Using an existing study with name 'R8-GAT-google-bert-bert-base-uncased-Surrogate-No_Aggregation' instead of creating a new one.
+Optimization already completed.
+
+[TRIAL] 267 [VALIDATION PERFORMANCE] 0.9553403306702432 [TRAINING LOSS] 0.014473911064366499 [VALIDATION LOSS] 0.11118028995891412 
+
+number                                     267
+value                                  0.95534
+params_threshold                      0.957026
+params_attention_heads                       4
+params_balanced_loss                     False
+params_embedding_pooling_operation        mean
+params_attention_pooling_operation         min
+params_batch_size                          184
+params_dropout_rate                   0.526503
+params_early_stopping_patience              16
+params_epochs                               76
+params_global_pooling                      max
+params_hidden_dimension                     95
+params_learning_rate                   0.00134
+params_number_of_hidden_layers               0
+params_plateau_divider                       7
+params_plateau_patience                     22
+params_weight_decay                   0.000293
+params_beta_0                         0.896211
+params_beta_1                         0.981795
+params_epsilon                             0.0
+user_attrs_epoch                          24.0
+user_attrs_training_loss              0.014474
+user_attrs_validation_loss             0.11118
+params_left_stride                          32
+params_right_stride                         32
+Name: 267, dtype: object
+37 Val: 0.946739753757322 Test: 0.9345652565355027
+38 Val: 0.9401128842762978 Test: 0.9433882361177522
+39 Val: 0.9451585950172456 Test: 0.9412910785857711
+40 Val: 0.9411938803589771 Test: 0.9334234374252987
+41 Val: 0.9399699249942404 Test: 0.9401890086709372
+42 Val: 0.9574300551507037 Test: 0.9341592247959678
+43 Val: 0.9448611090552115 Test: 0.9274173209095762
+44 Val: 0.9497560110451422 Test: 0.9342538746319651
+45 Val: 0.9502205427856318 Test: 0.9385319551314324
+46 Val: 0.9468302073081334 Test: 0.9299000376988307
+Validation performance: 94.0 & 94.62 ± 0.54 & 95.74
+Testing performance: 92.74 & 93.57 ± 0.51 & 94.34
+
+[TRIAL] 122 [VALIDATION PERFORMANCE] 0.9547315977896489 [TRAINING LOSS] 0.053791824448853734 [VALIDATION LOSS] 0.0855488896369934 
+
+number                                     122
+value                                 0.954732
+params_threshold                      0.865778
+params_attention_heads                      12
+params_balanced_loss                     False
+params_embedding_pooling_operation         max
+params_attention_pooling_operation         max
+params_batch_size                          222
+params_dropout_rate                   0.524128
+params_early_stopping_patience              16
+params_epochs                               87
+params_global_pooling                      max
+params_hidden_dimension                     76
+params_learning_rate                  0.002518
+params_number_of_hidden_layers               0
+params_plateau_divider                       8
+params_plateau_patience                     25
+params_weight_decay                   0.000496
+params_beta_0                         0.868065
+params_beta_1                         0.980972
+params_epsilon                             0.0
+user_attrs_epoch                           6.0
+user_attrs_training_loss              0.053792
+user_attrs_validation_loss            0.085549
+params_left_stride                           0
+params_right_stride                         32
+Name: 122, dtype: object
+37 Val: 0.9411247586088948 Test: 0.9518367013983284
+Token indices sequence length is longer than the specified maximum sequence length for this model (639 > 512). Running this sequence through the model will result in indexing errors
+CUDA out of memory. Tried to allocate 4.30 GiB. GPU 0 has a total capacity of 44.56 GiB of which 3.80 GiB is free. Including non-PyTorch memory, this process has 40.75 GiB memory in use. Of the allocated memory 37.14 GiB is allocated by PyTorch, and 2.46 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+38 Exception...
+39 Val: 0.9353732869432186 Test: 0.9411827164030449
+CUDA out of memory. Tried to allocate 4.14 GiB. GPU 0 has a total capacity of 44.56 GiB of which 4.02 GiB is free. Including non-PyTorch memory, this process has 40.54 GiB memory in use. Of the allocated memory 36.46 GiB is allocated by PyTorch, and 2.92 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+40 Exception...
+41 Val: 0.9421440795820057 Test: 0.9565271519707945
+42 Val: 0.9423290225007344 Test: 0.9439396324971404
+CUDA out of memory. Tried to allocate 4.25 GiB. GPU 0 has a total capacity of 44.56 GiB of which 3.71 GiB is free. Including non-PyTorch memory, this process has 40.85 GiB memory in use. Of the allocated memory 36.91 GiB is allocated by PyTorch, and 2.79 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+43 Exception...
+44 Val: 0.9411282089867175 Test: 0.9350907549647776
+CUDA out of memory. Tried to allocate 4.50 GiB. GPU 0 has a total capacity of 44.56 GiB of which 2.81 GiB is free. Including non-PyTorch memory, this process has 41.75 GiB memory in use. Of the allocated memory 37.99 GiB is allocated by PyTorch, and 2.60 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+45 Exception...
+CUDA out of memory. Tried to allocate 4.04 GiB. GPU 0 has a total capacity of 44.56 GiB of which 4.02 GiB is free. Including non-PyTorch memory, this process has 40.54 GiB memory in use. Of the allocated memory 36.03 GiB is allocated by PyTorch, and 3.35 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+46 Exception...
+Validation performance: 93.54 & 94.04 ± 0.29 & 94.23
+Testing performance: 93.51 & 94.57 ± 0.85 & 95.65
+
+[TRIAL] 202 [VALIDATION PERFORMANCE] 0.953952078131164 [TRAINING LOSS] 0.009096785620958716 [VALIDATION LOSS] 0.09923734010330268 
+
+number                                     202
+value                                 0.953952
+params_threshold                      0.961728
+params_attention_heads                       6
+params_balanced_loss                     False
+params_embedding_pooling_operation        mean
+params_attention_pooling_operation         min
+params_batch_size                          166
+params_dropout_rate                   0.473902
+params_early_stopping_patience              19
+params_epochs                               69
+params_global_pooling                      max
+params_hidden_dimension                     42
+params_learning_rate                  0.000947
+params_number_of_hidden_layers               0
+params_plateau_divider                       7
+params_plateau_patience                     24
+params_weight_decay                   0.000441
+params_beta_0                         0.895353
+params_beta_1                         0.985248
+params_epsilon                             0.0
+user_attrs_epoch                          28.0
+user_attrs_training_loss              0.009097
+user_attrs_validation_loss            0.099237
+params_left_stride                          32
+params_right_stride                         32
+Name: 202, dtype: object
+37 Val: 0.9389701857332797 Test: 0.9298035185804586
+38 Val: 0.9545122691780034 Test: 0.9431038922815431
+39 Val: 0.9411314944759163 Test: 0.9348408260945671
+40 Val: 0.9453287450822427 Test: 0.9293411229730741
+41 Val: 0.9486021486348071 Test: 0.9363223770969193
+42 Val: 0.9518194378488345 Test: 0.9414421459001482
+43 Val: 0.9458642427168482 Test: 0.9349092420662244
+44 Val: 0.9502031872980778 Test: 0.9480090718696946
+45 Val: 0.9488893595322451 Test: 0.9435768154481209
+46 Val: 0.947124559681876 Test: 0.9354697473846735
+Validation performance: 93.9 & 94.72 ± 0.47 & 95.45
+Testing performance: 92.93 & 93.77 ± 0.61 & 94.8
+
+[TRIAL] 146 [VALIDATION PERFORMANCE] 0.9532988466763809 [TRAINING LOSS] 0.009608280920909474 [VALIDATION LOSS] 0.1433742642402649 
+
+number                                     146
+value                                 0.953299
+params_threshold                      0.879977
+params_attention_heads                      14
+params_balanced_loss                     False
+params_embedding_pooling_operation         min
+params_attention_pooling_operation         max
+params_batch_size                          199
+params_dropout_rate                   0.517539
+params_early_stopping_patience              16
+params_epochs                               94
+params_global_pooling                      max
+params_hidden_dimension                     42
+params_learning_rate                  0.003077
+params_number_of_hidden_layers               0
+params_plateau_divider                       7
+params_plateau_patience                     25
+params_weight_decay                    0.00033
+params_beta_0                          0.89335
+params_beta_1                         0.982257
+params_epsilon                             0.0
+user_attrs_epoch                          22.0
+user_attrs_training_loss              0.009608
+user_attrs_validation_loss            0.143374
+params_left_stride                         128
+params_right_stride                        256
+Name: 146, dtype: object
+37 Val: 0.9347780386299478 Test: 0.9306875928487004
+38 Val: 0.9462236252223828 Test: 0.9485558375342493
+39 Val: 0.932255304442096 Test: 0.9440084389597658
+40 Val: 0.9368916849267815 Test: 0.9382203972940125
+41 Val: 0.9428454018193071 Test: 0.9243881905016926
+42 Val: 0.9497361554024952 Test: 0.9368323965812159
+43 Val: 0.9331162080862283 Test: 0.9450777003525568
+44 Val: 0.9418460887293677 Test: 0.9364900667023146
+45 Val: 0.9474723192640311 Test: 0.9576104960301344
+46 Val: 0.9391993022033278 Test: 0.928268272326455
+Validation performance: 93.23 & 94.04 ± 0.62 & 94.97
+Testing performance: 92.44 & 93.9 ± 1.01 & 95.76
+
+[TRIAL] 233 [VALIDATION PERFORMANCE] 0.9532723539661664 [TRAINING LOSS] 0.016444352171991184 [VALIDATION LOSS] 0.10427933931350708 
+
+number                                     233
+value                                 0.953272
+params_threshold                      0.977666
+params_attention_heads                       6
+params_balanced_loss                     False
+params_embedding_pooling_operation        mean
+params_attention_pooling_operation         min
+params_batch_size                          198
+params_dropout_rate                   0.494904
+params_early_stopping_patience              19
+params_epochs                               67
+params_global_pooling                      max
+params_hidden_dimension                     60
+params_learning_rate                  0.001098
+params_number_of_hidden_layers               0
+params_plateau_divider                       7
+params_plateau_patience                     25
+params_weight_decay                   0.000422
+params_beta_0                         0.891064
+params_beta_1                         0.983015
+params_epsilon                             0.0
+user_attrs_epoch                          21.0
+user_attrs_training_loss              0.016444
+user_attrs_validation_loss            0.104279
+params_left_stride                          32
+params_right_stride                         32
+Name: 233, dtype: object
+37 Val: 0.9569678456367958 Test: 0.9376813190676656
+38 Val: 0.9544465758574214 Test: 0.929877192973346
+39 Val: 0.9418573146758761 Test: 0.9319411759293009
+40 Val: 0.9391984581145236 Test: 0.9326033271223042
+41 Val: 0.9486545534304544 Test: 0.9270517868638111
+42 Val: 0.9559665947957902 Test: 0.9323096066397509
+43 Val: 0.9459558766338549 Test: 0.9294410735139971
+44 Val: 0.954269074701054 Test: 0.9299924210559691
+45 Val: 0.9510860112833757 Test: 0.939343214574812
+46 Val: 0.9466449573829013 Test: 0.9335535227584759
+Validation performance: 93.92 & 94.95 ± 0.61 & 95.7
+Testing performance: 92.71 & 93.24 ± 0.38 & 93.93
+
+[R8] Elapsed time: 239.85318861405054 minutes.

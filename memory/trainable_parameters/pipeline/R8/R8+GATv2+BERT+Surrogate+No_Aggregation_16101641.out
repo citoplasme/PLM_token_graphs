@@ -1,0 +1,32 @@
+[I 2025-05-06 11:56:01,022] Using an existing study with name 'R8-GATv2-google-bert-bert-base-uncased-Surrogate-No_Aggregation' instead of creating a new one.
+
+[TRIAL] 215 [VALIDATION PERFORMANCE] 0.9575083408077356 [TRAINING LOSS] 0.016410997236380353 [VALIDATION LOSS] 0.10788999791257084 
+
+number                                     215
+value                                 0.957508
+params_threshold                      0.821735
+params_attention_heads                       8
+params_balanced_loss                     False
+params_embedding_pooling_operation         max
+params_attention_pooling_operation         max
+params_batch_size                          110
+params_dropout_rate                   0.348761
+params_early_stopping_patience              20
+params_epochs                               72
+params_global_pooling                      max
+params_hidden_dimension                     37
+params_learning_rate                  0.000097
+params_number_of_hidden_layers               2
+params_plateau_divider                       2
+params_plateau_patience                     23
+params_weight_decay                   0.000276
+params_beta_0                         0.816872
+params_beta_1                         0.996901
+params_epsilon                        0.000002
+user_attrs_epoch                          49.0
+user_attrs_training_loss              0.016411
+user_attrs_validation_loss             0.10789
+Name: 215, dtype: object
+Count of trainable parameters: 938920
+
+[R8] Elapsed time: 0.09932060241699218 minutes.

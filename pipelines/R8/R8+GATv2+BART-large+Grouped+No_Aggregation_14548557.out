@@ -1,0 +1,171 @@
+[I 2025-01-20 08:46:06,795] Using an existing study with name 'R8-GATv2-facebook-bart-large-Grouped-No_Aggregation' instead of creating a new one.
+Optimization already completed.
+
+[TRIAL] 255 [VALIDATION PERFORMANCE] 0.9805781782055967 [TRAINING LOSS] 0.04889725018917333 [VALIDATION LOSS] 0.09335861523591336 
+
+number                                     255
+value                                 0.980578
+params_threshold                      0.725379
+params_attention_heads                      16
+params_balanced_loss                      True
+params_embedding_pooling_operation         max
+params_attention_pooling_operation        mean
+params_batch_size                           54
+params_dropout_rate                   0.575229
+params_early_stopping_patience              20
+params_epochs                              144
+params_global_pooling                      max
+params_hidden_dimension                     77
+params_learning_rate                  0.000019
+params_number_of_hidden_layers               3
+params_plateau_divider                       7
+params_plateau_patience                     19
+params_weight_decay                   0.000211
+params_beta_0                         0.885474
+params_beta_1                         0.983331
+params_epsilon                        0.000001
+user_attrs_epoch                          94.0
+user_attrs_training_loss              0.048897
+user_attrs_validation_loss            0.093359
+params_left_stride                          64
+params_right_stride                        128
+Name: 255, dtype: object
+Token indices sequence length is longer than the specified maximum sequence length for this model (1136 > 1024). Running this sequence through the model will result in indexing errors
+37 Val: 0.9719040419020664 Test: 0.9307280850711755
+CUDA out of memory. Tried to allocate 1.58 GiB. GPU 0 has a total capacity of 44.56 GiB of which 224.69 MiB is free. Including non-PyTorch memory, this process has 44.33 GiB memory in use. Of the allocated memory 40.10 GiB is allocated by PyTorch, and 3.08 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+38 Exception...
+CUDA out of memory. Tried to allocate 1.45 GiB. GPU 0 has a total capacity of 44.56 GiB of which 266.69 MiB is free. Including non-PyTorch memory, this process has 44.29 GiB memory in use. Of the allocated memory 38.20 GiB is allocated by PyTorch, and 4.94 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+39 Exception...
+CUDA out of memory. Tried to allocate 1.59 GiB. GPU 0 has a total capacity of 44.56 GiB of which 86.69 MiB is free. Including non-PyTorch memory, this process has 44.47 GiB memory in use. Of the allocated memory 40.21 GiB is allocated by PyTorch, and 3.11 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+40 Exception...
+CUDA out of memory. Tried to allocate 1.67 GiB. GPU 0 has a total capacity of 44.56 GiB of which 646.69 MiB is free. Including non-PyTorch memory, this process has 43.92 GiB memory in use. Of the allocated memory 39.70 GiB is allocated by PyTorch, and 3.08 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+41 Exception...
+42 Val: 0.9805781782055967 Test: 0.9310870800811246
+CUDA out of memory. Tried to allocate 1.64 GiB. GPU 0 has a total capacity of 44.56 GiB of which 1.01 GiB is free. Including non-PyTorch memory, this process has 43.54 GiB memory in use. Of the allocated memory 39.32 GiB is allocated by PyTorch, and 3.07 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+43 Exception...
+CUDA out of memory. Tried to allocate 1.53 GiB. GPU 0 has a total capacity of 44.56 GiB of which 982.69 MiB is free. Including non-PyTorch memory, this process has 43.59 GiB memory in use. Of the allocated memory 39.34 GiB is allocated by PyTorch, and 3.10 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+44 Exception...
+CUDA out of memory. Tried to allocate 1.50 GiB. GPU 0 has a total capacity of 44.56 GiB of which 1.26 GiB is free. Including non-PyTorch memory, this process has 43.29 GiB memory in use. Of the allocated memory 39.02 GiB is allocated by PyTorch, and 3.13 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+45 Exception...
+46 Val: 0.9669949666964257 Test: 0.9376025281727471
+Validation performance: 96.7 & 97.32 ± 0.69 & 98.06
+Testing performance: 93.07 & 93.31 ± 0.39 & 93.76
+
+[TRIAL] 213 [VALIDATION PERFORMANCE] 0.9803273479163068 [TRAINING LOSS] 0.05818528197084538 [VALIDATION LOSS] 0.10532039879860046 
+
+number                                     213
+value                                 0.980327
+params_threshold                      0.719007
+params_attention_heads                      16
+params_balanced_loss                      True
+params_embedding_pooling_operation         max
+params_attention_pooling_operation        mean
+params_batch_size                           37
+params_dropout_rate                   0.580391
+params_early_stopping_patience              20
+params_epochs                              111
+params_global_pooling                      max
+params_hidden_dimension                     91
+params_learning_rate                  0.000046
+params_number_of_hidden_layers               3
+params_plateau_divider                       7
+params_plateau_patience                     19
+params_weight_decay                   0.000194
+params_beta_0                         0.885745
+params_beta_1                         0.989606
+params_epsilon                        0.000043
+user_attrs_epoch                          39.0
+user_attrs_training_loss              0.058185
+user_attrs_validation_loss             0.10532
+params_left_stride                          64
+params_right_stride                        128
+Name: 213, dtype: object
+37 Val: 0.9733475801787355 Test: 0.9298869807578927
+CUDA out of memory. Tried to allocate 1.72 GiB. GPU 0 has a total capacity of 44.56 GiB of which 68.69 MiB is free. Including non-PyTorch memory, this process has 44.49 GiB memory in use. Of the allocated memory 42.44 GiB is allocated by PyTorch, and 917.41 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+38 Exception...
+39 Val: 0.9677802704049272 Test: 0.9379960286390174
+40 Val: 0.9701878640319834 Test: 0.9316678168337137
+CUDA out of memory. Tried to allocate 1.62 GiB. GPU 0 has a total capacity of 44.56 GiB of which 890.69 MiB is free. Including non-PyTorch memory, this process has 43.68 GiB memory in use. Of the allocated memory 40.97 GiB is allocated by PyTorch, and 1.56 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+41 Exception...
+42 Val: 0.9803273479163068 Test: 0.9375911020895118
+43 Val: 0.9674156380303314 Test: 0.9326353880139533
+44 Val: 0.9710733428375646 Test: 0.9359839011875659
+45 Val: 0.9669712502754815 Test: 0.9412725129096914
+46 Val: 0.962290937756609 Test: 0.929351897547421
+Validation performance: 96.23 & 96.99 ± 0.53 & 98.03
+Testing performance: 92.94 & 93.45 ± 0.43 & 94.13
+
+[TRIAL] 246 [VALIDATION PERFORMANCE] 0.9777375558728941 [TRAINING LOSS] 0.0378247824603245 [VALIDATION LOSS] 0.10013040285557509 
+
+number                                     246
+value                                 0.977738
+params_threshold                      0.718158
+params_attention_heads                      15
+params_balanced_loss                      True
+params_embedding_pooling_operation         max
+params_attention_pooling_operation        mean
+params_batch_size                           45
+params_dropout_rate                   0.554729
+params_early_stopping_patience              21
+params_epochs                              142
+params_global_pooling                      max
+params_hidden_dimension                     76
+params_learning_rate                   0.00002
+params_number_of_hidden_layers               3
+params_plateau_divider                       7
+params_plateau_patience                     19
+params_weight_decay                    0.00038
+params_beta_0                         0.884679
+params_beta_1                         0.992307
+params_epsilon                        0.000069
+user_attrs_epoch                         112.0
+user_attrs_training_loss              0.037825
+user_attrs_validation_loss             0.10013
+params_left_stride                          64
+params_right_stride                        128
+Name: 246, dtype: object
+37 Val: 0.9641600767307021 Test: 0.9312390601361231
+38 Val: 0.9625019762787417 Test: 0.929705802286985
+39 Val: 0.9754764483571055 Test: 0.9375942374253177
+40 Val: 0.9610783907445037 Test: 0.9370858794148252
+41 Val: 0.9677967413009447 Test: 0.9314815419254514
+42 Val: 0.9783635944604123 Test: 0.9419367620084216
+43 Val: 0.9664508763070772 Test: 0.9358393617689529
+44 Val: 0.9754404551825782 Test: 0.9428101737219688
+45 Val: 0.9628597503041846 Test: 0.927879836012967
+46 Val: 0.9733505829128632 Test: 0.9405595667187788
+Validation performance: 96.11 & 96.87 ± 0.64 & 97.84
+Testing performance: 92.79 & 93.56 ± 0.53 & 94.28
+
+[TRIAL] 136 [VALIDATION PERFORMANCE] 0.9776229738062259 [TRAINING LOSS] 0.03956169660498211 [VALIDATION LOSS] 0.1252440455417823 
+
+number                                     136
+value                                 0.977623
+params_threshold                      0.734825
+params_attention_heads                      16
+params_balanced_loss                      True
+params_embedding_pooling_operation         max
+params_attention_pooling_operation        mean
+params_batch_size                           38
+params_dropout_rate                   0.525699
+params_early_stopping_patience              23
+params_epochs                              128
+params_global_pooling                      max
+params_hidden_dimension                     75
+params_learning_rate                  0.000019
+params_number_of_hidden_layers               3
+params_plateau_divider                       7
+params_plateau_patience                     18
+params_weight_decay                   0.000008
+params_beta_0                         0.887279
+params_beta_1                          0.98323
+params_epsilon                        0.000032
+user_attrs_epoch                         111.0
+user_attrs_training_loss              0.039562
+user_attrs_validation_loss            0.125244
+params_left_stride                         128
+params_right_stride                        128
+Name: 136, dtype: object
+37 Val: 0.962916872242626 Test: 0.9384736022321942
+38 Val: 0.9749587532546916 Test: 0.9300027785583064
+slurmstepd: error: *** JOB 14548557 ON gpu010 CANCELLED AT 2025-01-21T04:54:42 ***

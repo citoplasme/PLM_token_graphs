@@ -1,0 +1,32 @@
+[I 2025-05-08 05:24:39,520] Using an existing study with name 'IMDb-top_1000-GATv2-facebook-bart-large-Grouped-Sliding_Windows' instead of creating a new one.
+
+[TRIAL] 223 [VALIDATION PERFORMANCE] 0.9575757575757575 [TRAINING LOSS] 0.08161651939153672 [VALIDATION LOSS] 0.13741154038709485 
+
+number                                         223
+value                                     0.957576
+params_window_size                               7
+params_attention_heads                           4
+params_balanced_loss                          True
+params_embedding_pooling_operation            mean
+params_co_occurrence_pooling_operation         sum
+params_batch_size                               20
+params_dropout_rate                       0.525161
+params_early_stopping_patience                  19
+params_epochs                                  134
+params_global_pooling                         mean
+params_hidden_dimension                        167
+params_learning_rate                      0.000025
+params_number_of_hidden_layers                   4
+params_plateau_divider                           4
+params_plateau_patience                         24
+params_weight_decay                        0.00005
+params_beta_0                             0.824085
+params_beta_1                             0.989291
+params_epsilon                            0.000095
+user_attrs_epoch                              57.0
+user_attrs_training_loss                  0.081617
+user_attrs_validation_loss                0.137412
+Name: 223, dtype: object
+Count of trainable parameters: 4955894
+
+[IMDb-top_1000] Elapsed time: 0.13295856714248658 minutes.

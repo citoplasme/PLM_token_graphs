@@ -1,0 +1,34 @@
+[I 2025-05-08 09:29:23,035] Using an existing study with name 'IMDb-top_1000-GATv2-google-bert-bert-base-uncased-Surrogate-No_Aggregation' instead of creating a new one.
+
+[TRIAL] 250 [VALIDATION PERFORMANCE] 0.9333333333333333 [TRAINING LOSS] 0.007836842178767256 [VALIDATION LOSS] 0.2719790461872305 
+
+number                                     250
+value                                 0.933333
+params_threshold                      0.976712
+params_attention_heads                       5
+params_balanced_loss                     False
+params_embedding_pooling_operation         min
+params_attention_pooling_operation        mean
+params_batch_size                           26
+params_dropout_rate                   0.577056
+params_early_stopping_patience              23
+params_epochs                              136
+params_global_pooling                     mean
+params_hidden_dimension                     63
+params_learning_rate                  0.000728
+params_number_of_hidden_layers               4
+params_plateau_divider                       7
+params_plateau_patience                     17
+params_weight_decay                   0.000296
+params_beta_0                         0.822301
+params_beta_1                         0.997692
+params_epsilon                        0.000003
+user_attrs_epoch                          45.0
+user_attrs_training_loss              0.007837
+user_attrs_validation_loss            0.271979
+params_left_stride                         128
+params_right_stride                        256
+Name: 250, dtype: object
+Token indices sequence length is longer than the specified maximum sequence length for this model (1147 > 512). Running this sequence through the model will result in indexing errors
+
+[IMDb-top_1000] Elapsed time: 17.672193109989166 minutes.

@@ -1,2 +1,1 @@
-# PLM_token_graphs
-PLM-based token graphs
+# A Straightforward Approach to Construct ‘Lightweight’ Token Graphs from Transformers

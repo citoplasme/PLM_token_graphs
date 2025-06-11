@@ -1,0 +1,216 @@
+[I 2025-01-16 11:22:44,675] Using an existing study with name 'Ohsumed-google-bert-bert-base-uncased' instead of creating a new one.
+Optimization already completed.
+
+[TRIAL] 144 [VALIDATION PERFORMANCE] 0.6609549168012957 [TRAINING LOSS] 0.08511339334977998 [VALIDATION LOSS] 1.3203402592076197 
+
+number                                 144
+value                             0.660955
+params_balanced_loss                 False
+params_batch_size                       25
+params_early_stopping_patience           4
+params_epochs                            9
+params_learning_rate              0.000051
+params_plateau_divider                   2
+params_plateau_patience                  2
+params_weight_decay               0.000537
+params_beta_0                      0.81114
+params_beta_1                     0.988478
+params_epsilon                         0.0
+user_attrs_epoch                         7
+user_attrs_training_loss          0.085113
+user_attrs_validation_loss         1.32034
+Name: 144, dtype: object
+37 Val: 0.6168512847951594 Test: 0.633933120377742
+38 Val: 0.6256181764272801 Test: 0.618330233644091
+39 Val: 0.6145297543173606 Test: 0.6452194285926122
+40 Val: 0.6236840499438866 Test: 0.6358199291120935
+41 Val: 0.6056230614906079 Test: 0.6336375730589772
+42 Val: 0.6609549168012957 Test: 0.6281984689917437
+43 Val: 0.6171638519499687 Test: 0.6317360809603956
+44 Val: 0.6221868960227264 Test: 0.6064544385828846
+45 Val: 0.6057566296604475 Test: 0.6337865864938368
+46 Val: 0.6098902783508836 Test: 0.632826362645811
+Validation performance: 60.56 & 62.02 ± 1.59 & 66.1
+Testing performance: 60.65 & 63.0 ± 1.06 & 64.52
+
+[TRIAL] 218 [VALIDATION PERFORMANCE] 0.6528733548106905 [TRAINING LOSS] 0.04219265003688633 [VALIDATION LOSS] 1.3786129879951476 
+
+number                                 218
+value                             0.652873
+params_balanced_loss                 False
+params_batch_size                       27
+params_early_stopping_patience           4
+params_epochs                           11
+params_learning_rate              0.000049
+params_plateau_divider                   2
+params_plateau_patience                  2
+params_weight_decay               0.000481
+params_beta_0                     0.844953
+params_beta_1                     0.988738
+params_epsilon                         0.0
+user_attrs_epoch                         9
+user_attrs_training_loss          0.042193
+user_attrs_validation_loss        1.378613
+Name: 218, dtype: object
+37 Val: 0.6285854111965703 Test: 0.6381576496239557
+38 Val: 0.625097323515299 Test: 0.6238153911711481
+39 Val: 0.6273975394942461 Test: 0.6429653244774676
+40 Val: 0.6172756438430389 Test: 0.6411021450799557
+41 Val: 0.6049533640846714 Test: 0.6319270164421418
+42 Val: 0.6528733548106905 Test: 0.6352137287834217
+43 Val: 0.6082537014900133 Test: 0.6226906959990824
+44 Val: 0.6008191200089061 Test: 0.6157722125710412
+45 Val: 0.5930731613008283 Test: 0.6143241375087737
+46 Val: 0.617578667726233 Test: 0.6097655002659222
+Validation performance: 59.31 & 61.76 ± 1.72 & 65.29
+Testing performance: 60.98 & 62.76 ± 1.19 & 64.3
+
+[TRIAL] 169 [VALIDATION PERFORMANCE] 0.6512066682379547 [TRAINING LOSS] 0.09617702177582452 [VALIDATION LOSS] 1.3803988786844106 
+
+number                                 169
+value                             0.651207
+params_balanced_loss                 False
+params_batch_size                       26
+params_early_stopping_patience           4
+params_epochs                           11
+params_learning_rate              0.000058
+params_plateau_divider                   2
+params_plateau_patience                  2
+params_weight_decay               0.000346
+params_beta_0                     0.806662
+params_beta_1                      0.98816
+params_epsilon                         0.0
+user_attrs_epoch                         7
+user_attrs_training_loss          0.096177
+user_attrs_validation_loss        1.380399
+Name: 169, dtype: object
+37 Val: 0.6258856319949941 Test: 0.6332417123714217
+38 Val: 0.6358629706291935 Test: 0.6221375401872657
+39 Val: 0.6222072175586763 Test: 0.6374139407249025
+40 Val: 0.6040399160944471 Test: 0.632205379472509
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+41 Val: 0.6145052344969908 Test: 0.6222828182456753
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+42 Val: 0.6512066682379547 Test: 0.6205833926419508
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+43 Val: 0.6128994070430857 Test: 0.6422351129320717
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+44 Val: 0.6199735134312201 Test: 0.6132880067583217
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+45 Val: 0.6319812562280601 Test: 0.6291069381073114
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+46 Val: 0.588178178230864 Test: 0.5897813815673948
+Validation performance: 58.82 & 62.07 ± 1.75 & 65.12
+Testing performance: 58.98 & 62.42 ± 1.49 & 64.22
+
+[TRIAL] 57 [VALIDATION PERFORMANCE] 0.6496777958109826 [TRAINING LOSS] 0.18467764525363842 [VALIDATION LOSS] 1.307511826356252 
+
+number                                  57
+value                             0.649678
+params_balanced_loss                 False
+params_batch_size                       32
+params_early_stopping_patience           3
+params_epochs                           14
+params_learning_rate              0.000037
+params_plateau_divider                   4
+params_plateau_patience                  4
+params_weight_decay               0.000018
+params_beta_0                      0.87346
+params_beta_1                     0.989114
+params_epsilon                         0.0
+user_attrs_epoch                         7
+user_attrs_training_loss          0.184678
+user_attrs_validation_loss        1.307512
+Name: 57, dtype: object
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+37 Val: 0.5924514449385015 Test: 0.6176126528599254
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+38 Val: 0.6087230576425542 Test: 0.6203538768439212
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+39 Val: 0.619699059732595 Test: 0.5934828192081404
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+40 Val: 0.6003543379145233 Test: 0.593552162972964
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+41 Val: 0.5993983606869442 Test: 0.6032200473637809
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+42 Val: 0.6496777958109826 Test: 0.6221695783701555
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+43 Val: 0.5816005691649683 Test: 0.6131878703395077
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+44 Val: 0.5975641398010785 Test: 0.6171340760284542
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+45 Val: 0.605384516889451 Test: 0.5830034341440051
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+46 Val: 0.6038545562743748 Test: 0.6178478656581734
+Validation performance: 58.16 & 60.59 ± 1.84 & 64.97
+Testing performance: 58.3 & 60.82 ± 1.38 & 62.22
+
+[TRIAL] 192 [VALIDATION PERFORMANCE] 0.6494136346453316 [TRAINING LOSS] 0.07279522384137467 [VALIDATION LOSS] 1.3339995366555673 
+
+number                                 192
+value                             0.649414
+params_balanced_loss                 False
+params_batch_size                       25
+params_early_stopping_patience           4
+params_epochs                           12
+params_learning_rate              0.000066
+params_plateau_divider                   3
+params_plateau_patience                  2
+params_weight_decay               0.000626
+params_beta_0                     0.858115
+params_beta_1                     0.989835
+params_epsilon                         0.0
+user_attrs_epoch                         7
+user_attrs_training_loss          0.072795
+user_attrs_validation_loss           1.334
+Name: 192, dtype: object
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+37 Val: 0.6053595071153056 Test: 0.6267497983161079
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+38 Val: 0.6296734676399515 Test: 0.6168332402307352
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+39 Val: 0.6276398301786893 Test: 0.6321479411320182
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+40 Val: 0.6026074574175332 Test: 0.6166987700960777
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+41 Val: 0.5948349095859732 Test: 0.6168938864848359
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+42 Val: 0.6494136346453316 Test: 0.6195990182531813
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+43 Val: 0.6150771930069642 Test: 0.6218659356805062
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+44 Val: 0.6324727379557742 Test: 0.6202995885258199
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+45 Val: 0.5927252047945093 Test: 0.5899774004669781
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at google-bert/bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+46 Val: 0.6044002762776055 Test: 0.6265016223658426
+Validation performance: 59.27 & 61.54 ± 1.86 & 64.94
+Testing performance: 59.0 & 61.88 ± 1.13 & 63.21
+
+[Ohsumed] Elapsed time: 288.1967229445775 minutes.

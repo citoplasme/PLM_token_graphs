@@ -1,0 +1,32 @@
+[I 2025-05-06 11:56:35,500] Using an existing study with name 'Ohsumed-GATv2-google-bert-bert-base-uncased-Surrogate-No_Aggregation' instead of creating a new one.
+
+[TRIAL] 417 [VALIDATION PERFORMANCE] 0.6551138971056581 [TRAINING LOSS] 0.039729837688306964 [VALIDATION LOSS] 1.5638818270281742 
+
+number                                     417
+value                                 0.655114
+params_threshold                      0.955926
+params_attention_heads                       9
+params_balanced_loss                     False
+params_embedding_pooling_operation         min
+params_attention_pooling_operation         max
+params_batch_size                           36
+params_dropout_rate                    0.35046
+params_early_stopping_patience              16
+params_epochs                               59
+params_global_pooling                      max
+params_hidden_dimension                    105
+params_learning_rate                  0.000311
+params_number_of_hidden_layers               2
+params_plateau_divider                      10
+params_plateau_patience                     12
+params_weight_decay                   0.000271
+params_beta_0                         0.815749
+params_beta_1                         0.981366
+params_epsilon                         0.00008
+user_attrs_epoch                          27.0
+user_attrs_training_loss               0.03973
+user_attrs_validation_loss            1.563882
+Name: 417, dtype: object
+Count of trainable parameters: 5464958
+
+[Ohsumed] Elapsed time: 0.10422929128011067 minutes.

@@ -1,0 +1,50 @@
+[I 2025-04-03 04:46:33,101] Using an existing study with name 'Ohsumed-GATv2-google-bert-bert-base-uncased-Grouped-No_Aggregation-No_Ablation-1.0-0.25' instead of creating a new one.
+Token indices sequence length is longer than the specified maximum sequence length for this model (611 > 512). Running this sequence through the model will result in indexing errors
+[I 2025-04-03 04:59:19,429] Trial 258 finished with value: 0.5568942356576096 and parameters: {'left_stride': 128, 'right_stride': 128, 'attention_pooling_operation': 'max', 'embedding_pooling_operation': 'min', 'threshold': 0.8961665082630239, 'batch_size': 50, 'attention_heads': 13, 'hidden_dimension': 148, 'number_of_hidden_layers': 1, 'dropout_rate': 0.43601026499253126, 'global_pooling': 'mean', 'learning_rate': 0.0004255007010130252, 'weight_decay': 0.0006329530124793612, 'beta_0': 0.8412651535095115, 'beta_1': 0.9882338974468727, 'epsilon': 6.030925391212467e-05, 'balanced_loss': False, 'epochs': 169, 'early_stopping_patience': 21, 'plateau_patience': 16, 'plateau_divider': 8}. Best is trial 159 with value: 0.5933114785827998.
+[I 2025-04-03 05:15:22,221] Trial 259 finished with value: 0.5825038850686639 and parameters: {'left_stride': 0, 'right_stride': 32, 'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'mean', 'threshold': 0.8690094530501761, 'batch_size': 48, 'attention_heads': 11, 'hidden_dimension': 156, 'number_of_hidden_layers': 2, 'dropout_rate': 0.42868020418513386, 'global_pooling': 'mean', 'learning_rate': 0.000344624868912407, 'weight_decay': 0.0008266711127124803, 'beta_0': 0.8315477767566114, 'beta_1': 0.9944840024838922, 'epsilon': 6.913025218195163e-05, 'balanced_loss': False, 'epochs': 156, 'early_stopping_patience': 21, 'plateau_patience': 19, 'plateau_divider': 10}. Best is trial 159 with value: 0.5933114785827998.
+[I 2025-04-03 05:29:14,801] Trial 260 finished with value: 0.5241693375928673 and parameters: {'left_stride': 0, 'right_stride': 64, 'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'min', 'threshold': 0.8658577837653897, 'batch_size': 46, 'attention_heads': 11, 'hidden_dimension': 127, 'number_of_hidden_layers': 2, 'dropout_rate': 0.42782149287739313, 'global_pooling': 'mean', 'learning_rate': 0.000222347126263637, 'weight_decay': 0.0008253624335512902, 'beta_0': 0.8338568635236845, 'beta_1': 0.9940837566837373, 'epsilon': 8.360186962082614e-05, 'balanced_loss': False, 'epochs': 156, 'early_stopping_patience': 13, 'plateau_patience': 19, 'plateau_divider': 5}. Best is trial 159 with value: 0.5933114785827998.
+[I 2025-04-03 05:42:10,650] Trial 261 finished with value: 0.5337946594399874 and parameters: {'left_stride': 0, 'right_stride': 32, 'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'mean', 'threshold': 0.8685481785428445, 'batch_size': 85, 'attention_heads': 11, 'hidden_dimension': 122, 'number_of_hidden_layers': 1, 'dropout_rate': 0.4162294927851349, 'global_pooling': 'mean', 'learning_rate': 0.00033382081124260497, 'weight_decay': 0.0007143533349224985, 'beta_0': 0.8311363895940412, 'beta_1': 0.9875157275301196, 'epsilon': 6.842747147191743e-05, 'balanced_loss': False, 'epochs': 152, 'early_stopping_patience': 21, 'plateau_patience': 19, 'plateau_divider': 10}. Best is trial 159 with value: 0.5933114785827998.
+[I 2025-04-03 05:59:55,852] Trial 262 finished with value: 0.5625309654431127 and parameters: {'left_stride': 0, 'right_stride': 64, 'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'max', 'threshold': 0.8747231977055525, 'batch_size': 48, 'attention_heads': 11, 'hidden_dimension': 185, 'number_of_hidden_layers': 2, 'dropout_rate': 0.4305661547854947, 'global_pooling': 'mean', 'learning_rate': 0.0003844024078405472, 'weight_decay': 0.0008752363326685448, 'beta_0': 0.8292186417597117, 'beta_1': 0.9948159251402702, 'epsilon': 7.400209725013625e-05, 'balanced_loss': False, 'epochs': 158, 'early_stopping_patience': 21, 'plateau_patience': 20, 'plateau_divider': 7}. Best is trial 159 with value: 0.5933114785827998.
+[I 2025-04-03 06:17:56,737] Trial 263 finished with value: 0.5657711172911215 and parameters: {'left_stride': 0, 'right_stride': 64, 'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'min', 'threshold': 0.8821061103155537, 'batch_size': 55, 'attention_heads': 12, 'hidden_dimension': 156, 'number_of_hidden_layers': 2, 'dropout_rate': 0.4217969477190693, 'global_pooling': 'mean', 'learning_rate': 0.0001943317450630054, 'weight_decay': 0.000594340860917038, 'beta_0': 0.8245566313381745, 'beta_1': 0.9894793151139271, 'epsilon': 6.18477229058256e-05, 'balanced_loss': False, 'epochs': 187, 'early_stopping_patience': 21, 'plateau_patience': 18, 'plateau_divider': 8}. Best is trial 159 with value: 0.5933114785827998.
+[I 2025-04-03 06:33:55,239] Trial 264 finished with value: 0.5791861129905953 and parameters: {'left_stride': 0, 'right_stride': 32, 'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'mean', 'threshold': 0.8916645109883207, 'batch_size': 58, 'attention_heads': 12, 'hidden_dimension': 142, 'number_of_hidden_layers': 2, 'dropout_rate': 0.43967528104236403, 'global_pooling': 'mean', 'learning_rate': 0.0003198202108752127, 'weight_decay': 0.0007657093293726797, 'beta_0': 0.83550482608431, 'beta_1': 0.9943027833267778, 'epsilon': 4.724142592113418e-05, 'balanced_loss': False, 'epochs': 155, 'early_stopping_patience': 22, 'plateau_patience': 21, 'plateau_divider': 10}. Best is trial 159 with value: 0.5933114785827998.
+[I 2025-04-03 06:52:58,935] Trial 265 finished with value: 0.5946649632961633 and parameters: {'left_stride': 0, 'right_stride': 32, 'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'mean', 'threshold': 0.8915441184683794, 'batch_size': 59, 'attention_heads': 16, 'hidden_dimension': 143, 'number_of_hidden_layers': 2, 'dropout_rate': 0.4414920956028849, 'global_pooling': 'mean', 'learning_rate': 0.0002965964066255357, 'weight_decay': 0.0007860667292524373, 'beta_0': 0.8367490054623626, 'beta_1': 0.9946886771238088, 'epsilon': 4.24311720977987e-05, 'balanced_loss': False, 'epochs': 156, 'early_stopping_patience': 22, 'plateau_patience': 21, 'plateau_divider': 10}. Best is trial 265 with value: 0.5946649632961633.
+[I 2025-04-03 07:09:31,418] Trial 266 finished with value: 0.5483869599915553 and parameters: {'left_stride': 0, 'right_stride': 32, 'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'mean', 'threshold': 0.8934052861715251, 'batch_size': 61, 'attention_heads': 12, 'hidden_dimension': 141, 'number_of_hidden_layers': 2, 'dropout_rate': 0.4412695915932292, 'global_pooling': 'mean', 'learning_rate': 0.0002856783636983595, 'weight_decay': 0.0007812863129146501, 'beta_0': 0.8363072944728728, 'beta_1': 0.9952182088120017, 'epsilon': 3.7388130299141744e-05, 'balanced_loss': False, 'epochs': 154, 'early_stopping_patience': 22, 'plateau_patience': 21, 'plateau_divider': 4}. Best is trial 265 with value: 0.5946649632961633.
+[I 2025-04-03 07:24:25,457] Trial 267 finished with value: 0.42484108206607313 and parameters: {'left_stride': 0, 'right_stride': 32, 'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'min', 'threshold': 0.8905846942304495, 'batch_size': 59, 'attention_heads': 11, 'hidden_dimension': 142, 'number_of_hidden_layers': 2, 'dropout_rate': 0.43704908479138466, 'global_pooling': 'sum', 'learning_rate': 0.0001665566667080313, 'weight_decay': 0.0007003826139905582, 'beta_0': 0.8347493995388747, 'beta_1': 0.9944877816157806, 'epsilon': 4.5411929573209575e-05, 'balanced_loss': False, 'epochs': 157, 'early_stopping_patience': 22, 'plateau_patience': 21, 'plateau_divider': 10}. Best is trial 265 with value: 0.5946649632961633.
+
+[TRIAL] 265 [VALIDATION PERFORMANCE] 0.5946649632961633 [TRAINING LOSS] 0.045368296458669334 [VALIDATION LOSS] 1.8738866647084553 
+
+number                                     265
+value                                 0.594665
+params_threshold                      0.891544
+params_attention_heads                      16
+params_balanced_loss                     False
+params_embedding_pooling_operation        mean
+params_attention_pooling_operation        mean
+params_batch_size                           59
+params_dropout_rate                   0.441492
+params_early_stopping_patience              22
+params_epochs                              156
+params_global_pooling                     mean
+params_hidden_dimension                    143
+params_learning_rate                  0.000297
+params_number_of_hidden_layers               2
+params_plateau_divider                      10
+params_plateau_patience                     21
+params_weight_decay                   0.000786
+params_beta_0                         0.836749
+params_beta_1                         0.994689
+params_epsilon                        0.000042
+user_attrs_epoch                          35.0
+user_attrs_training_loss              0.045368
+user_attrs_validation_loss            1.873887
+params_left_stride                           0
+params_right_stride                         32
+Name: 265, dtype: object
+37 Val: 0.5260594150474406 Test: 0.5545734508233151
+38 Val: 0.532102182394049 Test: 0.5339669271580681
+39 Val: 0.5223204828489065 Test: 0.5669374995431593
+40 Val: 0.5689630789030634 Test: 0.5334244571188009
+41 Val: 0.5481920539149724 Test: 0.5514845937858314
+File /checkpoint/pimentel/15603001/best-model-Ohsumed.pth.tar cannot be opened.
+42 Exception...
+slurmstepd: error: *** JOB 15603001 ON gpu052 CANCELLED AT 2025-04-03T09:19:12 ***

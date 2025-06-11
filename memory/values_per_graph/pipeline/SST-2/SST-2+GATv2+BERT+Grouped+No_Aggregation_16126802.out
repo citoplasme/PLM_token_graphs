@@ -1,0 +1,31 @@
+[I 2025-05-08 08:56:33,206] Using an existing study with name 'SST-2-GATv2-google-bert-bert-base-uncased-Grouped-No_Aggregation' instead of creating a new one.
+
+[TRIAL] 221 [VALIDATION PERFORMANCE] 0.9105504587155964 [TRAINING LOSS] 0.16472558863461018 [VALIDATION LOSS] 0.27742454705211067 
+
+number                                     221
+value                                  0.91055
+params_threshold                      0.574329
+params_attention_heads                       7
+params_balanced_loss                      True
+params_embedding_pooling_operation         max
+params_attention_pooling_operation         min
+params_batch_size                           67
+params_dropout_rate                   0.469089
+params_early_stopping_patience              23
+params_epochs                               69
+params_global_pooling                      max
+params_hidden_dimension                    238
+params_learning_rate                  0.000592
+params_number_of_hidden_layers               2
+params_plateau_divider                       6
+params_plateau_patience                     19
+params_weight_decay                   0.000125
+params_beta_0                         0.836906
+params_beta_1                         0.988719
+params_epsilon                             0.0
+user_attrs_epoch                          10.0
+user_attrs_training_loss              0.164726
+user_attrs_validation_loss            0.277425
+Name: 221, dtype: object
+
+[SST-2] Elapsed time: 3.124067151546478 minutes.

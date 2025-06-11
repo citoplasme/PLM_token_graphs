@@ -1,0 +1,217 @@
+[I 2024-11-19 03:19:10,899] Using an existing study with name 'Ohsumed-GAT-google-bert-bert-base-uncased-Surrogate-No_Aggregation' instead of creating a new one.
+Optimization already completed.
+
+[TRIAL] 193 [VALIDATION PERFORMANCE] 0.6255168363253788 [TRAINING LOSS] 0.007130942602331439 [VALIDATION LOSS] 2.3443734645843506 
+
+number                                     193
+value                                 0.625517
+params_threshold                      0.980747
+params_attention_heads                      12
+params_balanced_loss                     False
+params_embedding_pooling_operation        mean
+params_attention_pooling_operation         min
+params_batch_size                           60
+params_dropout_rate                   0.342091
+params_early_stopping_patience              20
+params_epochs                               56
+params_global_pooling                     mean
+params_hidden_dimension                    244
+params_learning_rate                  0.001286
+params_number_of_hidden_layers               1
+params_plateau_divider                       8
+params_plateau_patience                     12
+params_weight_decay                   0.000121
+params_beta_0                         0.873007
+params_beta_1                         0.989199
+params_epsilon                        0.000019
+user_attrs_epoch                          24.0
+user_attrs_training_loss              0.007131
+user_attrs_validation_loss            2.344373
+params_left_stride                         128
+params_right_stride                         64
+Name: 193, dtype: object
+37 Val: 0.5844905544678235 Test: 0.5573162791528701
+38 Val: 0.5687624518021475 Test: 0.5815602835864297
+39 Val: 0.5896902426620916 Test: 0.5739387405681751
+40 Val: 0.5996385649223953 Test: 0.5781974473245405
+41 Val: 0.6053486819012867 Test: 0.5841013861734136
+42 Val: 0.607852340756398 Test: 0.5852531884460472
+43 Val: 0.5944012245903552 Test: 0.5871893375331464
+44 Val: 0.6126129189022697 Test: 0.5884217760490509
+45 Val: 0.6024732337821845 Test: 0.5964573503242051
+46 Val: 0.6022326527355351 Test: 0.577396996891443
+Validation performance: 56.88 & 59.68 ± 1.29 & 61.26
+Testing performance: 55.73 & 58.1 ± 1.05 & 59.65
+
+[TRIAL] 345 [VALIDATION PERFORMANCE] 0.6226452414826833 [TRAINING LOSS] 0.02598551469239986 [VALIDATION LOSS] 3.6622843146324158 
+
+number                                     345
+value                                 0.622645
+params_threshold                      0.968887
+params_attention_heads                      12
+params_balanced_loss                      True
+params_embedding_pooling_operation        mean
+params_attention_pooling_operation         min
+params_batch_size                           51
+params_dropout_rate                   0.374574
+params_early_stopping_patience              23
+params_epochs                               64
+params_global_pooling                     mean
+params_hidden_dimension                    243
+params_learning_rate                  0.000938
+params_number_of_hidden_layers               2
+params_plateau_divider                       8
+params_plateau_patience                     11
+params_weight_decay                   0.000007
+params_beta_0                         0.896894
+params_beta_1                         0.989282
+params_epsilon                             0.0
+user_attrs_epoch                          25.0
+user_attrs_training_loss              0.025986
+user_attrs_validation_loss            3.662284
+params_left_stride                          64
+params_right_stride                         32
+Name: 345, dtype: object
+Token indices sequence length is longer than the specified maximum sequence length for this model (611 > 512). Running this sequence through the model will result in indexing errors
+CUDA out of memory. Tried to allocate 2.31 GiB. GPU 0 has a total capacity of 44.56 GiB of which 1.86 GiB is free. Including non-PyTorch memory, this process has 42.69 GiB memory in use. Of the allocated memory 40.01 GiB is allocated by PyTorch, and 1.53 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+37 Exception...
+CUDA out of memory. Tried to allocate 2.25 GiB. GPU 0 has a total capacity of 44.56 GiB of which 2.24 GiB is free. Including non-PyTorch memory, this process has 42.32 GiB memory in use. Of the allocated memory 39.60 GiB is allocated by PyTorch, and 1.56 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+38 Exception...
+39 Val: 0.585383976782251 Test: 0.5993337089242599
+40 Val: 0.5957971085852894 Test: 0.6025005852429216
+41 Val: 0.5836440948805713 Test: 0.592486084247728
+42 Val: 0.6206754545390353 Test: 0.5936945008582114
+43 Val: 0.5695229005192761 Test: 0.6065678456244934
+44 Val: 0.5948885419945217 Test: 0.6106150913743137
+45 Val: 0.5904501007741311 Test: 0.5925280683383319
+46 Val: 0.585871932571282 Test: 0.600041959704452
+Validation performance: 56.95 & 59.08 ± 1.46 & 62.07
+Testing performance: 59.25 & 59.97 ± 0.67 & 61.06
+
+[TRIAL] 235 [VALIDATION PERFORMANCE] 0.622383727710577 [TRAINING LOSS] 0.01285747077781707 [VALIDATION LOSS] 1.8266294101874034 
+
+number                                     235
+value                                 0.622384
+params_threshold                      0.976198
+params_attention_heads                      12
+params_balanced_loss                     False
+params_embedding_pooling_operation        mean
+params_attention_pooling_operation         min
+params_batch_size                           59
+params_dropout_rate                   0.367092
+params_early_stopping_patience              17
+params_epochs                               62
+params_global_pooling                     mean
+params_hidden_dimension                    256
+params_learning_rate                  0.001087
+params_number_of_hidden_layers               1
+params_plateau_divider                       8
+params_plateau_patience                     12
+params_weight_decay                   0.000008
+params_beta_0                         0.876728
+params_beta_1                         0.989412
+params_epsilon                        0.000024
+user_attrs_epoch                          21.0
+user_attrs_training_loss              0.012857
+user_attrs_validation_loss            1.826629
+params_left_stride                         128
+params_right_stride                         64
+Name: 235, dtype: object
+37 Val: 0.6074329036924402 Test: 0.5960894749272151
+38 Val: 0.6064064511609139 Test: 0.6001482372028617
+39 Val: 0.5838313265941524 Test: 0.5616944537253965
+40 Val: 0.5789378338473371 Test: 0.5878235610007706
+41 Val: 0.6093666757046519 Test: 0.60133942974126
+42 Val: 0.6136132097539226 Test: 0.5916916503814024
+43 Val: 0.575566379489837 Test: 0.580270962993651
+44 Val: 0.6119285797300505 Test: 0.6046307680911697
+45 Val: 0.5941220288168167 Test: 0.5882304817575771
+46 Val: 0.597858415380924 Test: 0.5959736054188045
+Validation performance: 57.56 & 59.79 ± 1.42 & 61.36
+Testing performance: 56.17 & 59.08 ± 1.26 & 60.46
+
+[TRIAL] 350 [VALIDATION PERFORMANCE] 0.6222410226364562 [TRAINING LOSS] 0.05196117941852448 [VALIDATION LOSS] 3.415076971054077 
+
+number                                     350
+value                                 0.622241
+params_threshold                      0.969545
+params_attention_heads                      12
+params_balanced_loss                      True
+params_embedding_pooling_operation        mean
+params_attention_pooling_operation         min
+params_batch_size                           51
+params_dropout_rate                   0.363117
+params_early_stopping_patience              24
+params_epochs                               63
+params_global_pooling                     mean
+params_hidden_dimension                    248
+params_learning_rate                  0.001092
+params_number_of_hidden_layers               2
+params_plateau_divider                       8
+params_plateau_patience                     11
+params_weight_decay                   0.000007
+params_beta_0                         0.898678
+params_beta_1                         0.989131
+params_epsilon                        0.000001
+user_attrs_epoch                          23.0
+user_attrs_training_loss              0.051961
+user_attrs_validation_loss            3.415077
+params_left_stride                          64
+params_right_stride                          0
+Name: 350, dtype: object
+37 Val: 0.6022099172210129 Test: 0.6105367353798412
+38 Val: 0.5617382043183653 Test: 0.5966021138225482
+39 Val: 0.5951104684305619 Test: 0.6140808442003842
+40 Val: 0.576729421201104 Test: 0.5763610209302881
+41 Val: 0.5807785519417231 Test: 0.5968221297746443
+42 Val: 0.5877536944572893 Test: 0.5908940761001515
+43 Val: 0.5926451192449049 Test: 0.5954436528949103
+44 Val: 0.6146993824986858 Test: 0.6112172057918381
+45 Val: 0.5919818763694618 Test: 0.5901999474417917
+46 Val: 0.5997895199459367 Test: 0.6074665911555586
+Validation performance: 56.17 & 59.03 ± 1.47 & 61.47
+Testing performance: 57.64 & 59.9 ± 1.18 & 61.41
+
+[TRIAL] 220 [VALIDATION PERFORMANCE] 0.6170528917551118 [TRAINING LOSS] 0.006420991573300536 [VALIDATION LOSS] 2.3331517775853476 
+
+number                                     220
+value                                 0.617053
+params_threshold                      0.980817
+params_attention_heads                      15
+params_balanced_loss                     False
+params_embedding_pooling_operation        mean
+params_attention_pooling_operation         min
+params_batch_size                           59
+params_dropout_rate                   0.376833
+params_early_stopping_patience              20
+params_epochs                               61
+params_global_pooling                     mean
+params_hidden_dimension                    247
+params_learning_rate                  0.001326
+params_number_of_hidden_layers               1
+params_plateau_divider                       8
+params_plateau_patience                     12
+params_weight_decay                   0.000007
+params_beta_0                         0.865427
+params_beta_1                         0.990265
+params_epsilon                        0.000002
+user_attrs_epoch                          25.0
+user_attrs_training_loss              0.006421
+user_attrs_validation_loss            2.333152
+params_left_stride                         128
+params_right_stride                         64
+Name: 220, dtype: object
+37 Val: 0.580011425822277 Test: 0.5846064273528674
+38 Val: 0.5964652813510927 Test: 0.5820142590835694
+39 Val: 0.593338193841363 Test: 0.5888137258544613
+40 Val: 0.6139050898269428 Test: 0.5925228585099213
+41 Val: 0.6246575875004551 Test: 0.5939098271349451
+42 Val: 0.6312239394519272 Test: 0.5928874800610142
+43 Val: 0.5741712095734883 Test: 0.5717090016828132
+44 Val: 0.577735595154956 Test: 0.534086339666164
+45 Val: 0.5715624618280642 Test: 0.5515938499405071
+46 Val: 0.5766035470673369 Test: 0.561421247433664
+Validation performance: 57.16 & 59.4 ± 2.21 & 63.12
+Testing performance: 53.41 & 57.54 ± 2.04 & 59.39
+
+[Ohsumed] Elapsed time: 132.38482569456102 minutes.

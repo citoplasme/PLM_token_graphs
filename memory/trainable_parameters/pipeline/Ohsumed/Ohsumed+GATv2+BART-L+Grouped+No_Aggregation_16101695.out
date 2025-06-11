@@ -1,0 +1,32 @@
+[I 2025-05-06 12:07:33,752] Using an existing study with name 'Ohsumed-GATv2-facebook-bart-large-Grouped-No_Aggregation' instead of creating a new one.
+
+[TRIAL] 184 [VALIDATION PERFORMANCE] 0.6760726335182317 [TRAINING LOSS] 0.011951400455371994 [VALIDATION LOSS] 1.9104058742523193 
+
+number                                     184
+value                                 0.676073
+params_threshold                      0.889482
+params_attention_heads                       9
+params_balanced_loss                     False
+params_embedding_pooling_operation        mean
+params_attention_pooling_operation         max
+params_batch_size                           75
+params_dropout_rate                   0.468633
+params_early_stopping_patience              25
+params_epochs                              133
+params_global_pooling                     mean
+params_hidden_dimension                    241
+params_learning_rate                  0.001416
+params_number_of_hidden_layers               1
+params_plateau_divider                       2
+params_plateau_patience                     21
+params_weight_decay                   0.000001
+params_beta_0                         0.825653
+params_beta_1                         0.989955
+params_epsilon                        0.000007
+user_attrs_epoch                          32.0
+user_attrs_training_loss              0.011951
+user_attrs_validation_loss            1.910406
+Name: 184, dtype: object
+Count of trainable parameters: 14751392
+
+[Ohsumed] Elapsed time: 0.1495274027188619 minutes.

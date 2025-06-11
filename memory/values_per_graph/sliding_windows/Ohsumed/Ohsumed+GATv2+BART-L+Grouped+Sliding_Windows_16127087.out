@@ -1,0 +1,33 @@
+[I 2025-05-08 09:48:17,742] Using an existing study with name 'Ohsumed-GATv2-facebook-bart-large-Grouped-Sliding_Windows' instead of creating a new one.
+
+[TRIAL] 97 [VALIDATION PERFORMANCE] 0.6752887550206477 [TRAINING LOSS] 0.19216210364053646 [VALIDATION LOSS] 1.768841822942098 
+
+number                                          97
+value                                     0.675289
+params_window_size                               9
+params_attention_heads                           5
+params_balanced_loss                          True
+params_embedding_pooling_operation            mean
+params_co_occurrence_pooling_operation         sum
+params_batch_size                              113
+params_dropout_rate                       0.558362
+params_early_stopping_patience                  15
+params_epochs                                  193
+params_global_pooling                         mean
+params_hidden_dimension                        205
+params_learning_rate                       0.00185
+params_number_of_hidden_layers                   1
+params_plateau_divider                           3
+params_plateau_patience                         15
+params_weight_decay                       0.000784
+params_beta_0                              0.85674
+params_beta_1                             0.998013
+params_epsilon                                 0.0
+user_attrs_epoch                              21.0
+user_attrs_training_loss                  0.192162
+user_attrs_validation_loss                1.768842
+params_left_stride                              64
+params_right_stride                            256
+Name: 97, dtype: object
+
+[Ohsumed] Elapsed time: 16.279606719811756 minutes.

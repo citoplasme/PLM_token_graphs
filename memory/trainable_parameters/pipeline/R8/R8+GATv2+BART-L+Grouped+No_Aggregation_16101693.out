@@ -1,0 +1,32 @@
+[I 2025-05-06 12:07:07,550] Using an existing study with name 'R8-GATv2-facebook-bart-large-Grouped-No_Aggregation' instead of creating a new one.
+
+[TRIAL] 246 [VALIDATION PERFORMANCE] 0.9777375558728941 [TRAINING LOSS] 0.0378247824603245 [VALIDATION LOSS] 0.10013040285557509 
+
+number                                     246
+value                                 0.977738
+params_threshold                      0.718158
+params_attention_heads                      15
+params_balanced_loss                      True
+params_embedding_pooling_operation         max
+params_attention_pooling_operation        mean
+params_batch_size                           45
+params_dropout_rate                   0.554729
+params_early_stopping_patience              21
+params_epochs                              142
+params_global_pooling                      max
+params_hidden_dimension                     76
+params_learning_rate                   0.00002
+params_number_of_hidden_layers               3
+params_plateau_divider                       7
+params_plateau_patience                     19
+params_weight_decay                    0.00038
+params_beta_0                         0.884679
+params_beta_1                         0.992307
+params_epsilon                        0.000069
+user_attrs_epoch                         112.0
+user_attrs_training_loss              0.037825
+user_attrs_validation_loss             0.10013
+Name: 246, dtype: object
+Count of trainable parameters: 11035208
+
+[R8] Elapsed time: 0.19144797325134277 minutes.

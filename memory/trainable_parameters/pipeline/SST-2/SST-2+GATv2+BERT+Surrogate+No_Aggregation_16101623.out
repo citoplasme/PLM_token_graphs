@@ -1,0 +1,32 @@
+[I 2025-05-06 11:51:41,143] Using an existing study with name 'SST-2-GATv2-google-bert-bert-base-uncased-Surrogate-No_Aggregation' instead of creating a new one.
+
+[TRIAL] 255 [VALIDATION PERFORMANCE] 0.9128440366972477 [TRAINING LOSS] 0.22369400213162105 [VALIDATION LOSS] 0.26183562849958736 
+
+number                                     255
+value                                 0.912844
+params_threshold                       0.48984
+params_attention_heads                      16
+params_balanced_loss                      True
+params_embedding_pooling_operation         max
+params_attention_pooling_operation         max
+params_batch_size                           77
+params_dropout_rate                   0.454022
+params_early_stopping_patience              15
+params_epochs                              197
+params_global_pooling                     mean
+params_hidden_dimension                    196
+params_learning_rate                  0.001156
+params_number_of_hidden_layers               3
+params_plateau_divider                       5
+params_plateau_patience                     11
+params_weight_decay                   0.000007
+params_beta_0                         0.834165
+params_beta_1                         0.981367
+params_epsilon                        0.000002
+user_attrs_epoch                           6.0
+user_attrs_training_loss              0.223694
+user_attrs_validation_loss            0.261836
+Name: 255, dtype: object
+Count of trainable parameters: 65686658
+
+[SST-2] Elapsed time: 0.12022199233373006 minutes.

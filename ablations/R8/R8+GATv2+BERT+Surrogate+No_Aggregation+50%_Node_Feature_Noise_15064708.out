@@ -1,0 +1,229 @@
+[I 2025-02-28 16:00:20,971] Using an existing study with name 'R8-GATv2-google-bert-bert-base-uncased-Surrogate-No_Aggregation-No_Ablation-1.0-0.5' instead of creating a new one.
+Token indices sequence length is longer than the specified maximum sequence length for this model (639 > 512). Running this sequence through the model will result in indexing errors
+[I 2025-02-28 16:11:13,593] Trial 299 finished with value: 0.9324239246662986 and parameters: {'left_stride': 32, 'right_stride': 0, 'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'min', 'threshold': 0.9478407103851293, 'batch_size': 94, 'attention_heads': 14, 'hidden_dimension': 209, 'number_of_hidden_layers': 0, 'dropout_rate': 0.3110905806302191, 'global_pooling': 'max', 'learning_rate': 0.0018845600509196786, 'weight_decay': 7.138987858566453e-06, 'beta_0': 0.858095180879176, 'beta_1': 0.982610653111271, 'epsilon': 2.7178437966226646e-05, 'balanced_loss': True, 'epochs': 197, 'early_stopping_patience': 23, 'plateau_patience': 14, 'plateau_divider': 6}. Best is trial 167 with value: 0.9464570209715535.
+CUDA out of memory. Tried to allocate 4.78 GiB. GPU 0 has a total capacity of 44.56 GiB of which 1.91 GiB is free. Including non-PyTorch memory, this process has 42.65 GiB memory in use. Of the allocated memory 36.53 GiB is allocated by PyTorch, and 4.97 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[I 2025-02-28 16:19:15,838] Trial 300 finished with value: -1.0 and parameters: {'left_stride': 256, 'right_stride': 0, 'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'min', 'threshold': 0.9297871501703197, 'batch_size': 118, 'attention_heads': 13, 'hidden_dimension': 242, 'number_of_hidden_layers': 0, 'dropout_rate': 0.32221306611376865, 'global_pooling': 'max', 'learning_rate': 0.002468366033452946, 'weight_decay': 4.046135495174641e-05, 'beta_0': 0.8733891787643029, 'beta_1': 0.9840384452757432, 'epsilon': 3.9650887802670215e-05, 'balanced_loss': True, 'epochs': 184, 'early_stopping_patience': 25, 'plateau_patience': 13, 'plateau_divider': 6}. Best is trial 167 with value: 0.9464570209715535.
+[I 2025-02-28 16:31:34,010] Trial 301 finished with value: 0.9264193841034363 and parameters: {'left_stride': 32, 'right_stride': 0, 'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'min', 'threshold': 0.9429090937867153, 'batch_size': 55, 'attention_heads': 15, 'hidden_dimension': 251, 'number_of_hidden_layers': 0, 'dropout_rate': 0.3068429272655444, 'global_pooling': 'max', 'learning_rate': 0.0037358071902437446, 'weight_decay': 6.54502103218152e-05, 'beta_0': 0.8638035155765029, 'beta_1': 0.9834065990726587, 'epsilon': 1.9859519959945367e-05, 'balanced_loss': True, 'epochs': 179, 'early_stopping_patience': 23, 'plateau_patience': 13, 'plateau_divider': 6}. Best is trial 167 with value: 0.9464570209715535.
+[I 2025-02-28 16:44:19,787] Trial 302 finished with value: 0.9470205391760602 and parameters: {'left_stride': 64, 'right_stride': 0, 'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'min', 'threshold': 0.908906113508235, 'batch_size': 50, 'attention_heads': 15, 'hidden_dimension': 175, 'number_of_hidden_layers': 0, 'dropout_rate': 0.3163518531668099, 'global_pooling': 'max', 'learning_rate': 0.0011726400432703701, 'weight_decay': 3.090102502600767e-05, 'beta_0': 0.8538618004492508, 'beta_1': 0.983019457964484, 'epsilon': 2.981501422521615e-05, 'balanced_loss': True, 'epochs': 194, 'early_stopping_patience': 24, 'plateau_patience': 11, 'plateau_divider': 6}. Best is trial 302 with value: 0.9470205391760602.
+[I 2025-02-28 16:57:12,952] Trial 303 finished with value: 0.9348610131878587 and parameters: {'left_stride': 64, 'right_stride': 0, 'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'min', 'threshold': 0.9145283558565092, 'batch_size': 46, 'attention_heads': 15, 'hidden_dimension': 186, 'number_of_hidden_layers': 0, 'dropout_rate': 0.3167154754868663, 'global_pooling': 'max', 'learning_rate': 0.0012448356590015132, 'weight_decay': 3.5643272055654606e-05, 'beta_0': 0.8542566436992238, 'beta_1': 0.9821584729328072, 'epsilon': 5.142058690205581e-05, 'balanced_loss': True, 'epochs': 192, 'early_stopping_patience': 24, 'plateau_patience': 11, 'plateau_divider': 6}. Best is trial 302 with value: 0.9470205391760602.
+CUDA out of memory. Tried to allocate 4.13 GiB. GPU 0 has a total capacity of 44.56 GiB of which 2.72 GiB is free. Including non-PyTorch memory, this process has 41.84 GiB memory in use. Of the allocated memory 39.81 GiB is allocated by PyTorch, and 901.82 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[I 2025-02-28 17:04:29,349] Trial 304 finished with value: -1.0 and parameters: {'left_stride': 64, 'right_stride': 128, 'attention_pooling_operation': 'mean', 'embedding_pooling_operation': 'min', 'threshold': 0.7323759294128994, 'batch_size': 39, 'attention_heads': 15, 'hidden_dimension': 170, 'number_of_hidden_layers': 0, 'dropout_rate': 0.3231274448549108, 'global_pooling': 'max', 'learning_rate': 0.0008518814234627287, 'weight_decay': 2.9142548920931275e-05, 'beta_0': 0.8528919505403008, 'beta_1': 0.9830044923226804, 'epsilon': 7.879558933460092e-05, 'balanced_loss': True, 'epochs': 194, 'early_stopping_patience': 23, 'plateau_patience': 11, 'plateau_divider': 6}. Best is trial 302 with value: 0.9470205391760602.
+[I 2025-02-28 17:15:11,462] Trial 305 finished with value: 0.9381792430688201 and parameters: {'left_stride': 64, 'right_stride': 0, 'attention_pooling_operation': 'min', 'embedding_pooling_operation': 'mean', 'threshold': 0.9231548787552925, 'batch_size': 46, 'attention_heads': 14, 'hidden_dimension': 166, 'number_of_hidden_layers': 0, 'dropout_rate': 0.31404549958611744, 'global_pooling': 'max', 'learning_rate': 0.001012226138745824, 'weight_decay': 3.2251998666571524e-05, 'beta_0': 0.850911930467167, 'beta_1': 0.9825172801852388, 'epsilon': 2.970688198218439e-05, 'balanced_loss': True, 'epochs': 190, 'early_stopping_patience': 24, 'plateau_patience': 11, 'plateau_divider': 5}. Best is trial 302 with value: 0.9470205391760602.
+[I 2025-02-28 17:26:43,691] Trial 306 finished with value: 0.9377016377369805 and parameters: {'left_stride': 64, 'right_stride': 0, 'attention_pooling_operation': 'min', 'embedding_pooling_operation': 'mean', 'threshold': 0.9119375381970799, 'batch_size': 52, 'attention_heads': 14, 'hidden_dimension': 174, 'number_of_hidden_layers': 0, 'dropout_rate': 0.40812140857769735, 'global_pooling': 'max', 'learning_rate': 0.001071013153761042, 'weight_decay': 3.174686260274028e-05, 'beta_0': 0.8502186710080569, 'beta_1': 0.9814742232828328, 'epsilon': 3.9255875577013036e-05, 'balanced_loss': True, 'epochs': 185, 'early_stopping_patience': 24, 'plateau_patience': 11, 'plateau_divider': 5}. Best is trial 302 with value: 0.9470205391760602.
+[I 2025-02-28 17:38:10,136] Trial 307 finished with value: 0.9217729412686163 and parameters: {'left_stride': 64, 'right_stride': 0, 'attention_pooling_operation': 'min', 'embedding_pooling_operation': 'mean', 'threshold': 0.9091216060259517, 'batch_size': 55, 'attention_heads': 14, 'hidden_dimension': 163, 'number_of_hidden_layers': 0, 'dropout_rate': 0.41742309054544474, 'global_pooling': 'max', 'learning_rate': 0.0010843470676520067, 'weight_decay': 3.2095693154922196e-05, 'beta_0': 0.8561571717161077, 'beta_1': 0.9816116048018233, 'epsilon': 4.31537985804232e-05, 'balanced_loss': True, 'epochs': 185, 'early_stopping_patience': 24, 'plateau_patience': 11, 'plateau_divider': 5}. Best is trial 302 with value: 0.9470205391760602.
+[I 2025-02-28 17:51:56,744] Trial 308 finished with value: 0.9349832712158184 and parameters: {'left_stride': 64, 'right_stride': 0, 'attention_pooling_operation': 'min', 'embedding_pooling_operation': 'mean', 'threshold': 0.8978730712424747, 'batch_size': 42, 'attention_heads': 14, 'hidden_dimension': 177, 'number_of_hidden_layers': 0, 'dropout_rate': 0.4342147813433762, 'global_pooling': 'max', 'learning_rate': 0.001035667832405798, 'weight_decay': 2.468890615955671e-05, 'beta_0': 0.850882197285901, 'beta_1': 0.980875104867614, 'epsilon': 3.702704811696682e-05, 'balanced_loss': True, 'epochs': 186, 'early_stopping_patience': 24, 'plateau_patience': 11, 'plateau_divider': 5}. Best is trial 302 with value: 0.9470205391760602.
+[I 2025-02-28 18:04:06,847] Trial 309 finished with value: 0.9275917917986931 and parameters: {'left_stride': 64, 'right_stride': 0, 'attention_pooling_operation': 'min', 'embedding_pooling_operation': 'mean', 'threshold': 0.9090356992546922, 'batch_size': 52, 'attention_heads': 14, 'hidden_dimension': 166, 'number_of_hidden_layers': 0, 'dropout_rate': 0.3353538575603676, 'global_pooling': 'max', 'learning_rate': 0.000698765326150968, 'weight_decay': 3.0037912727600572e-05, 'beta_0': 0.8517313270753334, 'beta_1': 0.9815369350430132, 'epsilon': 6.016507900093066e-05, 'balanced_loss': True, 'epochs': 183, 'early_stopping_patience': 23, 'plateau_patience': 11, 'plateau_divider': 5}. Best is trial 302 with value: 0.9470205391760602.
+[I 2025-02-28 18:15:34,122] Trial 310 finished with value: 0.9278594455119318 and parameters: {'left_stride': 64, 'right_stride': 0, 'attention_pooling_operation': 'min', 'embedding_pooling_operation': 'mean', 'threshold': 0.9054867033794046, 'batch_size': 49, 'attention_heads': 13, 'hidden_dimension': 176, 'number_of_hidden_layers': 0, 'dropout_rate': 0.3760955033792524, 'global_pooling': 'max', 'learning_rate': 0.0009416800908762481, 'weight_decay': 2.03592789593702e-05, 'beta_0': 0.8502359263036358, 'beta_1': 0.9820375891740762, 'epsilon': 4.585440518035263e-05, 'balanced_loss': True, 'epochs': 189, 'early_stopping_patience': 24, 'plateau_patience': 11, 'plateau_divider': 5}. Best is trial 302 with value: 0.9470205391760602.
+[I 2025-02-28 18:26:07,094] Trial 311 finished with value: 0.9313572491665358 and parameters: {'left_stride': 64, 'right_stride': 0, 'attention_pooling_operation': 'min', 'embedding_pooling_operation': 'mean', 'threshold': 0.924092122041731, 'batch_size': 60, 'attention_heads': 14, 'hidden_dimension': 169, 'number_of_hidden_layers': 0, 'dropout_rate': 0.31988272645712157, 'global_pooling': 'max', 'learning_rate': 0.0012593552471575386, 'weight_decay': 2.2816767399048095e-05, 'beta_0': 0.8490073205256271, 'beta_1': 0.9803571089208422, 'epsilon': 3.0427105028747006e-05, 'balanced_loss': True, 'epochs': 188, 'early_stopping_patience': 23, 'plateau_patience': 11, 'plateau_divider': 5}. Best is trial 302 with value: 0.9470205391760602.
+[I 2025-02-28 18:35:56,186] Trial 312 finished with value: 0.9227501797735844 and parameters: {'left_stride': 64, 'right_stride': 0, 'attention_pooling_operation': 'min', 'embedding_pooling_operation': 'mean', 'threshold': 0.9166692945513981, 'batch_size': 46, 'attention_heads': 14, 'hidden_dimension': 246, 'number_of_hidden_layers': 0, 'dropout_rate': 0.3723201310109035, 'global_pooling': 'max', 'learning_rate': 0.0011336558183341506, 'weight_decay': 3.2535265797916906e-05, 'beta_0': 0.8485692165515181, 'beta_1': 0.9824190480570699, 'epsilon': 3.6646966377312524e-05, 'balanced_loss': True, 'epochs': 191, 'early_stopping_patience': 11, 'plateau_patience': 12, 'plateau_divider': 5}. Best is trial 302 with value: 0.9470205391760602.
+[I 2025-02-28 18:47:29,223] Trial 313 finished with value: 0.923251313090978 and parameters: {'left_stride': 64, 'right_stride': 0, 'attention_pooling_operation': 'min', 'embedding_pooling_operation': 'mean', 'threshold': 0.9186425260828576, 'batch_size': 50, 'attention_heads': 14, 'hidden_dimension': 172, 'number_of_hidden_layers': 1, 'dropout_rate': 0.30431103208283516, 'global_pooling': 'max', 'learning_rate': 0.0014494287329288023, 'weight_decay': 2.6247140398460966e-05, 'beta_0': 0.8787836656776669, 'beta_1': 0.9813112392869305, 'epsilon': 5.2157228471752295e-05, 'balanced_loss': True, 'epochs': 181, 'early_stopping_patience': 14, 'plateau_patience': 11, 'plateau_divider': 5}. Best is trial 302 with value: 0.9470205391760602.
+[I 2025-02-28 18:56:55,898] Trial 314 finished with value: 0.9283122464630355 and parameters: {'left_stride': 64, 'right_stride': 0, 'attention_pooling_operation': 'min', 'embedding_pooling_operation': 'mean', 'threshold': 0.9234019591242004, 'batch_size': 59, 'attention_heads': 14, 'hidden_dimension': 238, 'number_of_hidden_layers': 0, 'dropout_rate': 0.3661119141332199, 'global_pooling': 'max', 'learning_rate': 0.0008466605214161014, 'weight_decay': 3.484727536872755e-05, 'beta_0': 0.8755376695830637, 'beta_1': 0.9830778648058462, 'epsilon': 3.1055663253894006e-05, 'balanced_loss': True, 'epochs': 174, 'early_stopping_patience': 10, 'plateau_patience': 11, 'plateau_divider': 5}. Best is trial 302 with value: 0.9470205391760602.
+CUDA out of memory. Tried to allocate 5.44 GiB. GPU 0 has a total capacity of 44.56 GiB of which 902.69 MiB is free. Including non-PyTorch memory, this process has 43.67 GiB memory in use. Of the allocated memory 42.05 GiB is allocated by PyTorch, and 478.21 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[I 2025-02-28 19:02:54,559] Trial 315 finished with value: -1.0 and parameters: {'left_stride': 64, 'right_stride': 0, 'attention_pooling_operation': 'min', 'embedding_pooling_operation': 'mean', 'threshold': 0.9072900653334469, 'batch_size': 152, 'attention_heads': 14, 'hidden_dimension': 256, 'number_of_hidden_layers': 0, 'dropout_rate': 0.3839653083356611, 'global_pooling': 'max', 'learning_rate': 0.0013673266935275517, 'weight_decay': 2.9134207869693164e-05, 'beta_0': 0.8720890232616604, 'beta_1': 0.981963916050636, 'epsilon': 7.118217576568744e-05, 'balanced_loss': True, 'epochs': 190, 'early_stopping_patience': 24, 'plateau_patience': 12, 'plateau_divider': 5}. Best is trial 302 with value: 0.9470205391760602.
+[I 2025-02-28 19:13:20,293] Trial 316 finished with value: 0.9195259543017075 and parameters: {'left_stride': 64, 'right_stride': 256, 'attention_pooling_operation': 'min', 'embedding_pooling_operation': 'mean', 'threshold': 0.9229772128900021, 'batch_size': 51, 'attention_heads': 12, 'hidden_dimension': 175, 'number_of_hidden_layers': 0, 'dropout_rate': 0.3264759663432998, 'global_pooling': 'max', 'learning_rate': 0.0008137091568189342, 'weight_decay': 1.8089141595073234e-05, 'beta_0': 0.8550393137777312, 'beta_1': 0.9919979298443617, 'epsilon': 4.184658026564752e-05, 'balanced_loss': True, 'epochs': 187, 'early_stopping_patience': 19, 'plateau_patience': 10, 'plateau_divider': 7}. Best is trial 302 with value: 0.9470205391760602.
+[I 2025-02-28 19:21:46,483] Trial 317 finished with value: 0.9176441632080157 and parameters: {'left_stride': 64, 'right_stride': 0, 'attention_pooling_operation': 'min', 'embedding_pooling_operation': 'mean', 'threshold': 0.9351598052840756, 'batch_size': 169, 'attention_heads': 10, 'hidden_dimension': 216, 'number_of_hidden_layers': 0, 'dropout_rate': 0.40832020502176275, 'global_pooling': 'max', 'learning_rate': 0.0016088416446452798, 'weight_decay': 2.2374875816833133e-05, 'beta_0': 0.8248680998544478, 'beta_1': 0.9827040135865337, 'epsilon': 5.86214782838215e-05, 'balanced_loss': True, 'epochs': 192, 'early_stopping_patience': 12, 'plateau_patience': 12, 'plateau_divider': 5}. Best is trial 302 with value: 0.9470205391760602.
+[I 2025-02-28 19:30:39,044] Trial 318 finished with value: 0.9320254409582893 and parameters: {'left_stride': 128, 'right_stride': 0, 'attention_pooling_operation': 'min', 'embedding_pooling_operation': 'mean', 'threshold': 0.9281974921683938, 'batch_size': 66, 'attention_heads': 14, 'hidden_dimension': 233, 'number_of_hidden_layers': 0, 'dropout_rate': 0.31660248622500703, 'global_pooling': 'max', 'learning_rate': 0.0010770795644019513, 'weight_decay': 3.06512302292205e-05, 'beta_0': 0.8822337441471858, 'beta_1': 0.9830998658161362, 'epsilon': 2.6449703517999845e-05, 'balanced_loss': True, 'epochs': 185, 'early_stopping_patience': 10, 'plateau_patience': 11, 'plateau_divider': 6}. Best is trial 302 with value: 0.9470205391760602.
+
+[TRIAL] 302 [VALIDATION PERFORMANCE] 0.9470205391760602 [TRAINING LOSS] 0.0011137518751266643 [VALIDATION LOSS] 0.3342694285410372 
+
+number                                     302
+value                                 0.947021
+params_threshold                      0.908906
+params_attention_heads                      15
+params_balanced_loss                      True
+params_embedding_pooling_operation         min
+params_attention_pooling_operation        mean
+params_batch_size                           50
+params_dropout_rate                   0.316352
+params_early_stopping_patience              24
+params_epochs                              194
+params_global_pooling                      max
+params_hidden_dimension                    175
+params_learning_rate                  0.001173
+params_number_of_hidden_layers               0
+params_plateau_divider                       6
+params_plateau_patience                     11
+params_weight_decay                   0.000031
+params_beta_0                         0.853862
+params_beta_1                         0.983019
+params_epsilon                         0.00003
+user_attrs_epoch                          14.0
+user_attrs_training_loss              0.001114
+user_attrs_validation_loss            0.334269
+params_left_stride                          64
+params_right_stride                          0
+Name: 302, dtype: object
+37 Val: 0.92946976025386 Test: 0.9273661944928017
+38 Val: 0.9324667072895199 Test: 0.9072325391493488
+39 Val: 0.9390496190354614 Test: 0.9360598677187834
+40 Val: 0.9265071699123713 Test: 0.9340642991303725
+41 Val: 0.9337872981071333 Test: 0.9241857169411785
+42 Val: 0.931601727923995 Test: 0.9086532846057407
+43 Val: 0.9319227081033065 Test: 0.9261983781275809
+44 Val: 0.9330442540689843 Test: 0.9398117861943238
+45 Val: 0.9286914309036942 Test: 0.9331740530616517
+46 Val: 0.9222030791631878 Test: 0.9333266760116151
+Validation performance: 92.22 & 93.09 ± 0.45 & 93.9
+Testing performance: 90.72 & 92.7 ± 1.11 & 93.98
+
+[TRIAL] 167 [VALIDATION PERFORMANCE] 0.9464570209715535 [TRAINING LOSS] 0.003334746276534436 [VALIDATION LOSS] 0.5933332145708391 
+
+number                                     167
+value                                 0.946457
+params_threshold                      0.930535
+params_attention_heads                      15
+params_balanced_loss                      True
+params_embedding_pooling_operation         min
+params_attention_pooling_operation        mean
+params_batch_size                           37
+params_dropout_rate                   0.301709
+params_early_stopping_patience              23
+params_epochs                              198
+params_global_pooling                      max
+params_hidden_dimension                    247
+params_learning_rate                  0.002074
+params_number_of_hidden_layers               0
+params_plateau_divider                       6
+params_plateau_patience                     13
+params_weight_decay                   0.000026
+params_beta_0                         0.857649
+params_beta_1                         0.987196
+params_epsilon                        0.000031
+user_attrs_epoch                          18.0
+user_attrs_training_loss              0.003335
+user_attrs_validation_loss            0.593333
+params_left_stride                          32
+params_right_stride                          0
+Name: 167, dtype: object
+37 Val: 0.9245633811288709 Test: 0.9408300337013362
+38 Val: 0.9310488039615553 Test: 0.9386839014416812
+39 Val: 0.941287503806931 Test: 0.9331791045867196
+40 Val: 0.9169466369567855 Test: 0.9274058898885544
+41 Val: 0.9303112967376589 Test: 0.9230702760861857
+42 Val: 0.932171134242083 Test: 0.9277275244970441
+43 Val: 0.9385743872160507 Test: 0.9295099350668976
+44 Val: 0.922147509117931 Test: 0.9237257848716887
+45 Val: 0.9208396804247483 Test: 0.920340299553392
+46 Val: 0.9340078609071392 Test: 0.9212639053304915
+Validation performance: 91.69 & 92.92 ± 0.79 & 94.13
+Testing performance: 92.03 & 92.86 ± 0.71 & 94.08
+
+[TRIAL] 186 [VALIDATION PERFORMANCE] 0.9463200360702029 [TRAINING LOSS] 0.00020188051958906308 [VALIDATION LOSS] 0.4692050195299089 
+
+number                                     186
+value                                  0.94632
+params_threshold                      0.955673
+params_attention_heads                      14
+params_balanced_loss                      True
+params_embedding_pooling_operation         min
+params_attention_pooling_operation        mean
+params_batch_size                           93
+params_dropout_rate                   0.300371
+params_early_stopping_patience              23
+params_epochs                              197
+params_global_pooling                      max
+params_hidden_dimension                    246
+params_learning_rate                  0.003078
+params_number_of_hidden_layers               0
+params_plateau_divider                       6
+params_plateau_patience                     13
+params_weight_decay                    0.00004
+params_beta_0                         0.873355
+params_beta_1                         0.983052
+params_epsilon                         0.00005
+user_attrs_epoch                          22.0
+user_attrs_training_loss              0.000202
+user_attrs_validation_loss            0.469205
+params_left_stride                          32
+params_right_stride                          0
+Name: 186, dtype: object
+37 Val: 0.9286059680110907 Test: 0.9278255645034548
+38 Val: 0.9177107395365968 Test: 0.9177074113533903
+39 Val: 0.9347346290250118 Test: 0.9311144670706633
+40 Val: 0.915002126586004 Test: 0.9216442916437295
+41 Val: 0.930897334525791 Test: 0.9311194044820656
+42 Val: 0.9346950826473188 Test: 0.9026571818611624
+43 Val: 0.9233245574459451 Test: 0.9239198216936769
+44 Val: 0.9258458365412741 Test: 0.9167776304092126
+45 Val: 0.9167817605376989 Test: 0.9239130648816217
+46 Val: 0.937227070450023 Test: 0.9110508637815986
+Validation performance: 91.5 & 92.65 ± 0.81 & 93.72
+Testing performance: 90.27 & 92.08 ± 0.9 & 93.11
+
+[TRIAL] 237 [VALIDATION PERFORMANCE] 0.9457700277604897 [TRAINING LOSS] 0.0004297421812030474 [VALIDATION LOSS] 0.23697299848903308 
+
+number                                     237
+value                                  0.94577
+params_threshold                       0.94124
+params_attention_heads                      16
+params_balanced_loss                      True
+params_embedding_pooling_operation         min
+params_attention_pooling_operation        mean
+params_batch_size                          107
+params_dropout_rate                   0.332039
+params_early_stopping_patience              10
+params_epochs                              189
+params_global_pooling                      max
+params_hidden_dimension                    134
+params_learning_rate                  0.001078
+params_number_of_hidden_layers               0
+params_plateau_divider                       6
+params_plateau_patience                     10
+params_weight_decay                   0.000038
+params_beta_0                         0.872874
+params_beta_1                         0.984527
+params_epsilon                        0.000031
+user_attrs_epoch                          18.0
+user_attrs_training_loss               0.00043
+user_attrs_validation_loss            0.236973
+params_left_stride                         128
+params_right_stride                          0
+Name: 237, dtype: object
+37 Val: 0.9264427840922307 Test: 0.9208006024419819
+38 Val: 0.9289368824172448 Test: 0.9066556429530246
+39 Val: 0.9255932972108952 Test: 0.9367578797082173
+40 Val: 0.9329774840753805 Test: 0.909794638708048
+41 Val: 0.9303791209086285 Test: 0.9117653000565402
+42 Val: 0.9297116265752823 Test: 0.9153118201672302
+43 Val: 0.9306138085646567 Test: 0.9113932833651115
+44 Val: 0.9330784183513212 Test: 0.9201142539919233
+45 Val: 0.9279923530982832 Test: 0.9239993392056369
+46 Val: 0.914943789651377 Test: 0.9225565829937158
+Validation performance: 91.49 & 92.81 ± 0.52 & 93.31
+Testing performance: 90.67 & 91.79 ± 0.89 & 93.68
+
+[TRIAL] 68 [VALIDATION PERFORMANCE] 0.9439694717550653 [TRAINING LOSS] 0.0005785913539366975 [VALIDATION LOSS] 0.2894113688897859 
+
+number                                      68
+value                                 0.943969
+params_threshold                      0.869261
+params_attention_heads                      13
+params_balanced_loss                      True
+params_embedding_pooling_operation        mean
+params_attention_pooling_operation         min
+params_batch_size                           64
+params_dropout_rate                   0.315388
+params_early_stopping_patience              23
+params_epochs                              106
+params_global_pooling                      max
+params_hidden_dimension                     51
+params_learning_rate                  0.002325
+params_number_of_hidden_layers               0
+params_plateau_divider                       6
+params_plateau_patience                     12
+params_weight_decay                   0.000019
+params_beta_0                         0.858656
+params_beta_1                            0.987
+params_epsilon                        0.000005
+user_attrs_epoch                          25.0
+user_attrs_training_loss              0.000579
+user_attrs_validation_loss            0.289411
+params_left_stride                           0
+params_right_stride                         32
+Name: 68, dtype: object
+37 Val: 0.935152002961517 Test: 0.9265288822001311
+38 Val: 0.9277160281040877 Test: 0.918310214593608
+39 Val: 0.923215606585212 Test: 0.9228130302336413
+40 Val: 0.9236263512305666 Test: 0.9319816815717328
+41 Val: 0.9327546200171194 Test: 0.9124944401254591
+slurmstepd: error: *** JOB 15064708 ON gpu005 CANCELLED AT 2025-03-01T04:00:08 DUE TO TIME LIMIT ***
